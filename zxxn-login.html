@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{margin:0;padding:0;}
+	   .all{
+		  width:100%;height:1000px;
+			background:#FBF2F1;
+		 }
+     .container{
+		   float:left;
+		   width:100%;height:600px;
+			 margin-top:200px;
+		 }
+		 .container img{
+       width:100%;
+		   float:left;
+		 }
+		 .login{
+		   float:right;
+			 width:400px;height:500px;
+			 margin-top:-480px;
+			 margin-right:400px;
+		 }
+		 .login table{
+		   margin-top:15px;
+		   width:400px;height:350px;			
+			 background:#FFF6F5;
+      }
+			.h4{
+			  font:24px 黑体;
+			}
+      .right{
+			   float:right;
+			 }
+			.login a{
+			  text-decoration:none;								
+			}
+			a:hover{
+			  color:#ff8a81;
+			}
+			.uname,.upwd{
+			 width:80%;height:45px;
+			 padding:10px;
+			 border:0;outline:0;
+			 box-sizing:border-box;
+			 margin-left:40px;
+			}
+			.btn{
+			  width:80%;height:30px;
+			  border:0;outline:0;
+				color:#fff;	
+				font:18px 黑体;
+				margin-left:40px;
+				background:#ff8a81;			
+			}
+			.t1{
+			  text-align:left;
+			  padding-left:50px;
+			}
+	</style>
+</head>
+<body>
+ <div class="all">
+   <table></table>
+    <div class="container">
+			<img src="img/login/auth_bg_new.jpg">
+	  </div>
+    <div class="login">
+			  	<b class="h4">快速登录</b>
+			  	<b class="right"><a href="#">新用户注册</a></b>
+				<table>
+			<div class="tab_inp">
+			  <tr>
+			  	<td colspan="2"><input type="text" placeholder="用户名" class="uname"></td>
+			  </tr>
+				<tr>
+			  	<td colspan="2"><input type="password" placeholder="密码" class="upwd"></td>
+			 	</tr>
+				<tr>
+			 		<td class="t1"><input type="checkbox" id="auto"><label for="auto">自动登录</label></td>
+			  	<td class="t1" align="left"><a href="">忘记密码？</a></td>
+			 	</tr>
+				<tr>
+		  		<td colspan="2"><button class="btn">登录</button></td>
+		  	</tr>
+				</div>
+				
+			</table>		
+	 </div>	 
+ </div>
+</body>
+</html>
