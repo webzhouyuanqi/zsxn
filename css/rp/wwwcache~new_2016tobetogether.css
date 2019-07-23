@@ -1,0 +1,509 @@
+﻿em,i{
+    font-style: normal;
+}
+/*----------------background----------------*/
+#bg_01{ background:url(../../ww3/2016tobetogether/bg_01.jpg) center top no-repeat;width: 100%; height:531px;position: relative;z-index: 0;}
+#bg_02{ background:url(../../ww3/2016tobetogether/bg_02.jpg) center top no-repeat;width: 100%; height:607px;position: relative;z-index: 0;}
+#bg_03{ background:url(../../ww3/2016tobetogether/bg_03.jpg) center top no-repeat;width: 100%; height:1210px;position: relative;z-index: 0;}
+#bg_04{ background:url(../../ww3/2016tobetogether/bg_04.jpg) center top no-repeat;width: 100%; height:1182px;position: relative;z-index: 0;}
+#bg_05{ background:url(../../ww3/2016tobetogether/bg_05.jpg) center top no-repeat;width: 100%; height:1317px;position: relative;z-index: 0;}
+#bg_06{ background:url(../../ww3/2016tobetogether/bg_06.jpg) center top no-repeat;width: 100%; height:601px;position: relative;z-index: 0;}
+.clearHeight{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+.border{
+  text-align: center;
+	display: block;
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.bga1{
+  display: block;
+  width: 280px;
+  height: 170px;
+  position: absolute;
+  left: 230px;
+  top: 260px;
+  z-index: 5
+}
+.bg2a1{
+  display: block;
+  width: 152px;
+  height: 26px;
+  position: absolute;
+  left: 430px;
+  top: 550px;
+  background:url(../../ww3/2016tobetogether/bg2a1.png) left top no-repeat;
+  z-index: 5
+}
+.bg2a1:hover{
+  background:url(../../ww3/2016tobetogether/bg2a1.png) right top no-repeat;
+}
+.bg2a2{
+  display: block;
+  width: 152px;
+  height: 26px;
+  position: absolute;
+  left: 610px;
+  top: 550px;
+  background:url(../../ww3/2016tobetogether/bg2a2.png) left top no-repeat;
+  z-index: 5
+}
+.bg2a2:hover{
+  background:url(../../ww3/2016tobetogether/bg2a2.png) right top no-repeat;
+}
+.point{
+  width: 21px;
+  height: 32px;
+  position: absolute;
+  left: 579px;
+  top: 255px;
+  background:url(../../ww3/2016tobetogether/point.png) left top no-repeat;
+  z-index: 5
+}
+.point4{
+  width: 21px;
+  height: 32px;
+  position: absolute;
+  left: 595px;
+  top: 180px;
+  background:url(../../ww3/2016tobetogether/point.png) left top no-repeat;
+  z-index: 5
+}
+.point5{
+  width: 21px;
+  height: 32px;
+  position: absolute;
+  left: 677px;
+  top: 190px;
+  background:url(../../ww3/2016tobetogether/point.png) left top no-repeat;
+  z-index: 5
+}
+.pointAn{
+  -webkit-animation: pointAn 1s linear;
+  animation: pointAn 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes pointAn
+{
+  0%{-webkit-transform:translateY(0px);}
+  25%{-webkit-transform:translateY(-20px);}
+  50%{-webkit-transform:translateY(0px);}
+  75%{-webkit-transform:translateY(-10px);}
+  100%{-webkit-transform:translateY(0px);}
+}
+@keyframes pointAn 
+{
+  0%{transform:translateY(0px);}
+  25%{transform:translateY(-20px);}
+  50%{transform:translateY(0px);}
+  75%{transform:translateY(-10px);}
+  100%{transform:translateY(0px);}
+}
+.bgtt{
+  width: 100%;
+  height: 15px;
+  clear: both;
+  display: inline-block;
+}
+.bg3t1{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/3/bg3t1.png) center top no-repeat;
+}
+.bg3t2{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/3/bg3t2.png) center top no-repeat;
+}
+.bg3t3{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/3/bg3t3.png) center top no-repeat;
+}
+.bg3t4{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/3/bg3t4.png) center top no-repeat;
+}
+.bg3t5{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/3/bg3t5.png) center top no-repeat;
+}
+.bg5animate .bg3t1{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.bg5animate .bg3t2{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.bg5animate .bg3t3{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.bg5animate .bg3t4{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.bg5animate .bg3t5{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+@-webkit-keyframes bg5animate 
+{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@keyframes bg5animate 
+{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.bg3left{
+  display: block;
+  width: 438px;
+  height: 300px;
+  position: absolute;
+  left: 140px;
+  top: 110px;
+  background:url(../../ww3/2016tobetogether/3/bg3left.png) center top no-repeat;
+  z-index: 5;
+}
+.bg3right{
+  display: block;
+  width: 438px;
+  height: 300px;
+  position: absolute;
+  right: 70px;
+  top: 300px;
+  background:url(../../ww3/2016tobetogether/3/bg3right.png) center bottom no-repeat;
+  z-index: 5;
+}
+.bg3bor{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+}
+.bg3img{
+  width: 235px;
+  height: 250px;
+  position: absolute;
+  left: 720px;
+  top: 80px;
+  background:url(../../ww3/2016tobetogether/3/bg3img.png) center bottom no-repeat;
+  z-index: 15;
+  transition: all 0.3s ease-in-out;
+}
+/*.bg3img:hover{
+  transform:rotate(20deg);-webkit-transform:rotate(20deg);
+}*/
+.bg4img{
+  width: 250px;
+  height: 280px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  background:url(../../ww3/2016tobetogether/4/bg4img.png) center bottom no-repeat;
+  z-index: 15;
+  transition: all 0.3s ease-in-out;
+}
+/*.bg4img:hover{
+  transform:rotate(20deg);-webkit-transform:rotate(20deg);
+}*/
+.bg4t1{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/4/bg4t1.png) center top no-repeat;
+}
+.bg4t2{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/4/bg4t2.png) center top no-repeat;
+}
+.bg4t3{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/4/bg4t3.png) center top no-repeat;
+}
+.bg4t4{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/4/bg4t4.png) center top no-repeat;
+}
+.bg4t5{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/4/bg4t5.png) center top no-repeat;
+}
+.bg5animate .bg4t1{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.bg5animate .bg4t2{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.bg5animate .bg4t3{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.bg5animate .bg4t4{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.bg5animate .bg4t5{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+.bg4left{
+  display: block;
+  width: 341px;
+  height: 418px;
+  position: absolute;
+  left: 190px;
+  top: 81px;
+  background:url(../../ww3/2016tobetogether/4/bg4left.png) center top no-repeat;
+  z-index: 5;
+}
+.bg4bor{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: 5;
+}
+.bg5t1{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/5/bg5t1.png) center top no-repeat;
+}
+.bg5t2{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/5/bg5t2.png) center top no-repeat;
+}
+.bg5t3{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/5/bg5t3.png) center top no-repeat;
+}
+.bg5t4{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/5/bg5t4.png) center top no-repeat;
+}
+.bg5t5{
+  opacity: 0;
+  background:url(../../ww3/2016tobetogether/5/bg5t5.png) center top no-repeat;
+}
+.bg5bor{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  left: 0px;
+  bottom: 100px;
+  z-index: 5;
+}
+.bg5animate .bg5t1{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.bg5animate .bg5t2{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.bg5animate .bg5t3{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.bg5animate .bg5t4{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+.bg5animate .bg5t5{
+  -webkit-animation: bg5animate 1s linear;
+  animation: bg5animate 1s linear;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5s;
+}
+.bg5left{
+  display: block;
+  width: 550px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 32px;
+  background:url(../../ww3/2016tobetogether/5/bg5left.png) right bottom no-repeat;
+  z-index: 5;
+}
+.bg5right{
+  display: block;
+  width: 630px;
+  height: 212px;
+  position: absolute;
+  right: 0px;
+  top: 370px;
+  background:url(../../ww3/2016tobetogether/5/bg5right.png) left bottom no-repeat;
+  z-index: 5;
+}
+.bg5img{
+  width: 250px;
+  height: 300px;
+  position: absolute;
+  left: 910px;
+  top: 70px;
+  background:url(../../ww3/2016tobetogether/5/bg5img.png) center bottom no-repeat;
+  z-index: 15;
+  transition: all 0.3s ease-in-out;
+}
+/*.bg5img:hover{
+  transform:rotate(20deg);-webkit-transform:rotate(20deg);
+}*/
+.zhuanli{
+  width: 1000px;
+  height: 550px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -500px;
+  margin-top: -275px;
+  z-index: 1005;
+}
+.jinggong{
+  width: 1000px;
+  height: 634px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -500px;
+  margin-top: -317px;
+  background:url(../../ww3/2016tobetogether/an/3.jpg) center top no-repeat;
+  z-index: 1005;
+}
+.opacity{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+  z-index: 1000;
+  cursor: wait;
+}
+.close{
+  width: 25px;
+  height: 24px;
+  position: absolute;
+  right: 100px;
+  top: -30px;
+  background:url(../../ww3/2016tobetogether/an/close.png) left bottom no-repeat;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.daohang{
+  width: 144px;
+  height: 365px;
+  background:url(../../ww3/2016tobetogether/daohang.png) left bottom no-repeat;
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  margin-top: -180px;
+  z-index: 5; 
+}
+.daohang1{
+  width: 100%;
+  height: 75px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.daohang1_hover{
+  background:url(../../ww3/2016tobetogether/daohang1.png) left bottom no-repeat;
+}
+.daohang2{
+  width: 100%;
+  height: 75px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.daohang2_hover{
+  background:url(../../ww3/2016tobetogether/daohang2.png) left bottom no-repeat;
+}
+.daohang3{
+  width: 100%;
+  height: 75px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.daohang3_hover{
+  background:url(../../ww3/2016tobetogether/daohang3.png) left bottom no-repeat;
+}
+.animateTShell{width:auto;height:100%;overflow-x:hidden;position:relative;margin: 0 auto;}
+.animateTShell .animate{width:715px;height:100%;position:relative;overflow: hidden;margin: 0 auto;}
+.animateTShell .animate .ani_ul{width:715px;height:100%;float: left;}
+.animateTShell .animate .ani_ul .ani_li{width:715px;height:100%;float:left;position: relative;z-index: 5;}
+.animateTShell .animate .ani_ul .ani_li a{width: 715px;height: 100%;overflow: hidden;display: block;position: relative;}
+.disc_border{width:100%;height:20px;position:absolute;display:block;overflow:hidden;left:0;bottom:10px;text-align:center;z-index:10;}
+.disc{width:9px;height:9px;margin-left:7px;margin-right:7px;display:inline-block;cursor:pointer;background:url(../../ww3/2016tobetogether/an/disc1.png) left bottom no-repeat;}
+.disc_hover{width:9px;height:9px;margin-left:7px;margin-right:7px;display:inline-block;cursor:pointer;background:url(../../ww3/2016tobetogether/an/disc2.png) right bottom no-repeat;}
+.arrowLeft{width:21px;height:38px;position:absolute;left:50%;top:50%;margin-left:-460px;margin-top:-50px;cursor:pointer;display:block;background:url('../../ww3/2016tobetogether/an/left.png') left top no-repeat;z-index:10}
+.arrowRight{width:21px;height:38px;position:absolute;right:50%;top:50%;margin-right:-460px;margin-top:-50px;cursor:pointer;display:block;background:url('../../ww3/2016tobetogether/an/right.png') left top no-repeat;z-index:10}

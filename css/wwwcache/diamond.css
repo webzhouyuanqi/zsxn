@@ -1,0 +1,464 @@
+﻿/*
+ * 裸钻形状样式 
+ */
+/* 公主方 */
+.shapeIco001 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -116px -30px; }
+/* 椭圆 */
+.shapeIco002 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -156px -30px; }
+/* 圆形 */
+.shapeIco003 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -196px -30px; }
+/* 梨形 */
+.shapeIco004 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -236px -30px; }
+/* 祖母绿形 */
+.shapeIco005 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -276px -30px; }
+/* 心形 */
+.shapeIco006 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -316px -30px; }
+/* 橄榄 */
+.shapeIco007 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -356px -30px; }
+/* 雷蒂恩 */
+.shapeIco008 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -396px -30px; }
+/* 垫形 */
+.shapeIco009 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -436px -30px; }
+/* 三角形 */
+.shapeIco010 { width:30px; height:14px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -476px -30px; }
+
+.diamondChannel {}
+
+.diamondDetailPop { width:181px; height:322px; position:absolute; display:none; background-color:#fff; float:left; text-align:left; overflow:hidden; }
+.diamondDetailPop .arrow { width:10px; height:322px; float:left; overflow:hidden; }
+.diamondDetailPop .arrow .LHF { width:9px; height:152px; border-left:1px solid #b6b6b6; float:left; }
+.diamondDetailPop .arrow .LM { width:10px; height:18px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -251px 0; }
+.diamondDetailPop .arrow .RHF { width:9px; height:152px; border-right:1px solid #b6b6b6; float:left; }
+.diamondDetailPop .arrow .RM { width:10px; height:18px; float:left; background:url('../../ww2/diamond/img_diamond.gif') no-repeat -267px 0; }
+.diamondDetailPop .cont { width:150px; height:300px; padding:10px; border:1px solid #b6b6b6; float:left; overflow:hidden; }
+.diamondDetailPop .contL { border-right:0; }
+.diamondDetailPop .contR { border-left:0; }
+
+.diamondDetailPop .cont ul { width:150px; height:300px; float:left; overflow:hidden; }
+.diamondDetailPop .cont li { width:150px; float:left; }
+
+.diamondDetailPop .cont .diamondInfo {  }
+.diamondDetailPop .cont .diamondInfo .img { width:54px; height:54px; padding:5px 0; }
+.diamondDetailPop .cont .diamondInfo .cert { width:96px; height:44px; padding:10px 0 0 0; line-height:20px; }
+.diamondDetailPop .cont .diamondInfo .item { height:18px; line-height:18px; }
+.diamondDetailPop .cont .diamondInfo .line { height:5px; padding:2px 0; }
+.diamondDetailPop .cont .diamondPic { line-height:95%; }
+
+.diamondChannel .cart { width:30px; height:14px; margin:0 5px; float:left; cursor:pointer; background:url('../../ww2/img_button.gif') 0 0; }
+.diamondChannel .diy { width:30px; height:14px; margin:0 7px; float:left; cursor:pointer; background:url('../../ww2/img_button.gif') -31px 0; }
+.diamondChannel .view { width:30px; height:14px; margin:0 7px; float:left; cursor:pointer; background:url('../../ww2/button/btn_view.gif'); }
+.diamondChannel .searchBtn { width:115px; height:25px; float:right; cursor: pointer; background:url('../../ww2/img_button.gif') 0 -15px; }
+.diamondChannel .resetBtn { width:132px; height:25px; float:right; cursor: pointer; background:url('../../ww2/img_button.gif') 0 -41px; }
+.diamondChannel .compareBtn { width:65px; height:20px; float:right; cursor: pointer; background:url('../../ww2/img_button.gif') 0 -67px; }
+
+/* 公主方 */
+.diamondChannel .shapeOn001 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') 0 -181px; }
+/* 椭圆 */
+.diamondChannel .shapeOn002 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -66px -181px; }
+/* 圆形 */
+.diamondChannel .shapeOn003 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -132px -181px; }
+/* 梨形 */
+.diamondChannel .shapeOn004 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -198px -181px; }
+/* 祖母绿形 */
+.diamondChannel .shapeOn005 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -264px -181px; }
+/* 心形 */
+.diamondChannel .shapeOn006 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -330px -181px; }
+/* 橄榄 */
+.diamondChannel .shapeOn007 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -396px -181px; }
+/* 雷蒂恩 */
+.diamondChannel .shapeOn008 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -462px -181px; }
+/* 垫形 */
+.diamondChannel .shapeOn009 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -528px -181px; }
+/* 三角形 */
+.diamondChannel .shapeOn010 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -594px -181px; }
+
+/* 公主方 */
+.diamondChannel .shapeOff001 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') 0 -241px; }
+/* 椭圆 */
+.diamondChannel .shapeOff002 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -66px -241px; }
+/* 圆形 */
+.diamondChannel .shapeOff003 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -132px -241px;}
+/* 梨形 */
+.diamondChannel .shapeOff004 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -198px -241px;}
+/* 祖母绿形 */
+.diamondChannel .shapeOff005 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -264px -241px;}
+/* 心形 */
+.diamondChannel .shapeOff006 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -330px -241px;}
+/* 橄榄 */
+.diamondChannel .shapeOff007 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -396px -241px;}
+/* 雷蒂恩 */
+.diamondChannel .shapeOff008 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -462px -241px;}
+/* 垫形 */
+.diamondChannel .shapeOff009 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -528px -241px;}
+/* 三角形 */
+.diamondChannel .shapeOff010 {width:64px; height:53px; float:left; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -594px -241px;}
+
+.diamondChannel .L { width:755px; margin-top:5px; float:left; text-align:left; }
+.diamondChannel .R { width:217px; margin-top:5px; padding-left:8px; float:left; text-align:left; }
+
+.diamondChannel .L dl { float:left; }
+.diamondChannel .L dd { float:left; }
+.diamondChannel .L .banner { width:755px; height:262px; overflow:hidden; }
+.diamondChannel .L .secptit { width:107px; height:47px; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') 0 0; }
+.diamondChannel .L .secpbg { width:648px; height:47px; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') 0 -50px; }
+.diamondChannel .L .secpbg ul { width:648px; overflow:hidden; float:left; }
+.diamondChannel .L .secpbg li { overflow:hidden; float:left; text-align:center; }
+.diamondChannel .L .secpbg ul.tit li { padding-top:6px; padding-top:8px\9; +padding-top:8px; _padding-top:6px; color:#666666; padding-bottom:5px; padding-bottom:4px\9; +padding-bottom:4px; _padding-bottom:5px; }
+.diamondChannel .L .secpbg li.tit01 { width:50px; padding-left:8px; }
+.diamondChannel .L .secpbg li.tit02 { width:82px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit03 { width:67px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit04 { width:56px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit05 { width:57px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit06 { width:55px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit07 { width:56px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit08 { width:57px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit09 { width:54px; padding-left:2px; }
+.diamondChannel .L .secpbg li.tit10 { width:81px; padding-left:2px; padding-right:7px; }
+
+.diamondChannel .L .secpbg .slider { width:648px; height:16px; overflow:hidden; float:left; position:relative; }
+.diamondChannel .L .secpbg .content { width:648px; height:16px; float:left; position:absolute; }
+.diamondChannel .L .secpbg ul.item  { height:16px; }
+.diamondChannel .L .secpbg ul.item li { color:#d70034; cursor: pointer; }
+.diamondChannel .L .secpbg ul.item li span { color:#d70034; }
+.diamondChannel .L .secpbg li.item01 { width:50px; padding-left:8px; }
+.diamondChannel .L .secpbg li.item01 span { margin:1px 0 0 10px; }
+.diamondChannel .L .secpbg li.item02 { width:82px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item03 { width:67px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item04 { width:56px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item05 { width:57px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item06 { width:55px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item07 { width:56px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item08 { width:57px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item09 { width:54px; padding-left:2px; }
+.diamondChannel .L .secpbg li.item10 { width:81px; padding-left:2px; padding-right:7px; }
+.diamondChannel .L .secpbg li.item10 span { width:81px; padding-top:1px\9; +padding-top:0px; _padding-top:0px; float:left; }
+
+.diamondChannel .L .tab { width:755px; height:27px; float:left; overflow:hidden; }
+.diamondChannel .L .tab .tit { width:755px; height:27px; float:left; }
+.diamondChannel .L .tab .tit li { float:left; }
+.diamondChannel .L .tab .txt { width:530px; height:23px; padding-top:3px; border-bottom:1px solid #CCCCCC; float:left; overflow:hidden; }
+.diamondChannel .L .tab .txt span { width:450px; height:23px; float:left; background:url('../../ww2/diamond/img_diamond.gif') -461px -456px; }
+.diamondChannel .L .tab .blank { width:3px; height:26px; border-bottom:1px solid #CCCCCC; }
+.diamondChannel .L .tab .ico01 { width:111px; height:27px; background:url('../../ww2/diamond/img_diamond.gif') 0 -103px; }
+.diamondChannel .L .tab .ico02 { width:111px; height:27px; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -111px -103px; }
+.diamondChannel .L .tab .ico03 { width:111px; height:27px; background:url('../../ww2/diamond/img_diamond.gif') -222px -103px; }
+.diamondChannel .L .tab .ico04 { width:111px; height:27px; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -333px -103px; }
+
+.diamondChannel .L .tabContent { width:755px; height:315px; float:left; overflow:hidden; }
+
+.diamondChannel .L .tabButton { width:755px; height:315px; float:left; overflow:hidden; }
+.diamondChannel .L .tabButton .bigbg { width:753px; height:58px; border:1px solid #CCCCCC; border-top:0; float:left; background:url('../../ww2/diamond/bg_d_1.gif') repeat-x; }
+.diamondChannel .L .tabButton .bigbg li { width:65px; height:53px; padding-top:3px; float:left; }
+.diamondChannel .L .tabButton .bigbg .tit { width:55px; height:33px; padding-top:20px; text-align:center; }
+.diamondChannel .L .tabButton .bigbg .tit2 { width:60px; height:33px; padding-top:20px; text-align:center; }
+.diamondChannel .L .tabButton .bigbg .item { width:245px; height:33px; padding:20px 0 0 3px; text-align:left; }
+.diamondChannel .L .tabButton .bigbg .item input { width:100px; }
+
+.diamondChannel .L .tabButton .smallbg { width:753px; height:34px; border:1px solid #CCCCCC; margin-top:3px; float:left; background:url("../../ww2/diamond/bg_d_2.gif") repeat-x; }
+.diamondChannel .L .tabButton .smallbg li { width:49px; height:32px; padding-top:2px; float:left; }
+.diamondChannel .L .tabButton .smallbg .tit { width:55px; height:26px; line-height:100%; padding-top:6px; text-align:center; }
+.diamondChannel .L .tabButton .smallbg .tit2 { width:60px; height:26px; line-height:100%; padding-top:6px; text-align:center; }
+
+.diamondChannel .L .tabButton .itemOn { width:48px; height:30px; line-height:30px; text-align:center; float:left; color:#fff; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -660px -1px; }
+.diamondChannel .L .tabButton .itemOff { width:48px; height:30px; line-height:30px; text-align:center; float:left; color:#999; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -710px -1px; }
+
+.diamondChannel .L .tabButton .smallbg li.location2 { width:45px; height:32px; padding-top:2px; float:left; }
+.diamondChannel .L .tabButton .itemOn2 { width:44px; height:30px; line-height:30px; text-align:center; float:left; color:#fff; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -770px -1px; }
+.diamondChannel .L .tabButton .itemOff2 { width:44px; height:30px; line-height:30px; text-align:center; float:left; color:#999; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -816px -1px; }
+
+.diamondChannel .L .tabButton .itemBtn { width:755px; height:25px; padding-top:6px; float:left; }
+
+.diamondChannel .L .tabButton .weighFrom { background: transparent url('../../ww2/diy/bg_from.jpg') no-repeat; }
+.diamondChannel .L .tabButton .weighTo { background: transparent url('../../ww2/diy/bg_to.jpg') no-repeat; }
+
+.diamondChannel .L .tabText { width:713px; height:294px; padding:10px 20px; border:1px solid #CCCCCC; border-top:0; background-color:#F8F8F8; float:left; display: none; overflow:hidden; }
+.diamondChannel .L .tabText ul.item { width:713px; height:25px; border-bottom:1px dashed #A8B1B8; float:left; overflow:hidden; }
+.diamondChannel .L .tabText ul.item li { float:left; }
+
+.diamondChannel .L .tabText li.tit { width:110px; height:15px; line-height:15px; margin:5px 0; padding-left:10px; color:#D70034; text-align:left; }
+.diamondChannel .L .tabText li.tit a.tit:link { color: #d70034; }
+.diamondChannel .L .tabText li.tit a.tit:visited { color: #d70034; }
+
+.diamondChannel .L .tabText li.line { width:1px; height:10px; border-left:1px solid #CCC; margin:8px 0; font-size:0; }
+.diamondChannel .L .tabText a.itemOn:link { color:#3366CC; cursor: pointer; font-weight: bold; }
+.diamondChannel .L .tabText a.itemOn:visited { color:#3366CC; cursor: pointer; font-weight: bold; }
+
+.diamondChannel .L .tabText li.shape { width:47px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.weight { width:82px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.color { width:90px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.color2 { width:130px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.clarity { width:90px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.clarity2 { width:130px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.cut { width:90px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.polish { width:90px; height:15px; line-height:15px; margin:5px 0; color:#666; } 
+.diamondChannel .L .tabText li.symmetry { width:90px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.price { width:80px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.cert { width:50px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+.diamondChannel .L .tabText li.location { width:37px; height:15px; line-height:15px; margin:5px 0; color:#666; }
+
+.diamondChannel .L .tabText .itemBtn { width:693px; height:25px; padding-right:20px; padding-top:10px; float:left; }
+.diamondChannel .L .tabText .resetBtn { width:132px; height:25px; float:right; cursor: pointer; background:url('../../ww2/diamond/img_diamond.gif') -157px -140px; }
+
+.diamondChannel .L .keywords { width:755px; height:25px; margin-top:15px; border-top:1px dashed #A8B1B8; border-bottom:1px dashed #A8B1B8; float:left; overflow:hidden; }
+.diamondChannel .L .keywords li { height:25px; line-height:25px; padding:0 3px; float:left; text-align:left; }
+.diamondChannel .L .keywords li.tit { width:80px; }
+.diamondChannel .L .keywords a.item:link { color:#D70034; }
+
+.diamondChannel .L .desc { width:755px; height:50px; line-height:180%; margin-top:15px; text-align:center; float:left; overflow:hidden; }
+.diamondChannel .L .desc a.item:link { color:#D70034; text-decoration: underline; }
+
+.diamondChannel .result { width:755px; float:left; text-align:left; }
+.diamondChannel .result .pop { position:absolute;display:none; }
+
+.diamondChannel .result ul.top { width:755px; height:25px; margin-bottom:10px; float:left; overflow:hidden; }
+.diamondChannel .result ul.top li { height:30px; line-height:30px; }
+.diamondChannel .result ul.top .total { float:left; }
+.diamondChannel .result ul.top .psize { float:right; }
+.diamondChannel .result .count { padding:0 4px; color: #d70034 }
+
+.diamondChannel .result span.tit { float:left; text-align:center; }
+.diamondChannel .result span.line { border-left:1px solid #ccc; padding-left:1px; }
+
+.diamondChannel .result .resultArea { width:755px; float:left; }
+.diamondChannel .result .resultTable { width:755px; text-align:left; float:left; overflow:hidden; }
+.diamondChannel .result .head { height:34px; }
+.diamondChannel .result .head .l { width:5px; overflow:hidden; border-bottom:1px solid #ccc; }
+.diamondChannel .result .head .l span { width:5px; height:34px; float:left; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') 0 -310px; }
+.diamondChannel .result .head .c { width:970px; overflow:hidden; border-bottom:1px solid #ccc; background:url('../../ww2/diamond/img_diamond.gif') -6px -310px; }
+.diamondChannel .result .head .r { width:5px; overflow:hidden; border-bottom:1px solid #ccc; }
+.diamondChannel .result .head .r span { width:5px; height:34px; float:left; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') -975px -310px; }
+.diamondChannel .result .foot { height:34px; }
+.diamondChannel .result .foot .l { width:5px; overflow:hidden; border-top:1px solid #ccc; }
+.diamondChannel .result .foot .l span { width:5px; height:34px; float:left; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') 0 -350px; }
+.diamondChannel .result .foot .c { width:970px; overflow:hidden; border-top:1px solid #ccc; background:url('../../ww2/diamond/img_diamond.gif') -6px -350px; }
+.diamondChannel .result .foot .r { width:5px; overflow:hidden; border-top:1px solid #ccc; }
+.diamondChannel .result .foot .r span { width:5px; height:34px; float:left; overflow:hidden; background:url('../../ww2/diamond/img_diamond.gif') -975px -350px; }
+.diamondChannel .result .resultTable td { font-family:'宋体'; }
+.diamondChannel .result .resultTable .odd { height:30px; }
+.diamondChannel .result .resultTable .even { height:30px; background-color:#FEF5F4; } 
+.diamondChannel .result .resultTable .hover { background-color:#F8C8C5; }
+.diamondChannel .result .resultTable .norecord { text-align:center; height:30px; }
+
+.diamondChannel .result .odesc { width:8px; height:5px; padding:5px 0 0 8px; font-size:0;line-height:0; cursor:pointer; background:url('../../ww2/img_button.gif') -62px 0; }
+.diamondChannel .result .oasc { padding:5px 0 0 8px; font-size:0;line-height:0; cursor:pointer; background:url('../../ww2/img_button.gif') -71px 0; }
+
+
+.diamondChannel .R .eduTit { width:217px; height:35px; float:left; background:url('../../ww2/diamond/img_diamond.gif') -660px -180px; }
+.diamondChannel .R .eduBg { width:201px; height:40px; margin-top:6px; padding:12px 8px; overflow:hidden; float:left; background:url('../../ww2/diamond/img_diamond.gif') -660px -220px; }
+.diamondChannel .R .eduBg ul { width:200px; height:40px; float:left; }
+.diamondChannel .R .eduBg li { width:50px; height:20px; line-height:20px; float:left; overflow:hidden; }
+.diamondChannel .R .eduBg a.item:link {  }
+.diamondChannel .R .eduBg a.item:hover { }
+.diamondChannel .R .eduBg a.item:visited {  }
+.diamondChannel .R .cert { width:217px; height:140px; padding-top:48px; overflow:hidden; float:left; background:url('../../ww2/diamond/img_diamond.gif') -230px -390px; }
+.diamondChannel .R .cert ul { float:left; }
+.diamondChannel .R .cert li { width:95px; height:40px; padding:0 0 5px 7px; float:left; }
+.diamondChannel .R .konwTit { width:217px; height:28px; margin-top:9px; float:left; background:url('../../ww2/diamond/img_diamond.gif') -660px -40px; }
+.diamondChannel .R .konwCont { width:217px; }
+.diamondChannel .R .konwCont ul { width:217px; height:146px; float:left; background:url('../../ww2/diamond/img_diamond.gif') 0 -390px; }
+.diamondChannel .R .konwCont li { float:left; }
+.diamondChannel .R .konwCont li.qt { width:17px; padding:17px 0 20px 13px; line-height:150%; color: #666666; font-weight: bold; font-family: Arial,"宋体"; float:left; }
+.diamondChannel .R .konwCont li.q { width:177px; height:40px; padding:17px 10px 7px 0; line-height:150%; color: #666666; float:left; }
+.diamondChannel .R .konwCont li.at { width:17px; height:80px; padding:0 0 0 13px; line-height:150%; color: #666666; font-weight: bold; font-family: Arial,"宋体"; float:left; }
+.diamondChannel .R .konwCont li.a { width:177px; height:80px; padding:0 10px 0 0; line-height:150%; color: #999999; float:left; }
+.diamondChannel .R .buyhelpTit { width:217px; height:27px; float:left; background:url('../../ww2/diamond/img_diamond.gif') -660px -71px; }
+.diamondChannel .R .buyhelpCont { width:185px; height:130px; padding:0 15px; border:1px solid #c5c7c8; border-top:0; border-bottom:0; float:left; overflow:hidden; }
+.diamondChannel .R .buyhelpCont ul { width:185px; height:115px; margin-top:5px; float:left; }
+.diamondChannel .R .buyhelpCont li { width:185px; height:23px; line-height:23px; border-bottom: 1px dashed #A8B1B8; float:left; }
+.diamondChannel .R .buyhelpCont li span { padding:0 5px; color: #D70034; font-weight: bold; }
+.diamondChannel .R .buyhelpFoot { width:217px; height:10px; font-size:0; line-height:0; float:left; background:url('../../ww2/diamond/img_diamond.gif') -460px -440px; }
+.diamondChannel .R .leadingTit { width:217px; height:27px; float:left; background:url('../../ww2/diamond/img_diamond.gif') -660px -101px; }
+.diamondChannel .R .leadingCont { width:185px; height:130px; padding:0 15px; border:1px solid #c5c7c8; border-top:0; border-bottom:0; float:left; overflow:hidden; }
+.diamondChannel .R .leadingCont ul { width:185px; height:115px; margin-top:5px; float:left; }
+.diamondChannel .R .leadingCont li { width:185px; height:23px; line-height:23px; border-bottom: 1px dashed #A8B1B8; float:left; }
+.diamondChannel .R .leadingCont li span { padding:0 5px; color: #D70034; font-weight: bold; }
+.diamondChannel .R .leadingFoot { width:217px; height:10px; font-size:0; line-height:0; float:left; background:url('../../ww2/diamond/img_diamond.gif') -460px -440px; }
+
+#diamond_info{ 
+	width:980px;
+	z-index:1002;
+	text-align:left; 
+	overflow: hidden; 
+	bottom:0;
+	
+	left:50%;
+	margin-bottom:0; 
+	margin-left:-490px !important;
+	margin-right:auto;
+	position:fixed !important;
+	display:block;
+	_position:absolute;
+	_left:expression(eval(document.documentElement.clientWidth/2+document.documentElement.scrollLeft));
+}
+
+.compareBar dt { height:10px; padding-left:466px; border-bottom:3px solid #FEBAC5; }
+.compareBarOpenHeight { height:auto; _top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-83)); }
+.compareBarCloseHeight { height:13px; _top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-13)); }
+.compareBar span { float:left; cursor:pointer; overflow: hidden; }
+.compareBar dt span.open { width:47px; height:10px; background: url('../../ww2/img/button.gif') -148px -166px; }
+.compareBar dt span.close { width:47px; height:10px; background: url('../../ww2/img/button.gif') -148px -155px; }
+
+.compareBarOpenHeight0{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-13));}
+.compareBarOpenHeight1{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-53));}
+.compareBarOpenHeight2{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-93));}
+.compareBarOpenHeight3{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-133));}
+.compareBarOpenHeight4{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-173));}
+.compareBarOpenHeight5{ height:auto;_top:expression(eval(document.documentElement.clientHeight+document.documentElement.scrollTop-213));}
+
+/* 促销活动信息	 */
+.reduce_info {height:50px; padding-top:10px;overflow:hidden; }
+.reduce_info ul { height:40px;  border:3px solid #D6D6D6; border-left:none; background: url("../../ww2/proexstyle/reduce_hot.gif") no-repeat left center; }
+.reduce_info ul li { height:40px; line-height:40px; padding:0 10px 0 30px; }
+.reduce_info .tit { padding-left:8px; background: url("../../ww2/product/ico_r1.gif") no-repeat left center; }
+
+/* 新版裸钻底层 by zhuminghua */
+.font_arial{font-family:Arial,"宋体";}
+.font_yahei{font-family:"Microsoft YaHei";}
+.color_9{color:#999999;}
+.color_6{color:#666666;}
+.diamondBody{width:100%;height:auto;background-color:#fff;}
+.diamondNav{width:980px;height:45px;line-height:45px;}
+.contactCollect{width:300px;margin-top:20px;}
+
+.diamondInfo{width:980px;height:513px;border-none:none;background-color:#FFFFFF;}
+.diamondInfoF{width:384px;float:left;}
+.diamondInfoPic{clear:both;}
+.diamondInfoPicHover{width:80px;height:80px;border:1px solid #f8a89d;}
+.diamondInfoPicOut{width:80px;height:80px;border:1px solid #dfdede;}
+.picL{float:left;margin-left:35px;}
+.picL2{float:left;margin-left:17px;}
+.diamondInfoR{width:565px;height:456px;float:right;margin-top:17px;}
+.diamondInfoRTitle{clear:both;text-align:left;}
+.diamondInfoRTitle h1{font-family: "Microsoft YaHei",Arial;font-size:22px;color:#333333;font-weight:normal;float:left;}
+.diamondInfoRTitle font{color:#ff8a81;float:left;margin-left:10px;line-height:45px;font-family:Arial;}
+.diamondInfoCert{clear:both;float:left;}
+.diamondInfoLine{clear:both;float:left;width:536px;height:3px;background-color:#ededed;margin-top:12px;}
+.diamondInfoPara{clear:both;float:left;margin-left:10px;height:38px;color:#666666;}
+.diamondInfoPara li{font-family:Arial;}
+.diamondInfoPara_1{float:left;width:30px;height:38px;line-height:65px;color:#999999;text-align: left;}
+.diamondInfoPara_2{float:left;width:287px;height:38px;border-bottom:1px solid #CCCCCC;}
+.diamondInfoPara_2 ul li{float:left;list-style:none;margin-left:7px;width:15px;height:15px;margin-top:23px;color:#666666;}
+.diamondInfoPara_2_2{float:left;width:287px;height:38px;border-bottom:1px solid #CCCCCC;}
+.diamondInfoPara_2_2 ul li{float:left;list-style:none;margin-left:5px;width:30px;height:15px;margin-top:23px;color:#666666;}
+.diamondInfoPara_2_3{float:left;width:287px;height:38px;border-bottom:1px solid #CCCCCC;}
+.diamondInfoPara_2_3 ul li{float:left;list-style:none;margin-left:6px;width:25px;height:15px;margin-top:23px;color:#666666;}
+.diamondInfoLineX{clear:both;float:left;width:536px;height:30px;border-bottom:1px solid #ededed;}
+.diamondInfoPrice{clear:both;float:left;width:536px;height:40px;text-align:left;margin-top:15px;}
+.diamondInfoPrice ul li{float:left;}
+.diamondInfoOrder{clear:both;float:left;width:536px;height:44px;margin-top:7px;}
+.diamondInfoButton{float:left;width:183px;height:59px;background:url('../../ww2/product/order_btn.jpg');background-position:0px -59px;cursor:pointer;}
+.diamondInfoButtonHover{float:left;width:183px;height:59px;background:url('../../ww2/product/order_btn.jpg');background-position:183px -59px;cursor:pointer;}
+.diamondInfo_buy{float:left;margin-left:15px;width:190px;height:59px;}
+.diamondInfoBuy{float:left;width:127px;height:40px;background:url('../../ww2/product/pay_btn.jpg');background-position:0px -40px;cursor:pointer;}
+.diamondInfoBuyHover{float:left;width:127px;height:40px;background:url('../../ww2/product/pay_btn.jpg');background-position:127px -40px;cursor:pointer;}
+.diamondInfoBuyFont{clear:left;float:left;line-height:25px;color:#999999;}
+.diamondInfoTips{clear:both;float:left;width:536px;height:74px;background-color:#fff9f9;margin-top:30px;}
+.diamondInfoTipsImg{float:left;width:40px;height:40px;margin-top:-7px;}
+.diamondInfoTipsFont{float:left;width:480px;height:40px;margin-left:5px;line-height:20px;text-align:left;margin-top:18px;color:#999999;}
+.diamondRecomm{clear:both;width:980px;height:74px;background:url('../../ww2/product/recommend.png');margin-top:15px;}
+.diamondRecommImg{float:right;width:153px;height:38px;margin-top:36px;margin-right:30px;}
+.diamondRecommImg18Hover{float:left;width:76px;height:21px;background:url('../../ww2/product/b18.jpg');background-position:76px -21px;cursor:pointer;}
+.diamondRecommImg18{float:left;width:76px;height:21px;background:url('../../ww2/product/b18.jpg');background-position:0px -21px;cursor:pointer;}
+.diamondRecommImgPt{float:right;width:77px;height:21px;background:url('../../ww2/product/pt900.jpg');background-position:0px -21px;cursor:pointer;}
+.diamondRecommImgPtHover{float:right;width:77px;height:21px;background:url('../../ww2/product/pt900.jpg');background-position:77px -21px;cursor:pointer;}
+.diamondRecommBPt{clear:both;float:left;margin-top:7px;margin-left:25px;}/**margin-left:25px和115px**/
+.diamondCombine{clear:both;width:980px;height:320px;border-bottom:1px solid #CDCBCB;background-color:#FFFFFF;}
+.diamondCombineProduct{float:left;width:930px;height:216px;margin-top:26px;margin-left:40px;}
+.diamondCombineProductStone{float:left;width:150px;height:200px;}
+.diamondCombineProductStoneImg{float:left;width:150px;height:152px;background:url('../../ww2/product/frame.png');background-position:150px -152px;}
+.diamondCombineProductStonePara{clear:both;float:left;text-align:left;margin-left:10px;color:#999999;line-height:18px;}
+.diamondCombineProductStonePara_1{clear:both;float:left;text-align:left;width:138px;height:20px;overflow:hidden;}
+.diamondCombineProductStoneParaPair{float:left;width:12px;height:12px;background:url('../../ww2/product/input.jpg');background-position:0px -12px;cursor:pointer;margin-top:2px;}
+.diamondCombineProductStoneParaPairHover{float:left;width:12px;height:12px;background:url('../../ww2/product/input.jpg');background-position:12px -12px;cursor:pointer;margin-top:2px;}
+.diamondCombineProductStoneParaPairPrice{float:left;margin-left:5px;height:12px;color:#F2A495;text-align:left;line-height:12px;margin-top:2px;}
+.diamondCombineProductStoneParaSelected{clear:both;float:left;margin-left:10px;width:138px;height:21px;color:#999999;text-align:left;}
+.diamondCombinePlus{float:left;margin-top:56px;margin-left:20px;}
+.diamondCombineProductRing18{float:left;width:660px;height:190px;}
+.diamondCombineProductRingPt{}
+.diamondCombineProductRingPop{width:195px;height:128px;z-index:3;position:relative;border:1px solid #d2d2d2;background-color:#f0f0f0;top:100px;display:none;}
+.diamondCombineProductRingPop div{position:absolute;}
+.diamondCombineProductStoneParaLetterHeart{float:left;margin-top:33px;margin-left:139px;width:19px;height:19px;background:url('../../ww2/product/letter_heart.jpg');background-position:0px -19px;cursor:pointer;}
+.diamondCombineProductStoneParaLetterHeartHover{float:left;margin-top:33px;margin-left:139px;width:19px;height:19px;background:url('../../ww2/product/letter_heart.jpg');background-position:19px -19px;cursor:pointer;}
+.diamondCombineProductStoneParaLetterAnd{float:left;margin-top:33px;margin-left:161px;width:19px;height:19px;background:url('../../ww2/product/letter_and.jpg');background-position:0px -19px;cursor:pointer;}
+.diamondCombineProductStoneParaLetterAndHover{float:left;margin-top:33px;margin-left:161px;width:19px;height:19px;background:url('../../ww2/product/letter_and.jpg');background-position:19px -19px;cursor:pointer;}
+.diamondCombineProductStoneParaSize{float:left;margin-top:62px;margin-left:15px;}
+.diamondCombineProductStoneParaSize ul{width:78px;height:auto;background:#FFFFFF;border:1px solid #CDCBCB;display:none;position:absolute;z-index:3;margin-top:30px;}
+.diamondCombineProductStoneParaSize ul li{height:22px;line-height:22px;text-align:left;text-indent:1em;font-family:Arial;}
+.diamondCombineProductStoneParaSize ul li a{display:block;height:22px;text-decoration:none;color:#676767;}
+.diamondCombineProductStoneParaSize ul li a:hover{color:#f2a495;}
+.arrow_down{float:left;margin-left:64px;width:10px;height:22px;background:url('../../ww2/product/arrow_down.png');background-position:0px -22px;}
+.diamondCombineProductStoneParaBtnSure{float:left;margin-top:97px;margin-left:50px;width:44px;height:20px;background:url('../../ww2/product/btn_sure.jpg');background-position:0px -20px;cursor:pointer;}
+.diamondCombineProductStoneParaBtnCancel{float:left;margin-top:97px;margin-left:100px;width:44px;height:20px;background:url('../../ww2/product/btn_cancel.jpg');background-position:0px -20px;cursor:pointer;}
+.diamondCombineProductRingAll{float:left;width:150px;height:215px;margin-left:15px;}
+.diamondCombineProductRing{float:left;width:150px;height:152px;background:url('../../ww2/product/frame.png');background-position:0px -152px;}
+.diamondCombineProductRingHover{float:left;width:150px;height:152px;background:url('../../ww2/product/frame.png');background-position:150px -152px;}
+.diamondCombineProductSubmit{clear:both;float:left;width:980px;height:70px;border-top:1px solid #ededed;margin-top:10px;}
+.diamondCombineProductSubmitPay{float:right;width:127px;height:40px;margin-top:15px;margin-right:10px;background:url('../../ww2/product/btn_pay.jpg');background-position:0px -40px;cursor:pointer;}
+.diamondCombineProductSubmitPayHover{float:right;width:127px;height:40px;margin-top:15px;margin-right:10px;background:url('../../ww2/product/btn_pay.jpg');background-position:127px -40px;cursor:pointer;}
+.diamondCombineProductSubmitOrder{float:right;width:127px;height:40px;margin-top:15px;margin-right:30px;background:url('../../ww2/product/btn_order.jpg');background-position:0px -40px;cursor:pointer;}
+.diamondCombineProductSubmitOrderHover{float:right;width:127px;height:40px;margin-top:15px;margin-right:30px;background:url('../../ww2/product/btn_order.jpg');background-position:127px -40px;cursor:pointer;}
+.diamondCombineProductSubmitPrice{float:right;height:25px;margin-right:15px;margin-top:22px;line-height:25px;}
+.diamondCombineProductSubmitSave{float:right;width:100px;height:20px;background-color:#facabe;color:#666666;line-height:20px;text-align:center;margin-right:15px;margin-top:25px;}
+.diamondPara{clear:both;width:980px;height:auto;border-bottom:1px solid #CDCBCB;background-color:#FFFFFF;}
+.diamondParaTitle{clear:both;width:980px;height:74px;background:url('../../ww2/product/para.png');margin-top:15px;}
+.diamondParaCert{clear:both;float:left;width:864px;margin-left:48px;margin-top:25px;}
+.diamondParaCertFont{float:left;width:590px;height:auto;}
+.diamondParaCert1{clear:both;float:left;text-align:left;line-height:30px;}
+.diamondParaCert2{clear:both;float:left;text-align:left;color:#666666;line-height:22px;margin-top:10px;}
+.diamondParaCertImg{float:right;}
+.diamondParaCertView{float:right;width:62px;height:12px;background:url('../../ww2/product/cert_view.jpg');background-position:0px -12px;cursor:pointer;margin-top:78px;} 
+.diamondParaCertViewHover{float:right;width:62px;height:12px;background:url('../../ww2/product/cert_view.jpg');background-position:62px -12px;cursor:pointer;margin-top:78px;}
+.diamondParaCertLine{clear:both;float:left;width:980px;height:2px;border-top:1px solid #EDEDED;margin-top:30px;}
+.diamondParaCertIntro{clear:both;float:left;margin-left:50px;margin-top:40px;}
+.diamondParaCertColor{float:left;width:292px;height:297px;background:url('../../ww2/product/para_color.jpg');}
+.diamondParaCertClarity{float:left;width:292px;height:297px;background:url('../../ww2/product/para_clarity.jpg');margin-left:1px;}
+.diamondParaCertCut{float:left;width:292px;height:297px;background:url('../../ww2/product/para_cut.jpg');margin-left:1px;}
+.diamondParaCertFont1{float:left;width:292px;text-align:center;color:#ee655e;font-size:42px;margin-top:114px;}
+.diamondParaCertFont2{float:left;margin-left:45px;margin-top:28px;width:210px;text-align:center;color:#333333;line-height:20px;}
+.diamondParaCertIntro2{clear:both;float:left;margin-left:40px;margin-top:25px;}
+.diamondParaCertIntro2 ul li{float:left;margin-left:10px;}
+.diamondParaCertSection{clear:both;float:left;margin-top:40px;width:980px;}
+.diamondParaCertSection div{font-family:Arial;color:#666666;}
+.diamondParaCertSection1{float:left;width:268px;height:238px;margin-left:164px;background:url('../../ww2/product/cross_section.jpg')}
+.diamondParaCertSection2{float:right;width:268px;height:238px;margin-right:184px;background:url('../../ww2/product/para_top.jpg')}
+.diamondParaCertSection1_table{clear:both;float:left;margin-left:125px;margin-top:27px;height:12px;}
+.diamondParaCertSection1_depth{clear:both;float:left;margin-left:8px;margin-top:96px;height:12px;}
+.diamondParaCertSection1_girdle{clear:both;float:right;margin-top:37px;height:12px;}
+.diamondParaCertSection1_culet{clear:both;float:right;margin-right:33px;margin-top:20px;height:12px;}
+.diamondParaCertSection2_width{clear:both;float:left;margin-left:135px;margin-top:22px;height:12px;}
+.diamondParaCertSection2_height{clear:both;float:left;margin-left:30px;margin-top:100px;height:12px;}
+.diamondOtherTitle{clear:both;width:980px;height:33px;background:url('../../ww2/product/title.png');margin-top:15px;}
+.diamondOther{clear:both;width:980px;height:auto;}
+.diamondOtherPrice{float:left;width:144px;height:23px;margin-left:25px;margin-top:7px;background:url('../../ww2/product/otherTab1.jpg');background-position:0px -23px;cursor:pointer;}
+.diamondOtherPriceHover{float:left;width:144px;height:23px;margin-left:25px;margin-top:7px;background:url('../../ww2/product/otherTab1.jpg');background-position:144px -23px;cursor:pointer;}
+.diamondOtherKarat{float:left;width:142px;height:23px;background:url('../../ww2/product/otherTab2.jpg');background-position:0px -23px;cursor:pointer;margin-top:7px;}
+.diamondOtherKaratHover{float:left;width:142px;height:23px;background:url('../../ww2/product/otherTab2.jpg');background-position:142px -23px;cursor:pointer;margin-top:7px;}
+.diamondOtherCount{float:right;margin-right:17px;color:#999999}
+.diamondOtherCount font{font-family:Arial;font-size:18px;color:#f2a495;height:23px;}
+.diamondOtherListTitle{clear:both;float:left;margin-left:9px;margin-top:23px;width:960px;height:35px;border:1px solid #d2d2d2;background-color:#f0f0f0;}
+.diamondResultListHover{clear:both;float:left;width:945px;height:60px;background-color:#fef9f7;margin-top:8px;cursor:pointer;display:table;} 
+.diamondResultListOut{clear:both;float:left;width:945px;height:60px;background-color:#fbfbfb;margin-top:8px;display:table;}
+.diamondOtherListImg{
+	margin-left:0px;
+	width:50px;
+	text-align: center;
+	padding: 0 10px;
+	display:table-cell;
+	vertical-align: middle;
+	height:60px;
+	margin-top:0;
+}
+.diamondOtherListLineLong{float:left;width:1px;height:10px;border-left:1px solid #c5c5c5;margin-top:26px;margin-left:0px;}
+.diamondOtherListStone1{float:left;width:146px;height:60px;line-height:60px;text-align:left;font-family:Arial;color:#666666;text-indent:20px;}
+.diamondOtherListLineShort{float:left;width:1px;height:9px;border-left:1px solid #c5c5c5;margin-top:25px;}
+.diamondOtherListStone2{float:left;width:108px;height:60px;line-height:60px;text-align:left;font-family:Arial;color:#666666;text-indent:30px;}
+.diamondOtherListStone3{float:left;width:128px;height:60px;line-height:60px;text-align:left;font-family:Arial;color:#FF8A81;text-indent:20px;}
+.diamondOtherListViewHover{float:right;width:141px;height:60px;background:url('../../ww2/product/other/view.jpg');background-position:141px -60px;cursor:pointer;}
+.diamondOtherListViewOut{float:right;width:141px;height:60px;background:url('../../ww2/product/other/view.jpg');background-position:0px -60px;cursor:pointer;}
+.pageFont{color:#666666;}
+.pageFont font{color:#990000;}
+.pageLine{width:25px;height:15px;border-right:1px solid #CCCCCC;}
+.prePage{width:51px;height:25px;background:url('../../ww2/product/other/pre_page.jpg');background-position:0px -25px;cursor:pointer;}
+.prePageHover{width:51px;height:25px;background:url('../../ww2/product/other/pre_page.jpg');background-position:51px -25px;cursor:pointer;}
+.nextPage{width:51px;height:25px;background:url('../../ww2/product/other/next_page.jpg');background-position:0px -25px;cursor:pointer;}
+.nextPageHover{width:51px;height:25px;background:url('../../ww2/product/other/next_page.jpg');background-position:51px -25px;cursor:pointer;}

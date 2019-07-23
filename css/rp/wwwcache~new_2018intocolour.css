@@ -1,0 +1,259 @@
+﻿
+/*----------------background----------------*/
+.g_main{width:1180px; margin:0 auto;position:relative;z-index:0;height:100%;}
+
+#bg1{ background:#c5f6fd; height:600px;}
+#bg2{ background:url(../../ww3/mono/pc/2018/intocolour/bg2.jpg) no-repeat;background-position:50%!important; height:806px;}
+#bg3{ background:url(../../ww3/mono/pc/2018/intocolour/bg3.jpg)  no-repeat;background-position:50%!important; height:594px;}
+#bg4{ background:url(../../ww3/mono/pc/2018/intocolour/bg4.jpg)  no-repeat;background-position:50%!important; height:594px;}
+#bg5{ background:url(../../ww3/mono/pc/2018/intocolour/bg5.jpg)  no-repeat;background-position:50%!important; height:594px;}
+#bg6{ background:url(../../ww3/mono/pc/2018/intocolour/bg6.jpg)  no-repeat;background-position:50%!important; height:594px;}
+#bg7{ background:url(../../ww3/mono/pc/2018/intocolour/bg7.jpg)  no-repeat;background-position:50%!important; height:569px;}
+
+#bg1,#bg2,#bg3,#bg4,#bg5,#bg6,#bg7{position: relative; z-index:0;width: 100%; overflow:hidden;}
+.bg3_p1 .bg_video,.bg4_p1 .bg_video,.bg5_p1 .bg_video,.bg6_p1 .bg_video
+{background:url(../../ww3/mono/pc/2018/intocolour/bg_video.png)  center no-repeat;
+	width:260px; height:130px;position:absolute;z-index:4;display:none;transition:all .5s ease-in-out;-webkit-transition:all .5s ease-in-out;}
+.bg3_p1 .bg_video{top:0;right:105px;}
+.bg4_p1 .bg_video{top:101px;left:-17px;}
+.bg5_p1 .bg_video{top:0;right:110px;}
+.bg6_p1 .bg_video{top:90px;left:-41px;}
+
+.bg3_p1:hover .bg_video,.bg4_p1:hover .bg_video,.bg5_p1:hover .bg_video,.bg6_p1:hover .bg_video{display:block;}
+
+#bg3 a,#bg4 a,#bg5 a,#bg6 a{display:block;width:100%;height:100%;}
+
+
+.bg1_1{background:url(../../ww3/mono/pc/2018/intocolour/bg1_1.png) bottom center no-repeat;
+	width:1000px; height:100%;position:absolute;z-index:1;top:0;right:195px;
+	
+	}
+.bg1_txt{background:url(../../ww3/mono/pc/2018/intocolour/bg1_txt.png) bottom center no-repeat;
+		width:228px; height:137px;position:absolute;z-index:1;top:315px;left:295px;
+		}	
+
+
+
+.bg2_1{background:url(../../ww3/mono/pc/2018/intocolour/bg2_2.png) top center no-repeat;
+	width:476px; height:600px;position:absolute;z-index:1;top:-108px;left:0px;}
+.bg2_t1{background:url(../../ww3/mono/pc/2018/intocolour/bg2_txt1.png)  center no-repeat;
+	width:700px; height:100%;position:absolute;z-index:1;top:0px;left:428px;opacity:0;}
+.bg2_t2{background:url(../../ww3/mono/pc/2018/intocolour/bg2_txt2.png)  center no-repeat;
+	width:544px; height:413px;position:absolute;z-index:1;top:374px;left:77px;opacity:0;}
+
+/*
+#bg2.onscroll .bg2_t1{animation:fadeIn 1s ease-in-out forwards;-webkit-animation:fadeIn 1s ease-in-out forwards; }
+#bg2.onscroll .bg2_t1{animation:fadeIn 1s ease-in-out forwards;-webkit-animation:fadeIn 1s ease-in-out forwards;
+						animation-delay:1.5s;-webkit-animation-delay:1.5s; }
+
+*/
+
+
+.bg3_t1{background:url(../../ww3/mono/pc/2018/intocolour/bg3_txt1.png)  top center no-repeat;
+	width:520px; height:35px;position:absolute;z-index:1;bottom:33px;left:30px;opacity:0;}
+.bg3_t2{background:url(../../ww3/mono/pc/2018/intocolour/bg3_txt2.png) top center no-repeat;
+	width:300px; height:50px;position:absolute;z-index:2;bottom:21px;right:53px;opacity:0;}
+.bg3_p1{background:url(../../ww3/mono/pc/2018/intocolour/bg3_pro1.png)  center no-repeat;
+	width:450px; height:179px;position:absolute;z-index:1;top:100px;right:38px;opacity:0;}
+.bg3_t2 a{display:block;width:100%;height:100%;}
+
+
+
+/*
+#bg3.onscroll .bg3_t1{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards; 
+						animation-delay:2s;-webkit-animation-delay:2s;}
+#bg3.onscroll .bg3_t2{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards; 
+						animation-delay:2s;-webkit-animation-delay:2s;}
+#bg3.onscroll .bg3_p1{animation:fadeInDown 2s ease-in-out forwards;-webkit-animation:fadeInDown 2s ease-in-out forwards;
+						 animation-delay:1s;-webkit-animation-delay:1s;}
+*/
+
+
+.bg4_t1{background:url(../../ww3/mono/pc/2018/intocolour/bg4_txt1.png) top center no-repeat;
+	width:389px; height:50px;position:absolute;z-index:1;bottom:33px;right:65px;opacity:0;}
+.bg4_t2{background:url(../../ww3/mono/pc/2018/intocolour/bg4_txt2.png) top center no-repeat;
+	width:235px; height:50px;position:absolute;z-index:2;bottom:37px;left:115px;opacity:0;}
+.bg4_p1{background:url(../../ww3/mono/pc/2018/intocolour/bg4_pro1.png)  top center no-repeat;
+	width:297px; height:386px;position:absolute;z-index:1;top:-10px;left:130px;opacity:0;}
+
+.bg4_t2 a{display:block;width:100%;height:100%;}
+
+
+
+
+/*
+#bg4.onscroll .bg4_t1{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+				 
+						animation-delay:2s;-webkit-animation-delay:2s;}
+
+#bg4.onscroll .bg4_t2{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+				
+						animation-delay:2s;-webkit-animation-delay:2s;}
+#bg4.onscroll .bg4_p1{animation:fadeInDown 2s ease-in-out forwards;-webkit-animation:fadeInDown 2s ease-in-out forwards;
+						animation-delay:1s;-webkit-animation-delay:1s;}
+
+*/
+
+
+
+.bg5_t1{background:url(../../ww3/mono/pc/2018/intocolour/bg5_txt1.png) top center no-repeat;
+	width:491px; height:50px;position:absolute;z-index:1;bottom:33px;left:40px;opacity:0;}
+.bg5_t2{background:url(../../ww3/mono/pc/2018/intocolour/bg5_txt2.png) top center no-repeat;
+	width:231px; height:50px;position:absolute;z-index:2;bottom:37px;right:135px;opacity:0;}
+.bg5_p1{background:url(../../ww3/mono/pc/2018/intocolour/bg5_pro1.png)  center no-repeat;
+	width:478px; height:179px;position:absolute;z-index:1;top:60px;right:24px;opacity:0;}
+
+.bg5_t2 a{display:block;width:100%;height:100%;}
+
+
+/*
+#bg5.onscroll .bg5_t1{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+						
+						animation-delay:2s;-webkit-animation-delay:2s;  }
+
+#bg5.onscroll .bg5_t2{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+						
+						animation-delay:2s;-webkit-animation-delay:2s;  }
+#bg5.onscroll .bg5_p1{animation:fadeInDown 2s ease-in-out forwards;-webkit-animation:fadeInDown 2s ease-in-out forwards;
+						 animation-delay:1s;-webkit-animation-delay:1s;}
+
+*/
+
+
+.bg6_t1{background:url(../../ww3/mono/pc/2018/intocolour/bg6_txt1.png) top center no-repeat;
+	width:306px; height:50px;position:absolute;z-index:1;bottom:33px;right:40px;opacity:0;}
+.bg6_t2{background:url(../../ww3/mono/pc/2018/intocolour/bg6_txt2.png) top center no-repeat;
+	width:230px; height:50px;position:absolute;z-index:2;bottom:37px;left:100px;opacity:0;}
+.bg6_p1{background:url(../../ww3/mono/pc/2018/intocolour/bg6_pro1.png)  center no-repeat;
+	width:198px; height:386px;position:absolute;z-index:1;top:-20px;left:130px;opacity:0;}
+.bg6_t2 a{display:block;width:100%;height:100%;}
+
+
+/*
+
+#bg6.onscroll .bg6_t1{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+						 
+						animation-delay:2s;-webkit-animation-delay:2s;}
+
+#bg6.onscroll .bg6_t2{animation:fadeIn 2s ease-in-out forwards;-webkit-animation:fadeIn 2s ease-in-out forwards;
+						 
+						animation-delay:2s;-webkit-animation-delay:2s;}
+#bg6.onscroll .bg6_p1{animation:fadeInDown 2s ease-in-out forwards;-webkit-animation:fadeInDown 2s ease-in-out forwards;
+						 animation-delay:1s;-webkit-animation-delay:1s;}
+
+*/
+
+
+.bg7_focus{position:absolute;z-index:1;width:478px; top:250px;left:40px;}
+.bg7_f1{background:url(../../ww3/mono/pc/2018/intocolour/bg7_f1.png) top center no-repeat;
+	width:478px; height:90px;}
+.bg7_f2{background:url(../../ww3/mono/pc/2018/intocolour/bg7_f2.png) top center no-repeat;
+	width:478px; height:90px;}
+.bg7_f3{background:url(../../ww3/mono/pc/2018/intocolour/bg7_f3.png) top center no-repeat;
+	width:478px; height:90px;}
+
+
+
+
+.bg7_focus.animateTShell{width: 478px;height:130px;position:relative;z-index:0;}
+.bg7_focus.animateTShell .animate{width: 478px;height:120px;position:relative;overflow: hidden;}
+.bg7_focus.animateTShell .animate .ani_ul{width: 478px;height: 120px;float: left;}
+.bg7_focus.animateTShell .animate .ani_ul .ani_li{width: 478px;height: 120px;float:left;position: relative;z-index:0;}
+.bg7_focus .disc_border{width: 478px;height:20px;position:absolute;display:block;overflow:hidden;left:0;bottom:-6px;text-align:center;z-index:1;}
+
+.bg7_focus .disc,.bg7_focus .disc_hover{width:10px;height:10px;border-radius:50%;margin:0 3px;display:inline-block;cursor:pointer;}
+.bg7_focus .disc{background:#898989 ;}
+.bg7_focus .disc_hover{background:#b59f7c;}
+
+
+
+.op_layer{background:#000;opacity:0.7;position:fixed;top:0;left:0;z-index:10;width:100%;height:100%;display:none;}
+.yystore_hide{width:1060px;top:50%;left:50%;z-index:11;height:595px;position:fixed;margin:-300px 0 0 -530px;
+				display:none;}
+
+.yystore_hide_cnt{position:relative;z-index:12;}
+.yy_hide_close{background:url('../../ww3/mono/pc/2018/intocolour/close.png')  center no-repeat;width:50px;height:50px;
+			top:-25px;right:-25px;position:absolute;z-index:13;cursor:pointer;}
+
+.aaa{display:none;}
+
+
+
+
+
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+

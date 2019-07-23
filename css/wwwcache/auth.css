@@ -1,0 +1,1796 @@
+﻿:focus {outline:none;} /*for IE*/ 
+::-moz-focus-inner {border-color: transparent;} /*for mozilla*/
+input:focus {outline:none;}   
+ 
+.auth_main_quick a:link,.auth_main_quick a:visited, .auth_main a:link,.auth_main a:visited,.auth_main_login a:link,.auth_main_login a:visited{
+	color:#999999;
+	text-decoration:underline;
+}
+input{  
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif; 
+	}
+	input,button,select,textarea{outline:none} 
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input, select, textarea{
+	margin: 0;
+}
+.clearHeight{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+} 
+.auth_main_login{
+	
+}
+
+.auth_tit_login{
+	text-align:left;
+	width:925px;
+	height:30px;
+	padding:0 0 0 15px;
+	margin:0 auto 1px auto;
+	font-size:16px;
+	font-family:"宋体";
+	color:#fff;
+	background-color:#666666;
+	line-height:30px;
+	overflow:hidden;
+	}
+.auth_main_login .main{
+	float:left;
+	width:100%;
+	height:510px;
+	position: relative;
+	overflow:hidden;
+	background:url('../../ww3/auth/auth_main_login.jpg')  no-repeat 38px 130px;
+}
+.auth_main_login .right{
+	float:left;
+	width:380px;
+	height:434px;
+	font-size:12px;
+	color:#666666;
+	background:url('../../ww3/auth/pink_right.jpg')  no-repeat scroll 78px 173px transparent;
+	}
+.auth_main_login .main ul{
+	text-align:left;
+	margin:24px 0 0 0;
+	padding-top:1px;
+	}
+.auth_main_login .main ul li{
+	list-style-position:outside;
+	padding-left:78px;
+	text-align:left;
+	font-size:14px;
+	color:#999999;
+	height:34px;
+	line-height:34px;
+	overflow: hidden;
+	}
+.auth_main_login .main .infoWrong{
+	background:url('../../ww3/auth/info_wrong.jpg')  no-repeat scroll 410px 10px transparent;
+	}
+.auth_main_login .main .infoRight{
+	background:url('../../ww3/auth/info_right.jpg')  no-repeat scroll 410px 10px transparent;
+	}		
+.auth_main_login .main ul .tips{
+	
+	height:22px;
+	width:310px;
+	
+	font-size:12px;
+	color:#666666;
+	line-height:22px;
+	overflow:hidden;
+}
+
+.auth_main_login .main ul .tips02{
+	background:url('../../ww3/auth/icon_tips1.jpg')  no-repeat scroll 4px 1px #ffe79d;
+}
+.auth_main_login .main ul .tips01{
+	background:url('../../ww3/auth/icon_tips2.jpg')  no-repeat scroll 4px 2px #f4bfbf;
+}
+.auth_main_login .main ul .aotologin{
+	height:20px;
+	width:360px;
+	padding:0;
+	/*padding-top: 2px;*/
+	font-size:12px;
+	font-family: "宋体";
+	color:#666666;
+	line-height:16px;
+	overflow:hidden;
+}
+.auth_main_login .main ul .aotologin span{
+	font-family: "宋体";
+	float: left;
+	color:#666666;
+}
+.auth_main_login .main ul .aotologin a{
+	font-family: "宋体";
+	color:#666666;
+	float: right;
+	text-decoration: none;
+}
+.auth_main_login .main ul .aotologin a:hover{
+	color:#ff8a81;
+}
+.auth_main_login .main ul .submit{
+	height:40px;
+	width:285px;
+	padding:0;
+	font-size:12px;
+	margin-left: 77px;
+	color:#666666;
+	line-height:40px;
+	overflow:hidden;
+	}	
+.auth_main_login .main ul input{
+	border:none;
+}		
+.auth_main_login .main .inputStyle01,.auth_main_login .main .inputStyle01Hover,.auth_main_login .main .inputStyleTips{
+	font-size:12px;
+    color: #333333;
+    height:34px;
+   /*去除行高 H 10-30*/
+   
+    line-height: normal;
+    line-height: 34px\9;
+	padding-left: 16px;
+    width:267px;
+	margin:0;
+    text-align: left;
+	overflow:hidden;
+	font-family: Arial,'宋体';
+	}
+.auth_main_login .main ol{
+	text-align:left;
+
+	}
+.auth_main_login .main ol li{
+	font-size:12px;
+	color:#666666;
+	line-height:24px;
+	}
+.auth_main_login .right .button{
+	width:94px;
+	height:24px;
+	text-align:center;
+	line-height:24px;
+	border:none;
+	color:#666666;
+	cursor:pointer;
+	background:url('../../ww3/auth/btn_bg.jpg')  no-repeat scroll 0 0 transparent;
+	}
+.auth_main_login .right ul{
+	margin:120px 0 0 80px;
+
+	}
+.auth_main_login .right ol{
+	margin:50px 0 0 80px;
+	}	
+.auth_main_login .right li{
+	text-align:left;
+	font-size:12px;
+	color:#666;
+	line-height:24px;}
+.auth_main_login .alipayLogin .line{
+	margin:4px 45px 6px 0;
+	border-top:dashed 1px #999;
+	}	
+
+.auth_main{
+	text-align:left;
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url('../../ww3/auth/authlogin_39.gif') no-repeat right bottom #fbc9bf;
+}
+
+.auth_main .auth_tit{
+	text-align:left;
+	width:925px;
+	padding:0 0 0 15px;
+	margin:0px auto 1px auto;
+	font-size:14px;
+	color:#fff;
+	background-color:#666666;
+	line-height:30px;
+	overflow:hidden;
+	border-bottom:solid 1px #FFF;
+	border-top:solid 1px #c2c2c2;
+	}
+
+.auth_main .left{
+	float:left;
+	width:530px;
+	padding:30px;
+	padding-right:0;	
+	}
+.auth_main .right{
+	float:right;
+	width:360px;
+	padding:10px;
+	}
+.auth_main .loginBottom{
+	background:url('../../ww3/auth/authlogin_42.gif') no-repeat  bottom;
+	padding-bottom:17px;
+}
+.auth_main .topTab{
+	width:530px;
+}
+.auth_main .topTab li{
+	width:110px;
+	float:left;
+	margin-right:5px;
+}
+.auth_main .topTabNormal{
+	background:url('../../ww3/auth/authlogin_03.gif') no-repeat; width:110px; height:38px; text-align:center; line-height:38px; font-size:14px; color:#fff;cursor:pointer;
+}
+.auth_main .topTabAction{
+	background:url('../../ww3/auth/authlogin_05.gif') no-repeat; width:110px; height:38px; text-align:center; line-height:38px; font-size:14px; color:#987976; font-weight:bold; cursor:pointer;
+}
+.auth_main .loginContent{
+	background:#FFF;
+	width:490px;
+	padding:20px;
+	overflow:hidden;
+}
+.auth_main .loginContent li{
+	margin-bottom:2px;
+	width:420px;
+	height:60px;
+	float:left;
+}
+.auth_main .loginContent li div{
+	height:20px;
+}
+.auth_main .loginContent li h2{
+	width:90px;
+	float:left;
+	color:#999;
+	font-size:14px;	
+	font-weight:normal;
+	text-align:right;
+	line-height:30px;
+	_padding-top:6px;
+}
+.auth_main .loginContent li p{
+	float:right;
+	margin-bottom: -2px;
+	padding-left:10px;	
+	width:320px;
+}
+.auth_main .loginContent li h3{
+	float:left;
+	padding-left:10px;
+	width:130px;
+}
+.auth_main .loginContent li h4{
+	float:left;
+	width:100px;
+	padding-left:10px;
+}
+.auth_main .loginContent li h5{
+	float:left;
+	line-height:31px;
+	font-weight:normal;
+	color:#999;
+}
+.auth_main .loginContent .inputStyle01{
+	outline:none;
+	font-size:14px;
+	color:#333333;
+	background:url('../../ww3/auth/authlogin_10.gif') no-repeat;
+	width:276px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_main .loginContent .inputStyle01Hover{
+	outline:none;
+	font-size:14px;
+	color:#333333;
+	background:url('../../ww3/auth/authlogin_10_2.gif') no-repeat;
+	width:276px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_main .loginContent .inputStyle02{
+	font-size:14px;
+	color:#333333;
+	background:url('../../ww3/auth/authlogin_28.gif') no-repeat;
+	width:123px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_main .loginContent .inputStyle02Hover{
+	outline:none;
+	font-size:14px;
+	color:#333333;
+	background:url('../../ww3/auth/authlogin_28_2.gif') no-repeat;
+	width:123px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_main .imgForm01{
+	border:solid 1px #c2c2c2;
+	text-align:center;
+	margin-top:3px;
+	padding:1px 0;
+	*vertical-align: middle;
+	+vertical-align: middle;
+}
+.auth_main .loginContent .button01{ 
+		background:url('../../ww3/auth/authlogin_36.gif') no-repeat; 
+		width:229px;
+		height:37px;
+		line-height:37px;
+		text-align:center; 
+		font-size:14px; 
+		color:#FFF;
+		margin-left:100px;}
+.auth_main .button02{
+	margin-bottom:10px;
+	width:240px;
+}
+.auth_main .button02 h2{
+	color:#666;
+	font-weight:normal;
+	margin-bottom:10px;
+}
+.auth_main .button02 p{
+	background:url('../../ww3/auth/authlogin_13.gif') no-repeat;
+	width:94px;
+	height:24px;
+	text-align:center;
+	line-height:24px;
+}
+.auth_main .right .line01{ border-bottom:dashed 1px #FFF; padding:10px 0;}
+.auth_main .otherLogin{
+	margin-bottom:10px;
+	width:240px;
+	padding:20px 0 0 60px;
+}
+.auth_main .otherLogin p{
+	margin-bottom:10px;
+	color:#666666;
+}
+.auth_main .loginContent .tips01{
+	color:#987976;
+	background:url('../../ww3/auth/authlogin_43.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:100px;
+	float:left;
+}
+.auth_main .loginContent .tips02{
+	color:#987976;
+	background:url('../../ww3/auth/authlogin_44.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:100px;
+	float:left;
+}
+.auth_main .loginContent .tips03{
+	background:url('../../ww3/auth/authlogin2_10.gif') no-repeat;
+	width:116px;
+	height:20px;
+	font-size:12px;
+	color:#333333;
+	line-height:20px;
+	text-align:center;
+	margin-left:100px;
+	_margin-left:150px;
+	float:left;
+	border:none;
+	cursor:pointer;
+}
+*html .auth_main .loginContent .tips01{
+	color:#987976;
+	background:url('../../ww3/auth/authlogin_43.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:50px;
+	float:left;
+}
+*html .auth_main .loginContent .tips02{
+	color:#987976;
+	background:url('../../ww3/auth/authlogin_44.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:50px;
+	float:left;
+}
+*html .auth_main .loginContent .tips03{
+	background:url('../../ww3/auth/authlogin2_10.gif') no-repeat;
+	width:116px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-left:100px;
+	float:left;
+	border:none;
+	cursor:pointer;
+}
+.auth_main .loginContent li .emailChoice{
+	position:absolute;
+	background:#FFF;
+	z-index:100px;
+	height:auto;
+	width:273px;
+	height:180px;
+}
+.auth_main  .loginContent li .emailChoice .newemail{
+	width:260px;
+	height:18px;
+	line-height:18px;
+	margin-bottom:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	padding:0 5px;
+	overflow:hidden;
+}
+.auth_main .emailChoiceAction{
+	background:#fbc9bf;
+}
+.auth_main .infoRight{
+	background:url('../../ww3/auth/info_right.jpg') no-repeat  390px 10px ;
+}
+.auth_main .infoWrong{
+	background:url('../../ww3/auth/info_wrong.jpg') no-repeat  390px 10px ;
+}	
+.auth_main_quick .infoRight{
+	background:url('../../ww3/auth/info_right.jpg') no-repeat  270px 10px ;
+}
+.auth_main_quick .infoWrong{
+	background:url('../../ww3/auth/info_wrong.jpg') no-repeat  270px 10px ;
+}
+.auth_main_quick{
+	width:100%;
+	text-align:left;
+}
+.auth_main_quick .block{
+	width:100%;
+}
+.auth_main_quick .top{
+	width:330px;
+	margin-bottom:5px;
+}
+.auth_main_quick .top h2{
+	float:left;
+	font-weight:normal;
+	color:#666;
+}
+.auth_main_quick .top p{
+	float:right;
+}
+.auth_main_quick .topTab{
+	width:330px;
+}
+.auth_main_quick .topTab li{
+	width:100px;
+	float:left;
+	margin-right:2px;
+}
+.auth_main_quick .topTabNormal{
+	background:url('../../ww3/auth/authlogin2_05.gif') no-repeat; width:100px; height:28px; text-align:center; color:#fff; line-height:28px; font-size:14px;cursor:pointer;
+}
+.auth_main_quick .topTabAction{
+	background:url('../../ww3/auth/authlogin2_03.gif') no-repeat; width:100px; height:28px; text-align:center; line-height:28px; font-size:14px; color:#987976; font-weight:bold; cursor:pointer;
+}
+.auth_main_quick .loginContent{
+	background:#FFF;
+	width:290px;
+	padding:20px;
+	position:relative;
+}
+.auth_main_quick .loginContent .loginNav{
+	border-bottom:dashed 1px #999;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+.auth_main_quick .loginContent .loginNav .red{
+	color:#F3776E;
+	}
+.auth_main_quick .loginContent .loginNav span{
+	cursor:pointer;
+}
+.auth_main_quick .loginContent .loginNav p{
+	display:inline;
+	padding:0 5px;
+}
+.auth_main_quick .loginContent .loginDetail{
+	width:290px;
+	overflow:hidden;
+}
+.auth_main_quick .loginContent .loginDetail li{
+	float:left;
+	width:290px;
+	overflow:hidden;
+}
+.auth_main_quick .loginContent .loginDetail li h2{
+	width:45px;
+	float:left;
+	color:#666;
+	font-weight:normal;
+	text-align:right;
+	line-height:30px;
+}
+.auth_main_quick .loginContent .loginDetail li p{
+	float:left;
+	padding-left:5px;	
+	width:230px;
+}
+.auth_main_quick .loginContent .loginDetail li h3{
+	float:left;
+	padding-left:5px;
+	width:75px;
+}
+.auth_main_quick .loginContent .loginDetail li h4{
+	float:left;
+	width:80px;
+	padding-left:5px;
+}
+.auth_main_quick .loginContent .loginDetail li h5{
+	line-height:31px;
+	font-weight:normal;
+	color:#999;
+}
+.auth_main_quick .inputStyleTips{
+	color:#333333;
+	background:url('../../ww3/auth/inputip_bg.jpg')  no-repeat scroll -4px -2px transparent;
+}
+
+.auth_main_quick .inputStyle01{
+	color:#333333;
+}
+
+.auth_main_quick .inputStyle01Hover{
+	color:#333333;
+	background:url('../../ww3/auth/input_bg1.jpg')  no-repeat scroll -4px -2px transparent;
+}
+.auth_main_quick .emailChoice{
+	position:absolute;
+	background:#FFF;
+	z-index:100px;
+	left: 70px;
+	top: 85px;
+	width:222px;
+}
+.auth_main_quick .emailChoice li{
+	width:212px;
+	line-height:18px;
+	margin-bottom:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	padding:0 5px;
+}
+.auth_main_quick .emailChoiceAction{
+	background:#fbc9bf;
+}
+.auth_main_quick .imgForm01{
+	border:solid 1px #c2c2c2;
+	text-align:center;
+	margin-top:2px;
+	padding:0;
+}
+.auth_main_quick .loginContent .tips01{
+	background:url('../../ww3/auth/authlogin_43_2.gif') no-repeat;
+	width:188px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:50px;
+	float:left;
+}
+.auth_main_quick .loginContent .tips02{
+	background:url('../../ww3/auth/authlogin_44_2.gif') no-repeat;
+	width:188px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:50px;
+	float:left;
+}
+.auth_main_quick .loginContent .tips03{
+	background:url('../../ww3/auth/authlogin2_10.gif') no-repeat;
+	width:116px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-left:50px;
+	float:left;
+	color:#666;
+	border:none; cursor:pointer;
+}
+*html .auth_main_quick .loginContent .tips01{
+	background:url('../../ww3/auth/authlogin_43_2.gif') no-repeat;
+	width:188px;
+	height:22px;
+	line-height:22px;
+	padding-left:52px;
+	margin-left:25px;
+	float:left;
+}
+*html .auth_main_quick .loginContent .tips02{
+	background:url('../../ww3/auth/authlogin_44_2.gif') no-repeat;
+	width:188px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:25px;
+	float:left;
+}
+*html .auth_main_quick .loginContent .tips03{
+	background:url('../../ww3/auth/authlogin2_10.gif') no-repeat;
+	width:116px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-left:52px;
+	float:left;
+	color:#666;
+	border:none; cursor:pointer;
+}
+.auth_main_quick .liHeight{
+	margin:0 0 0 45px;
+	_margin-left:25px;
+	width:260px;
+	height:22px;
+	overflow:hidden;
+}
+.auth_main_quick .loginContent .button01{ 
+		background:url('../../ww3/auth/authlogin2_17.gif') no-repeat; 
+		width:142px;
+		height:24px;
+		line-height:24px;
+		text-align:center; 
+		color:#FFF;
+		margin-left:50px;
+		margin-bottom:5px;
+}
+.auth_main_quick .loginContent .button02{ 
+		background:url('../../ww3/auth/authlogin2_14.gif') no-repeat; 
+		width:53px;
+		height:24px;
+		line-height:24px;
+		text-align:center; 
+		color:#FFF;
+		margin-left:50px;
+		margin-bottom:5px;
+		float:left;
+}
+
+.auth_main_quick .notice{
+	margin-left:45px;
+	_margin-left:22px
+}
+*html .auth_main_quick .loginContent .button02{ 
+		background:url('../../ww3/auth/authlogin2_14.gif') no-repeat; 
+		width:53px;
+		height:24px;
+		line-height:24px;
+		text-align:center; 
+		color:#FFF;
+		margin-left:44px;
+		margin-bottom:5px;
+		float:left;
+}
+.auth_main_quick .loginContent .forgetpw{
+	float:left;
+	padding:7px 0 0 8px;
+}
+.auth_main_quick .loginContent .otherLogin{
+	border-top:dashed 1px #999;
+	padding-top:10px;
+	margin-top:10px;
+}
+.auth_main_quick .loginContent .loginCheckBox{
+	float:left;
+	padding-left:50px;
+	padding-bottom:10px;
+}
+.auth_main .loginContent .loginAuto, .auth_main_quick .loginContent .loginAuto{
+	float:left;
+	line-height:22px;
+	padding-left:5px;
+}
+.auth_main .loginContent .loginCheckBox{
+	float:left;
+	padding-left:100px;
+	padding-bottom:5px;
+}
+.auth_main .loginContent .button03{ 
+		background:url('../../ww3/auth/authlogin_47.gif') no-repeat; 
+		width:119px;
+		height:37px;
+		line-height:37px;
+		text-align:center; 
+		color:#FFF;
+		margin-left:100px;
+		margin-bottom:5px;
+		float:left;
+		font-size:14px;
+}
+*html .auth_main .loginContent .button03{ 
+		background:url('../../ww3/auth/authlogin_47.gif') no-repeat; 
+		width:119px;
+		height:37px;
+		line-height:37px;
+		text-align:center; 
+		color:#FFF;
+		margin-left:50px;
+		margin-bottom:5px;
+		float:left;
+		font-size:14px;
+}
+.auth_main .loginContent .forgetpw{
+	float:left;
+	padding:13px 0 0 8px;
+}
+.auth_main .loginContent .otherLogin2{
+	border-top:dashed 1px #999;
+	padding-top:10px;
+	margin-top:10px;
+}
+.span_txt{padding:4px 0 0 0; width:43px; margin:0px; float:left; line-height:30px; color:#666666}
+.auth_main_quick  .span_txt{width:35px;_width:26px; margin:0px; float:left; line-height:30px; color:#666666}
+
+.auth_logined{
+	text-align:left;
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:5px;
+    margin-bottom:10px;
+}
+.auth_logined .tit{
+	text-align:left;
+	width:925px;
+	padding:0 0 0 15px;
+	margin:0px auto 0px auto;
+	font-size:14px;
+	color:#fff;
+	background-color:#666666;
+	line-height:30px;
+	overflow:hidden;
+	}
+.auth_logined .cont{
+	width:938px;
+	border:solid 1px #D3D9DC;
+	border-top:none;
+}
+.auth_logined .cont .tips{
+	text-align:center;
+	padding-top:50px;
+	width:700px;
+	margin:0 auto;
+}
+.auth_logined .cont .tips p{
+	float:left;
+	width:140px;
+	text-align:right;
+	padding-right:10px;
+}
+.auth_logined .cont .tips h3{
+	float:right;
+	text-align:left;
+	width:550px;
+	font-size:16px;
+	font-weight:bold;
+}
+.auth_logined .cont .tips h5{
+	float:right;
+	text-align:left;
+	width:550px;
+	font-size:16px;
+	font-weight:bold;
+	padding-top:3px;
+}
+.auth_logined .cont .tips h4{
+	float:right;
+	width:548px;
+	text-align:left;
+	color:#666;
+	font-weight:normal; 
+	line-height:18px;
+	padding-left:2px;
+	padding-top:5px;
+	font-size:14px;
+}
+.auth_logined .cont .verify{
+	background:#FDE8E3;
+	margin:20px;
+	padding:15px 30px;
+	margin-bottom:10px;
+	margin-top:50px;
+}
+.auth_logined .cont .verifyTop{
+	background:url('../../ww3/auth/authlogined_r6_c2_s1.jpg') no-repeat 0 5px; 
+	padding-left:25px;
+	line-height:25px;
+	color:#333;
+	margin-bottom:40px;
+}
+.auth_logined .verifyCont{
+	width:838px;
+}
+.auth_logined .verifyCont .left{
+	float:left;
+	width:415px;
+}
+.auth_logined .verifyCont .right{
+	float:right;
+	width:415px;
+}
+.auth_logined .verifyContDetail{
+	width:415px;
+	margin-bottom:20px;
+}
+.auth_logined .verifyContDetail p{
+	float:left;
+	width:100px;
+	text-align:right;
+	padding-right:10px;
+}
+.auth_logined .verifyContDetail h3{
+	float:right;
+	text-align:left;
+	width:300px;
+	padding-top:15px;
+}
+.auth_logined .verifyContDetail h4{
+	float:right;
+	width:297px;
+	text-align:left;
+	color:#666;
+	font-weight:normal; 
+	line-height:25px;
+	padding-left:3px;
+	padding-top:10px;
+}
+.auth_logined .verifyContDetail02{
+	width:330px;
+	margin-bottom:20px;
+	padding-left:85px;
+}
+.auth_logined .verifyContDetail02 p{
+	float:left;
+	width:100px;
+	text-align:right;
+	padding-right:10px;
+}
+.auth_logined .verifyContDetail02 h3{
+	float:right;
+	text-align:left;
+	width:215px;
+	padding-top:15px;
+}
+.auth_logined .verifyContDetail02 h4{
+	float:right;
+	width:212px;
+	text-align:left;
+	color:#666;
+	font-weight:normal; 
+	line-height:25px;
+	padding-left:3px;
+	padding-top:10px;
+}
+.auth_logined a.gray_333:link,a.gray_333:visited{ color: #333;text-decoration: none;}
+.auth_logined a.gray_333:hover{ text-decoration: underline; color: #333;}
+.auth_logined a.gray_333:active {color:#333; text-decoration:underline;}
+.auth_logined .skip{ margin-bottom:10px; text-align:right; padding-right:30px;}
+.auth_password{
+	text-align:left;
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:20px;
+}
+.auth_password .tit{
+	text-align:left;
+	width:924px;
+	padding:0 0 0 15px;
+	margin:0px auto 1px auto;
+	font-size:14px;
+	color:#fff;
+	background-color:#666666;
+	line-height:30px;
+	overflow:hidden;
+	border-top:solid 1px #c2c2c2;
+	}
+.auth_password .cont{
+	background:url('../../ww3/auth/authpw_r6_c2_s1.jpg') repeat-y; 
+	width:939px;
+}
+.auth_password .contBottom{
+	background:url('../../ww3/auth/authpw_r7_c2_s1.jpg') no-repeat bottom;
+	width:939px;
+	padding-bottom:5px;
+}
+.auth_password .cont02{
+	background:url('../../ww3/auth/authlogin_45.gif'); 
+	width:939px;
+}
+.auth_password .contBottom02{
+	background:url('../../ww3/auth/authpw_r11_c2_s1.jpg') no-repeat bottom;
+	width:939px;
+	padding-bottom:5px;
+	padding-top:15px;
+}
+.auth_password .contDetail{
+	padding:15px 10px;
+}
+.auth_password .contDetail .left{
+	float:left;
+	width:450px;
+	background:#FFF;
+	height:374px;
+}
+
+.auth_password .contDetail .right{
+	float:right;
+	width:450px;
+	background:#FFF;
+	height:374px;
+}
+.auth_password .loginContent{
+	background:#FFF;
+	width:410px;
+	padding:20px;
+}
+.auth_password .loginContent li{
+	width:410px;
+	height:58px;
+	float:left;
+}
+.auth_password .loginContent li h2{
+	width:80px;
+	float:left;
+	color:#999;
+	font-size:14px;	
+	font-weight:normal;
+	text-align:right;
+	line-height:30px;
+}
+.auth_password .loginContent li p{
+	float:right;
+	padding-left:10px;	
+	width:320px;
+	text-align:left;
+}
+.auth_password .loginContent li h3{
+	float:left;
+	padding-left:10px;
+	width:130px;
+}
+.auth_password .loginContent li h4{
+	float:left;
+	width:100px;
+	padding-left:10px;
+}
+.auth_password .loginContent li h5{
+	float:left;
+	line-height:31px;
+	font-weight:normal;
+	color:#999;
+}
+.auth_password .loginContent .inputStyle01{
+	background:url('../../ww3/auth/authlogin_10.gif') no-repeat;
+	width:276px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_password .loginContent .inputStyle01Hover{
+	background:url('../../ww3/auth/authlogin_10_2.gif') no-repeat;
+	width:276px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_password .loginContent .inputStyle02{
+	background:url('../../ww3/auth/authlogin_28.gif') no-repeat;
+	width:123px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_password .loginContent .inputStyle02Hover{
+	outline:none;
+	font-size:14px;
+	color:#333333;
+	background:url('../../ww3/auth/authlogin_28_2.gif') no-repeat;
+	width:123px; 
+	height:27px; 
+	padding:2px 0 0 5px; 
+	line-height:26px;
+}
+.auth_password .imgForm01{
+	border:solid 1px #c2c2c2;
+	text-align:center;
+	margin-top:3px;
+	padding:1px 0;
+}
+.auth_password .loginContent .button01{ 
+		background:url('../../ww3/auth/authpw_r9_c5_s1.jpg') no-repeat; 
+		width:119px;
+		height:37px;
+		line-height:37px;
+		text-align:center; 
+		font-size:14px; 
+		color:#FFF;
+		margin-left:90px;
+}
+.auth_password .loginContent .button02{ 
+		background:url('../../ww3/auth/authpw_r9_c5_s1.jpg') no-repeat; 
+		width:119px;
+		height:37px;
+		line-height:37px;
+		text-align:center; 
+		font-size:14px; 
+		color:#FFF;
+		margin-left:28px;
+}
+.auth_password .pwTop01{ 
+	background:url('../../ww3/auth/authpw_r2_c3_s1.jpg') no-repeat 5px 4px;
+	border-bottom:dotted 1px #666;
+	padding:10px;
+	padding-left:30px;
+	font-size:14px;
+	color:#666;
+	margin:0 10px;
+	margin-top:5px;
+}
+.auth_password .pwTop02{ 
+	background:url('../../ww3/auth/authpw_r3_c7_s1.jpg') no-repeat 5px 8px;
+	border-bottom:dotted 1px #666;
+	padding:10px;
+	padding-left:40px;
+	font-size:14px;
+	color:#666;
+	margin:0 10px;
+	margin-top:5px;
+	text-align:left;
+}
+.auth_password  .tips01{
+	background:url('../../ww3/auth/authlogin_43.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:90px;
+	float:left;
+}
+*html .auth_password  .tips01{
+	background:url('../../ww3/auth/authlogin_43.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:45px;
+	float:left;
+}
+.auth_password  .tips02{
+	background:url('../../ww3/auth/authlogin_44.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:90px;
+	float:left;
+}
+*html .auth_password  .tips02{
+	background:url('../../ww3/auth/authlogin_44.gif') no-repeat;
+	width:248px;
+	height:22px;
+	line-height:22px;
+	padding-left:30px;
+	margin-left:45px;
+	float:left;
+}
+.auth_password  .tips02_{
+	background:url('../../ww3/auth/authpw_r11_c2_s2_s1.jpg') no-repeat 0 5px;
+	padding-left:25px;
+	line-height:25px;
+	font-size:14px;
+	color:#999;
+}
+.auth_password .tips03 {
+    background: url("../../ww3/auth/authlogin2_10.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #333333;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 90px;
+    text-align: center;
+    width: 116px;
+}
+.auth_password .resetpw{ 
+	margin:15px 10px;
+	background:#FFF;
+	padding:20px;
+	margin-top:0;
+}
+.auth_password .infoWrong{
+	background:url('../../ww3/auth/info_wrong.jpg')  no-repeat scroll 370px 10px transparent;
+	}
+.auth_password .infoRight{
+	background:url('../../ww3/auth/info_right.jpg')  no-repeat scroll 370px 10px transparent;
+	}
+	
+
+.auth_verify{ text-align:left; padding-top:10px; width:980px; margin:0 auto; color:#333;}
+.auth_verify .block02{ width:878px; border:solid 1px #BEC5C9; background:#FAFAFA; padding:50px 50px; min-height:350px;}
+.auth_verify .left{ float:left;}
+.auth_verify .right{ float:right; width:755px; }
+.auth_verify .right .block01{ border:solid 1px #D3D9DC;min-height:616px; text-align:left;}
+.auth_verify .right .block01 h2{ font-size:14px; padding:0 10px; line-height:30px; background:#F9FBFC; color:#333;border-bottom:solid 1px #D3D9DC;}
+.auth_verify .right .cont{ padding:20px 50px; margin-bottom:150px;}
+.auth_verify .right .cont h3{ background:url('../../ww3/auth/grzx_01_s1.jpg') no-repeat; padding-left:35px; line-height:30px; font-weight:normal; font-size:14px; margin-bottom:5px;}
+.auth_verify .right .cont h4{ background:url('../../ww3/auth/authlogin2_10.gif') no-repeat; width:116px; height:20px; text-align:center; line-height:20px;font-weight:normal; color:#999; margin-left:35px;margin-bottom:10px; }
+.auth_verify .right .cont h5{padding-left:35px; line-height:30px; font-weight:normal; color:#666; margin-bottom:5px;}
+.auth_verify .right .cont .btss{ padding-left:35px;}
+.auth_verify .right .cont .btss p{ float:left;}
+.auth_verify .right .cont .btss p input{ padding:5px;width:106px;}
+.auth_verify .right .cont .confirmBt{ background:url('../../ww3/auth/authlogin2_14.gif') no-repeat; width:53px; height:24px; text-align:center; line-height:24px; margin-left:10px;margin-top:2px; float:left; }
+.auth_verify .right .cont .checkEmailBt{ background:url('../../ww3/auth/authlogin2_15.gif') no-repeat; width:94px; height:24px; text-align:center; margin-top:2px;  line-height:24px;}
+.auth_verify .right .tips{ margin:20px 50px; }
+.auth_verify .right .tips h3{ background:url('../../ww3/auth/payment_r25_c2_s1.jpg') no-repeat; padding-left:20px; line-height:18px; border-bottom:dotted 1px #999; padding-bottom:10px; margin-bottom:10px; color:#333;}
+.auth_verify .right .tips h4{  line-height:18px; border-bottom:dotted 1px #999; padding-bottom:10px; margin-bottom:10px; color:#333; padding-left:5px;}
+.auth_verify .right .tips p{ line-height:25px; color:#666;}
+.auth_verify .right .cont_yz{ margin:20px 50px; margin-bottom:70px;}
+.auth_verify .right .cont_yz h3{line-height:30px; font-weight:normal; font-size:14px; margin-bottom:15px; color:#666;}
+.auth_verify .right .cont_yz h3 .input{ background:url('../../ww3/auth/authlogin2_10.gif') no-repeat; width:116px; height:20px; text-align:center; line-height:20px;font-weight:normal; color:#999;font-size:12px;border:none; cursor:pointer; padding-top:2px; }
+.auth_verify .right .cont_yz .botton{ background:url('../../ww3/auth/authlogin2_15.gif') no-repeat; width:94px; height:24px; text-align:center; line-height:24px; margin-left:77px; color:#fff; font-size:12px;border:none; cursor:pointer; padding-top:3px;}
+.auth_verify .right .cont_yz input{padding:5px; width:208px; color:#333; font-size:14px; font-family:Arial;}
+.auth_verify .block02 .emailFail{ width:350px; margin:0 auto; }
+.auth_verify .block02 .emailFail h3{ background:url('../../ww3/auth/auth_verify_r2_c2_s1.jpg') no-repeat 0 2px; padding-left:40px; line-height:35px; font-size:16px;}
+.auth_verify .block02 .emailFail p{ line-height:35px; padding-left:42px; color:#999;}
+.auth_verify .block02 .bts{ margin-top:30px;}
+.auth_verify .block02 .bts .bt01{ background:url('../../ww3/auth/auth_verify_r4_c3_s1.jpg') no-repeat; width:119px; height:37px; text-align:center; line-height:37px; font-size:16px; float:left; margin-right:30px;}
+.auth_verify .block02 .bts .bt02{ background:url('../../ww3/auth/auth_verify_r4_c6_s1.jpg') no-repeat; width:119px; height:37px; text-align:center; line-height:37px; font-size:16px; float:left;}	
+
+.phone_table td{
+	float:left;
+	height:20px;
+    line-height:20px;
+	font-size:12px;
+	color:#999999;
+}
+.phone_table .inputStyle03{
+	outline:none;
+	font-size:12px;
+    color: #333333;
+    height:20px;
+    line-height:20px;
+	padding-left: 16px;
+    width:50px;
+	margin: 2px;
+    text-align: left;
+	overflow:hidden;
+	}
+
+/*********************************登录***************************************/
+.auth_bg{
+	width: 100%;
+	height: 601px;
+	overflow: hidden;
+	clear: both;
+	background:#f7e4db;
+}
+.reg_success_hy{
+	float: left;
+	font-weight: normal;
+	font-family: Arial,"宋体";
+	font-size:20px;
+    color: #000;
+}
+.login_border{
+	width: 1180px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.login_right{
+	width: 452px;
+	height: 688px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.login_phase_click{
+	background:url('../../ww3/auth/login_phase.jpg') no-repeat right top;
+}
+
+.btn_login_2{
+	width: 298px;
+	height: 37px;
+	cursor: pointer;
+	border: none;
+	background:url('../../ww3/auth/btn_login_2.jpg') no-repeat left top;
+}
+.btn_login_2:hover{
+	background:url('../../ww3/auth/btn_login_2.jpg') no-repeat right top;
+}
+.login_hezuo{
+	width: 329px;
+	height: 12px;
+	float: left;
+	margin-left: 50px;
+	background:url('../../ww3/auth/login_hezuo.png') no-repeat left top;
+}
+.zhifubao-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left: 18px;
+	background:url('../../ww3/auth/zhifubao-btn.jpg') no-repeat left top;
+}
+.zhifubao-btn:hover{
+	background:url('../../ww3/auth/zhifubao-btn.jpg') no-repeat right top;
+}
+.main .jihuozhuce{
+	width: auto;
+	height: 20px;
+	position: absolute;
+	right: 50px;
+    top: 102px;
+	color: #333;
+	z-index: 5;
+}
+.main .txt111{
+	width: auto;
+	height: 20px;
+	position: absolute;
+	left: 38px;
+    top: 95px;
+	color: #000;
+	font-family: "宋体";
+	font-size: 20px;
+	z-index: 5;
+}
+.main .jihuozhuce a{
+	color: #666;
+	float: left;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.main .jihuozhuce a:hover{
+	color: #ff8a81;
+}
+.main .jihuozhuce span{
+	height: 15px;
+	overflow: hidden;
+	color: #666;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 1px;
+	float: left;
+	font-family: "宋体";
+	font-size: 12px;
+}
+.login_border:after,.tab_reg:after{ clear:both; display:block; height:0; font-size:0; visibility:hidden; }
+/*********************************注册***************************************/
+.skip_login{ font-family: '宋体';margin:20px 0 0 0;  text-align: right; padding-right: 45px;}
+.skip_logina{display: block; color: #666; font-size: 12px;font-family: '宋体'; position: absolute; right: 52px; top: 99px;z-index: 5}
+.skip_logina:hover{color:#666!important;}
+.skip_logina i{font-style:normal;color:#ff8a81;padding-left:10px;}
+.skip_logina2{display: block; color: #000; font-size: 20px;font-family: '宋体'; position: absolute; left: 0px; top: 92px;z-index: 5}
+.auth_bar_right{ width:366px; height:600px; float:right;position: relative;padding-right:50px;padding-top:60px;}
+.tab_reg{ margin:28px 0 0 31px; width:375px; height:43px; position:relative;}
+.tab_reg a{ float:left; display:block;width:182px;  height:42px; font-size: 12px;font-family: "宋体"; color: #666666;line-height: 42px;}/*width:125px;2015-08-31*/
+.tab_reg .on{color: #ff8a81}
+.line_hover{ position:absolute; z-index:3; display:block; width:182px;  height:2px; bottom:0px; left:5px; background: #ff8782;}
+
+.form_reg{  margin-top:30px;background:#fcede9;padding-top:45px;padding-left:41px;padding-bottom:42px;}
+.form_reg p{  text-align:left; } 
+.form_reg input{font-family:Arial,'宋体'; } 
+
+.form_reg p label{height:20px;line-height:20px; padding:6px 0 6px 10px;  font-family:Arial,'宋体'; font-size:12px; color:#000; 
+ display:inline-block;background:#fff; vertical-align:middle;border:1px solid #fff;}
+.form_reg p label em{ display:inline-block; width:60px; font-style:normal;}
+.input_w01 label,.input_w02 label{ }
+.input_w01 label{width:271px;}
+.input_w01 input{ width:250px; margin-top: 2px; color:#b0b0b0;background:none; display:inline-block; border:none;}
+
+.input_w02 label{ width:126px;}
+.input_code{width:63px; color:#b0b0b0;background:none; display:inline-block; border:none;}
+
+.code_resend,.code_send{ height:34px; display:inline-block; border:none; vertical-align:top; cursor:pointer;font-family:Arial,'宋体'; text-align: center;
+}
+.code_send{ background:#feaca0; color: #fff;margin-left:12px;width:133px;}
+.code_send:hover{ opacity: 0.85;filter: alpha(opacity=85);}
+.code_resend{background:url('../../ww3/auth/resend_147x36.jpg') left top no-repeat; text-align:center;width:145px;}
+.input_w02 a { padding-left:7px; font-family:Arial,'宋体'; color: #666;}
+
+.input_w03 { line-height:17px;color:#505050!important; margin-bottom: 17px;}
+.checkedbox{ filter:alpha(opacity=0);-moz-opacity:0;opacity:0; width: 7px;}
+.input_w03 label{ background:#fff; width: 13px!important; height: 13px!important; padding: 0px!important;margin-right:8px;
+cursor: pointer; display: inline-block;background:url('../../ww3/auth/login_phase.jpg') no-repeat left top; }
+.forcheck{background:url('../../ww3/auth/login_phase.jpg') no-repeat right top !important;}
+.input_w03 .login_phase{ margin-left:0; border:0; }
+.input_w03 a{ color:#505050!important; text-decoration:underline!important;}
+.input_w03 a:hover{ color:#ff8a81!important;}
+
+.reg_btn{ background:#ff8a81; color: #fff; width:281px; height:32px; border:none; cursor:pointer; text-align: center;
+ line-height: 34px\9;line-height: normal; display:block;margin:0;}
+.reg_btn:hover{ opacity: 0.85;filter: alpha(opacity=85);}
+
+
+
+.input_w05 label{ width:180px; margin-right:5px;}
+.input_w05 label input{ width:102px; border:none;}
+.input_card_passw{background:url('../../ww3/auth/btn_carcode.jpg') left top no-repeat; width:100px; height:36px; border:none; display:inline-block;vertical-align:top; cursor:pointer; text-align: center;}
+.input_card_passw:hover{background:url('../../ww3/auth/btn_carcode.jpg') right top no-repeat; }
+
+
+
+
+.reg_success_title{ text-align:left; overflow:hidden; padding-top:50px;}
+.reg_success_title span{ float:right; color:#8c8b8b; line-height:25px;}
+.reg_success_title span a{ font-family:Arial,'宋体'; font-size:13px; color:#7a7a7a; font-weight:normal; margin-left: 10px; }
+.reg_success_text_01{ }
+.reg_success_text_01 dd{ background:url('../../ww3/auth/icon_bird.png') no-repeat; width:138px; height:102px;margin:0 auto 20px;}
+.reg_success_text_01 dt{ font-family:"宋体"; margin:0 auto;}
+.reg_success_text_01 dt strong{ font-size:22px; line-height:38px; color: #000;font-family: "宋体";font-weight: normal;}
+.reg_success_text_01 .a_shopping{ margin-top: 28px; background:#ff8a81; color: #fff; font-size: 12px; font-family: "宋体"; width:285px; height:35px; line-height: 35px; display:inline-block; vertical-align:top;}
+.reg_success_text_01 .a_shopping:hover{opacity: 0.85;filter: alpha(opacity=85);}
+.reg_success_text_01 dt p{ font-size:12px; margin-top:25px; color: #666;font-family: Arial,"宋体";}
+.shadow_line{background:url('../../ww3/auth/shadow_line.png')   no-repeat; width:199px; height:4px; display:block;margin:45px auto;}
+.text_tips{ color:#7a7a7a;font-family:"宋体";font-size:12px; margin-top: 90px; display: block; }
+.info_verify,.complete_info{ width:138px; height:35px; line-height: 35px; text-align: center; display:inline-block; margin-top:30px;}
+.info_verify{background:#fdf7f4; margin-right:10px;}
+.complete_info{background:#fdf7f4;}
+.info_verify:hover{opacity: 0.85;filter: alpha(opacity=85);}
+.complete_info:hover{opacity: 0.85;filter: alpha(opacity=85);}
+.reg_success_text_01ss{margin-top: 85px;display: block;}
+/*********************************登录***************************************/
+
+.login_border{
+	width: 1180px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.login_left{
+	width: 728px;
+	height: 688px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	
+}
+.add_left{ width: 728px; height: 460px; position: absolute; top: 112px; left: 0; z-index: 4;}
+
+.fly_img{width: 728px;	height: 688px; z-index:2;position: absolute; top: 0px; left: 0px;}
+.login_fly{
+	width: 113px;
+	height: 104px;
+	position: absolute;
+	left: 309px;
+	top: 265px;
+	z-index:3;
+	background:url('../../ww3/auth/login_fly.gif') no-repeat center top;
+}
+.login_right{
+	width: 452px;
+	height: 636px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#frmLogin{
+	margin-top: 152px;
+}
+.login_phase{
+	width: 13px;
+	height: 13px;
+	float:left;
+	padding: 0;
+	margin-right:10px;
+	margin-top: 2px;
+	margin-left:77px;
+	cursor: pointer;
+	overflow: hidden;
+	background:url('../../ww3/auth/login_phase.jpg') no-repeat left top;
+}
+.login_phase_click{
+	background:url('../../ww3/auth/login_phase.jpg') no-repeat right top;
+}
+.btn_login_2{
+	width: 298px;
+	height: 37px;
+	float:left;
+	cursor: pointer;
+	border: none;
+	background:url('../../ww3/auth/btn_login_2.jpg') no-repeat left top;
+}
+.btn_login_2:hover{
+	background:url('../../ww3/auth/btn_login_2.jpg') no-repeat right top;
+}
+.login_hezuo{
+	width: 329px;
+	height: 12px;
+	float: left;
+	margin-left: 39px;
+	background:url('../../ww3/auth/login_hezuo.png') no-repeat left top;
+}
+.qq-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	background:url('../../ww3/auth/qq-btn.jpg') no-repeat left top;
+}
+.qq-btn:hover{
+	background:url('../../ww3/auth/qq-btn.jpg') no-repeat right top;
+}
+.weixin-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left: 32px;
+	background:url('../../ww3/auth/weixin-btn.jpg') no-repeat left top;
+}
+.weixin-btn:hover{
+	background:url('../../ww3/auth/weixin-btn.jpg') no-repeat right top;
+}
+.sina-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left: 32px;
+	background:url('../../ww3/auth/sina-btn.jpg') no-repeat left top;
+}
+.sina-btn:hover{
+	background:url('../../ww3/auth/sina-btn.jpg') no-repeat right top;
+}
+.zhifubao-btn{
+	width: 46px;
+	height: 46px;
+	float: left;
+	display: block;
+	margin-left:32px;
+	background:url('../../ww3/auth/zhifubao-btn.jpg') no-repeat left top;
+}
+.zhifubao-btn:hover{
+	background:url('../../ww3/auth/zhifubao-btn.jpg') no-repeat right top;
+}
+
+.auth_pop_close{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	right:13px;
+	top: 5px;
+	display: block;
+	background:url('../../ww3/auth/auth_pop_close.png') no-repeat left top;
+	z-index: 5;
+}
+.auth_pop_close:hover{
+	background:url('../../ww3/auth/auth_pop_close.png') no-repeat right top;
+}
+
+
+/*********************************密码找回***************************************/
+.cover{
+   position: absolute;color:#a9a9a9;left: 15px;top:10px;display: block;
+}
+.password_step{
+	margin-top: 20px;
+}
+.password_steptxt{
+	text-align: left;
+	margin-top: 50px;
+	font-size: 20px;
+	color: #000;
+	padding-left: 90px;
+	font-family: "宋体";
+}
+.password_border{
+	width: 286px;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+.password_text{
+	width: 50px;
+	height: 34px;
+	padding-left: 17px;
+	text-align: left;
+	line-height: 34px;
+	color: #999;
+	display: inline-block;
+	font-family: "宋体";
+	background: #fff;
+	float: left;
+	font-size: 12px;
+}
+.password_input{
+	width: 275px;
+	height: 34px;
+	padding-left: 10px;
+	line-height: normal;
+	line-height: 34px\9;
+	font-family: Arial,"宋体";
+	float: left;
+	color: #999;
+	border: none;
+}
+.password_true{
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	right: -25px;
+	top: 10px;
+	background:url('../../ww3/auth/true.png') no-repeat left top;
+	z-index: 5;
+}
+.password_false{
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	right: -25px;
+	top: 10px;
+	background:url('../../ww3/auth/false.png') no-repeat left top;
+	z-index: 5;
+}
+.yanzheng_huan{
+	float: left;
+	display: block;
+	font-family: "宋体";
+	margin-left: 10px;
+	margin-top: 11px;
+	color: #333;
+}
+.login_border .next_btn{
+	width: 285px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	margin: 0 auto;
+	background:#ff8a81;
+}
+.login_border .next_btn:hover{
+	opacity: 0.85;filter: alpha(opacity=85);
+}
+#passtwo .send_btn{
+    width: 285px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    background: #ff8a81;
+}
+#passtwo .send_btn:hover{
+	opacity: 0.85;
+    filter: alpha(opacity=85);
+}
+.password_butterfly{
+	width: 120px;
+	height: 100px;
+	position: absolute;
+	left: 743px;
+	top:156px;
+	background:url('../../ww3/auth/password_butterfly.jpg') no-repeat left top;
+	z-index: 5;
+}
+.yanzheng{
+	width: 189px;
+	height: 36px;
+	text-align: left;
+	background: #fff;
+	line-height: 36px;
+	font-family: Arial,"宋体";
+	float: left;
+	color: #333;
+	border: none;
+}
+.yanzhengInput{
+	width: 270px; 
+	height: 36px;
+	text-align: left;
+	background: #fff;
+	float: left;
+	color: #999;
+	border: none;
+	font-family: Arial,'宋体';
+	line-height:36px\9;
+	line-height:normal;
+	padding:0;
+	padding-left: 15px;
+}
+.yanzheng_xiala{
+	width: 33px;
+	height: 36px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	/*background:url('http://img.zbird.cn/ww3/auth/yanzheng_xiala.jpg') no-repeat left top;*/
+}
+.yanzheng_xiala_hover{
+	width: 33px;
+	height: 36px;
+	position: absolute;
+	right:0px;
+	top:0px;
+	/*background:url('http://img.zbird.cn/ww3/auth/yanzheng_xiala.jpg') no-repeat right top;*/
+}
+.yanzheng_show{
+	width: 215px;
+	height: auto;
+	background: #fff;
+	position: absolute;
+	right: 0px;
+	top: 36px;
+	display: none;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	z-index: 5;
+}
+.yanzheng_show p{
+	line-height: 25px;
+	cursor: pointer;
+	color: #666;
+	padding-left: 14px;
+	text-align: left;
+}
+.yanzheng_show p:hover{
+	background: #fef6f6;
+}
+#find_checknum{
+	width: 145px;
+	height: 36px;
+	line-height: 36px\9;
+	color: #fff;
+	line-height: normal;
+	float: left;
+	margin-left: 6px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	background:#feaca0;
+}
+#find_checknum:hover{
+	opacity: 0.85;
+	filter:alpha(opacity=85);
+}
+.send_sucess_border{
+	width: 1180px;
+	height: 550px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.login_border .shopping{
+	width: 138px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 25px;
+	background:#ff8a81;
+}
+.login_border .shopping:hover{
+	opacity: 0.85;filter: alpha(opacity=85);
+}
+.login_border .mine_niaochao{
+	width: 138px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 25px;
+	background:#feaca0;
+	margin-right: 82px;
+}
+.login_border .mine_niaochao:hover{
+	opacity: 0.85;filter: alpha(opacity=85);
+}
+.errorMsg{
+	width: 100%;
+	height: 22px;
+	font-style: normal;
+	line-height: 22px;
+	display: inline-block;
+	text-align: left;
+	color: #f16d63;
+}
+.input_tips_rig{ background:url('../../ww3/auth/icon_right.png') center no-repeat;}
+
+.new_password{
+	color:#c23838; width: 300px;
+	height: 20px;
+	padding-top: 5px;
+	text-align: left;
+	line-height: 20px;
+	display: inline-block;
+	font-family: "宋体";
+	float: left;
+	font-size: 12px;
+}
+.send_sucess_border .senemailok{
+	width: 285px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	display: block;
+	color: #fff;
+	margin: 0 auto;
+	margin-top: 25px;
+	background:#ff8a81;
+}
+.send_sucess_border .senemailok:hover{
+	opacity: 0.85;filter: alpha(opacity=85);
+}
+.auth_bg_new{
+	background:url('../../ww3/auth/auth_bg_new.jpg') no-repeat center top;
+}
+.btn_login_6{
+	width: 260px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	display: block;
+	border-radius:3px;
+	padding: 0;
+	color: #fff;
+	margin-top: 30px;
+	margin-left: 90px;
+	background:#ff8a81;
+}
+.btn_login_6:hover{
+	opacity: 0.85;filter: alpha(opacity=85);
+	background: #ff8a81;
+}
+.mimalab{
+	font-size: 12px;
+    color: #999;
+    height: 34px;
+    cursor: text;
+    line-height: 34px;
+    padding-left: 16px;
+    width: 267px;
+    display: block;
+    margin: 0;
+    text-align: left;
+    overflow: hidden;
+    font-family: Arial,'宋体';
+    background-color: #fff;
+}

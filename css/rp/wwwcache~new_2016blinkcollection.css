@@ -1,0 +1,370 @@
+﻿
+/*----------------background----------------*/
+#bg_01{ background:url(../../ww3/2016blinkcollection/bg_01.jpg) top center no-repeat;width: 100%; height:784px;position: relative;}
+#bg_02{ background:url(../../ww3/2016blinkcollection/bg_02.jpg) top center no-repeat;width: 100%; height:1035px;}
+#bg_03{ background:url(../../ww3/2016blinkcollection/bg_03.jpg) top center no-repeat;width: 100%; height:1178px;}
+#bg_04{ background:url(../../ww3/2016blinkcollection/bg_04.jpg) top center no-repeat;width: 100%; height:873px;}
+#bg_05{ background:url(../../ww3/2016blinkcollection/bg_05.jpg) top center no-repeat;width: 100%; height:733px;}
+#bg_06{ background:url(../../ww3/2016blinkcollection/bg_06.jpg) top center no-repeat;width: 100%; height:644px;}
+#bg_07{ background:url(../../ww3/2016blinkcollection/bg_07.jpg) top center no-repeat;width: 100%; height:619px;}
+#bg_08{ background:url(../../ww3/2016blinkcollection/bg_08.jpg) top center no-repeat;width: 100%; height:308px;}
+.clearHeight{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+.border{
+	display: block;
+	width: 1180px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.bg4g1{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 630px;
+    top: 210px;
+    background:url(../../ww3/2016blinkcollection/bg4g1.gif) top center no-repeat;
+    z-index: 5;
+}
+.bg4g2{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 800px;
+    top: 260px;
+    background:url(../../ww3/2016blinkcollection/bg4g2.gif) top center no-repeat;
+    z-index: 6;
+}
+.bg4g3{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 220px;
+    top: 690px;
+    z-index: 6;
+}
+.bg4g4{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 220px;
+    top: 730px;
+    z-index: 6;
+}
+.bg5g1{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 210px;
+    top: 70px;
+    background:url(../../ww3/2016blinkcollection/bg5g1.gif) top center no-repeat;
+    z-index: 5;
+}
+.bg5g2{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 380px;
+    top: 20px;
+    background:url(../../ww3/2016blinkcollection/bg5g1.gif) top center no-repeat;
+    z-index: 5;
+}
+.bg5g3{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 680px;
+    top: 575px;
+    z-index: 6;
+}
+.bg5g4{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 680px;
+    top: 620px;
+    z-index: 6;
+}
+.bg6g1{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 630px;
+    top: 0px;
+    background:url(../../ww3/2016blinkcollection/bg6g1.gif) top center no-repeat;
+    z-index: 5;
+}
+.bg6g2{
+    display: block;
+    width: 191px;
+    height: 204px;
+    position: absolute;
+    left: 800px;
+    top: 30px;
+    background:url(../../ww3/2016blinkcollection/bg6g1.gif) top center no-repeat;
+    z-index: 5;
+}
+.bg6g3{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 210px;
+    top: 510px;
+    z-index: 6;
+}
+.bg6g4{
+    display: block;
+    width: 250px;
+    height: 39px;
+    position: absolute;
+    left: 210px;
+    top: 550px;
+    z-index: 6;
+}
+.bg01p1{
+    width: 207px;
+    height: 66px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 350px;
+    margin-top: -360px;
+    background:url(../../ww3/2016blinkcollection/bg01p1.png) top center no-repeat;
+    z-index: 5;
+}
+.bg01p2{
+    width: 317px;
+    height: 172px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -450px;
+    margin-top: -10px;
+    background:url(../../ww3/2016blinkcollection/bg01p2.png) top center no-repeat;
+    z-index: 5;
+}
+.bg01a1{
+    display: block;
+    width: 207px;
+    height: 290px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -390px;
+    z-index: 15;
+}
+.bg02video{
+    cursor: pointer;
+    width: 882px;
+    height: 508px;
+    position: absolute;
+    left: 152px;
+    top: 324px;
+    z-index: 2;
+}
+.bg02video2{
+    width: 882px;
+    height: 508px;
+    position: absolute;
+    left: 152px;
+    top: 324px;
+    z-index: 5;
+}
+.bg03a1{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 15;
+}
+.bg03a2{
+    display: block;
+    width: 185px;
+    height: 56px;
+    position: absolute;
+    left: 645px;
+    top: 120px;
+    background:url(../../ww3/2016blinkcollection/shouzhi.png) left top no-repeat;
+    z-index: 25;
+}
+.kvblink{
+    width: 1400px;
+    height: 799px;
+    margin: 0 auto;
+    background:url(../../ww3/2016blinkcollection/kv.gif) left center no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.gif1{
+    display: block;
+    width: 437px;
+    height: 500px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+    background:url(../../ww3/2016blinkcollection/1.gif) left center no-repeat;
+}
+.gif2{
+    width: 437px;
+    height: 410px;
+    float: left;
+    background:url(../../ww3/2016blinkcollection/3.gif) left center no-repeat;
+    margin-top: 12px;
+    margin-left: 595px;
+}
+.gif3{
+    float: left;
+    margin-top: -38px;
+    margin-left: 110px;
+}
+.gif4{
+    float: left;
+    margin-top: -10px;
+    margin-left: 620px;
+}
+.price1{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    left: 180px; 
+    top: 370px;
+    z-index: 2;
+}
+.price2{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    left: 920px;
+    top: 210px;
+    z-index: 2;
+}
+.price3{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    left: 180px; 
+    top: 220px;
+    z-index: 2;
+}
+.price4{
+    width: 90px;
+    height: 15px;
+    position: absolute;
+    left: 910px;
+    top: 220px;
+    z-index: 2;
+}
+.videobor{
+    width: 565px;
+    height: 316px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    right: 183px;
+    top: 228px;
+    z-index: 5;
+}
+.videobor video{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+.videoimg{
+    width: 563px;
+    height: 316px;
+    overflow: hidden;
+    text-align: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background:url(../../ww3/2016blinkcollection/video.jpg) center center no-repeat;
+    z-index: 2;
+}
+.shadow{
+    width: 455px;
+    height: 179px;
+    overflow: hidden;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    background:url(../../ww3/2016blinkcollection/shadow.png) center center no-repeat;
+    z-index: 8;
+}
+.zsclick{
+
+}
+.zsopacity{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    background: #000;
+    opacity: 0.85;
+    filter:alpha(opacity=85);
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+.zsbook{
+    display: none;
+    width: 805px;
+    height: 571px;
+    margin-left: -402.5px;
+    margin-top: -285.5px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    background:url(../../ww3/2016blinkcollection/zsbook.jpg) center center no-repeat;
+    z-index: 1002;
+}
+.zscolse{
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background:url(../../ww3/2016blinkcollection/zscolse.png) #333 center center no-repeat;
+    z-index: 5;
+}
+/***********************音乐***************************/
+#audio{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+}
+#music{
+    width: 64px;
+    display: block;
+    position: fixed;
+    right: 80px;
+    top: 260px;
+    z-index: 999;
+}
+.music_on{
+    
+}
+.music_off{
+    display: none;
+}

@@ -1,0 +1,3392 @@
+﻿.left_ring_text_title_left@charset "utf-8";
+/* CSS Document */  
+html {min-width:1180px}
+.clearHeight{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	clear: both;
+}
+.all_block_bg{
+	background-color:#f2f1f1;
+	width:100%; 
+	height:auto; 
+	overflow:hidden;	 
+}
+.contArial{ 
+	
+}
+/*
+未搜索到
+ */  
+.tips_none {text-align:center;margin:80px 0 140px;}
+.tips_none span{background:url('../../ww3/weddings/icon_none.jpg') left center no-repeat;
+				display:inline-block;padding-left:25px; line-height:25px;color:#999;font-size:12px;}
+
+.recom_tlt{height:25px;line-height:25px;position:relative;z-index:0;}
+.recom_tlt span{background:#fff;color:#000;font-size:18px;position:relative;z-index:2;padding-right:15px;}
+.recom_tlt i{display:block;height:1px; background:#dedede;width:100%;right:0px;top:12px;position:absolute;z-index:1;}
+/*
+未搜索到end
+ */
+
+/*角标 2017-09-21*/
+.icon_mark{background:#ff565b;width:44px;height:22px;color:#fff;font-size:12px;display:block;position:absolute;
+			top: 0px;right: 0;line-height: 22px;text-transform: uppercase;z-index:3;}
+/*角标 2017-09-21 end*/
+/*2017-09-12 add list tab */
+.lst_tab_tlt{width:945px;margin:10px auto 20px;border-bottom:1px solid #dedede;text-align:center;vertical-align:middle;}
+.lst_tab_tlt span ,.lst_tab_tlt i{display:inline-block;vertical-align:middle;}
+.lst_tab_tlt i{height:16px;width:1px; background:#ccc; }
+.lst_tab_tlt span{width:120px;border-bottom: 2px solid #fff;height: 42px;line-height:42px;font-size:12px;color:#000;font-family:Arial,"宋体";cursor:pointer;}
+.lst_tab_tlt span.on{border-bottom: 2px solid #f5827b;color:#f87d74;}
+
+/*2017-09-12 add list tab  end*/
+.relative_div{
+	position:relative;
+	height:1px;
+	line-height:1px;	
+	border-top:1px solid #cdcbcb;
+} 
+.auto_div{
+	width:100%;
+	height:auto;
+	overflow:hidden;	
+}
+.clearHight{width:100%;height:125px;overflow:hidden;clear:both}
+/* 默认链接 */
+a:link, a:visited {
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration: none;
+	color:#ff8a81;	
+}
+a:active {
+	text-decoration: none;
+	color: #666;
+}
+a.underline {
+	text-decoration: underline;
+}
+.display_none{
+	display:none;	
+}
+.link_a{
+	width: 180px;
+	height: 180px;
+	display:block;
+	position: static;
+}
+
+
+/* 各列表侧边栏热卖推荐样式   */ 
+.left_font_style{font-family:Arial, "宋体";}
+.left_font_style i{font-family:"微软雅黑";font-size:13px;}
+.font_pink{color:#f6827a;font-size:14px;display:inline-block;vertical-align:middle;padding-right:5px;}
+.font_graythor{color:#999; text-decoration: line-through; display:inline-block;vertical-align:middle;}
+.font_graythor i{font-size:12px;}
+.font_gray{color:#999;display:inline-block;vertical-align:middle;padding-left:5px;}
+.font_gray em{color:#333;padding-left:5px;display:inline-block;vertical-align:middle;}
+
+/* slideshow */
+#slideshow{position:relative;height:183px;width:483px;margin:0 auto;}
+#slideshow a{float:left;display:inline;}
+#slideshow .img{position:relative;width:483px;height:183px;overflow:hidden}
+#slideshow .img span{position:absolute;width:19999px;display:block}
+#slideshow .btns{z-index:10;position:absolute;width:483px;top:100px; left:0px;}
+#slideshow .btns b{position:absolute;width:100px;display:block;height:10px;overflow:hidden;top:60px;left:51%}
+#slideshow .btns b i{width:10px;height:10px;float:left;overflow:hidden;cursor:pointer;margin-right:6px;background:url("../../ww3/weddings/icon_focus.png") left center no-repeat;}
+#slideshow .btns b i:hover{background:url("../../ww3/weddings/icon_focus.png") right center no-repeat;}
+#slideshow .btns b i.on{background:url("../../ww3/weddings/icon_focus.png") right center no-repeat;cursor:pointer}
+#slideshow .btns b i.on:hover{background:url("../../ww3/weddings/icon_focus.png") right center no-repeat;cursor:pointer}
+
+#slideshow .btns s{position:absolute;width:23px;height:39px;overflow:hidden;top:-20px;display:none;cursor:pointer}
+#slideshow .btns s i{}
+/*#slideshow .btns s.prev{ display:none;left:0px;background:url("../../ww3/weddings/btn_46x39_prev.png") no-repeat left top;}
+#slideshow .btns s.prev:hover{background:url("../../ww3/weddings/btn_46x39_prev.png") no-repeat right top;}
+#slideshow .btns s.prev i{}*/
+#slideshow .btns s.next{right:10px;background:url("../../ww3/weddings/btn_46x39_prev.png") no-repeat left bottom;}
+#slideshow .btns s.next:hover{background:url("../../ww3/weddings/btn_46x39_prev.png") no-repeat right bottom;}
+#slideshow .btns s.next i{}
+
+
+
+
+/* 顶部动画 */
+.block_div_animation{
+	width:483px;
+	height:183px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	border:1px solid #fff;
+}
+.block_div_animation .index{
+	float:left;	
+}
+.block_div_animation_pic_shadow{
+	width:378px;
+	height:10px;
+	float:left;
+	background:url("../../ww3/weddings/block_div_animation_pic_shadow.jpg") no-repeat left top;;
+}
+/***index_banner***/
+dl{
+	border:none
+}
+/*.index { width:378px; margin:0 auto; }
+.index .banner { width:378px; float:left; overflow:hidden; }
+.index .banner div { width:378px; height:181px; margin:0; padding:0; position:relative; float:left; overflow:hidden; }
+.index .banner div ul { width:1512px; height:181px; float:left; position:absolute; left:0; }
+.index .banner div ul li { width:378px; height:181px; float:left; }
+.index .banner ol { width:50px; height:11px; position:absolute; right:12px; bottom:12px;}
+.index .banner ol li { height:11px; margin-left:6px; float:left; text-algin:center; color:#987976; position:relative; }
+.index .banner ol label { width:0; height:11px; font-size:0; border-left:1px solid #FFF; float:left; }
+.index .banner ol span { width:11px; height:11px; line-height:28px; background-color:#ffffff; cursor:pointer; float:left; overflow:hidden; }
+.index .banner ol span.on { background-color:#ff8a81; color:#666;  }
+.index .banner ol p { width:13px; height:6px; margin:0; padding:0; float:left; position: absolute; left:90px; top:-11px; z-index:99; }*/
+
+
+.block_div_animation_p_border{
+	width:330px;
+	height:183px;
+	float:left;
+	overflow:hidden;
+	margin-left:16px;
+}
+.block_div_animation_a{
+	width:330px;
+	height:183px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	position: relative;
+}
+.block_div_animation_a span{font-family:Arial, "宋体";font-size:12px;color:#fff;position: absolute;display:block;z-index: 2;text-align:left;font-style: normal;line-height:29px;
+ background:url('../../ww3/weddings/ad_opbg.png') no-repeat;width: 300px; height: 29px;left:5px; bottom: 5px;padding:0 10px;overflow: hidden;}
+.block_div_animation_a span i{font-size: 14px; font-style: normal;font-family:Arial, "微软雅黑";float: right;}
+.block_div_animation_a span i em{font-size:13px;font-style: normal;}
+.block_div_animation_p_shadow{
+	width:258px;
+	height:10px;
+	float:left;
+	background: url('../../ww3/weddings/block_div_animation_p_shadow.jpg') no-repeat left top;
+}
+.floatR{
+	padding-right:5px;	
+}
+.ring_pic_border{
+	width:181px;
+	height:181px;
+	float:left;
+	margin-left:19px;
+	background:#FFF;
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+	z-index:0;
+}
+.ring_pic_border a img{
+	margin-top:10px;	
+}
+.ring_pic_bg{
+	width:181px;
+	height:181px;
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	left:0px;
+	top:0px;
+	z-index:1;
+	background: url('../../ww3/weddings/ring_pic_bg.png') no-repeat left top;
+}
+.you_like_pic_bg{
+	width:183px;
+	height:182px;
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	left:0px;
+	top:0px;
+	z-index:1;
+	background: url('../../ww3/weddings/you_like_pic_bg.png') no-repeat left top;
+}
+.ring_text_1{
+	width:181px;
+	height:20px;
+	color:#666666;
+	line-height:20px;
+	position:absolute;
+	left:0px;
+	top:130px;
+	text-align:center;
+	z-index:2;
+	font-family:Arial, "宋体";
+}
+.ring_text_1 span{
+	/*font-family: Arial, Helvetica, sans-serif;	*/
+}
+.ring_text_2{
+	/*font-family: Arial, Helvetica, sans-serif;	*/
+	width:181px;
+	height:20px;
+	color:#ff8a81;
+	font-size:15px;
+	line-height:20px;
+	position:absolute;
+	left:0px;
+	top:152px;
+	text-align:center;
+	z-index:3;
+}
+.ring_text_2 span{
+	font-size:12px;
+	font-family:  Arial,"宋体";	
+}
+.block_div{
+	width:100%;
+	height:265px;
+	background:#f2f1f1;	
+}
+.block_shadow{
+	width:100%;
+	height:13px;
+	background: url('../../ww3/weddings/block_shadow.jpg') repeat-x left top;
+}
+.block{
+	width:1180px;
+	height: 45px;
+ 	line-height: 45px;
+	color:#666;
+}
+.block_border{
+	width:1180px;
+	border:none;
+	/*background: url('http://img.zbird.cn/ww3/weddings/block_border_line.png') repeat-y 205px top;*/
+}
+.block_border .left{
+	width:181px;
+	float:left;
+	margin-right:26px;
+	padding-right:0px;
+}
+.block_border .right{
+	width:945px;
+	float:left;
+	padding-left:25px;
+	border-left:none;
+}
+.block_div_content{
+	width:1180px;
+	height:auto;
+	overflow:auto;
+	margin:0 auto;
+	padding-top:0px;
+}
+
+.nav_arrow{
+	width:12px;
+	height:8px;
+	background: url('../../ww3/weddings/nav_arrow.png') no-repeat center center;
+}
+.search_list_topLine{
+	width:945px;
+	height: 0px;
+	border-top: 1px solid #000000;
+	clear:both;
+}
+/***.left_category***/
+.left_category{
+	width:181px;
+	height:auto;
+	overflow:hidden	
+}
+.left_category ol{
+	width:200px;
+}
+.left_category ol li{
+	width:181px;
+	float:left;
+	padding:0;
+	background:none;
+}
+.left_category_li{
+	cursor:pointer;
+	position:relative;
+}
+#block_border_1_top{
+	height: 0px;
+	border-top: 1px solid #000000;
+}
+#left_top{
+	background: url('../../ww3/weddings/left_top.jpg') no-repeat center top;
+}
+#left_top_search{
+	height: 0px;
+	border-top: 1px solid #000000;
+}
+#left_top_search_tit{
+	padding-left: 10px;
+    padding-top: 15px;
+    height: 25px;
+}
+.left_top_search_text{
+	height:25px;
+	line-height:25px;
+	font-size:15px;
+	font-weight:bold;
+	color:#f87d74;
+	float:left;
+	margin-top:10px;
+}
+.left_top_search_text_2{
+	height:25px;
+	line-height:22px;
+	font-size:12px;
+	color:#333333;
+	float:left;
+	margin-left:6px;
+	margin-top:10px;
+}
+.left_category_li .left_category_zuanshi{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:22px;
+	cursor:pointer;
+}
+.left_category_li .left_category_zuanshi_red{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left: 33px;
+  	top: 22px;
+	cursor:pointer;
+}
+.left_category_li .left_category_hunjie{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_li .left_category_hunjie_red{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_li .left_category_duijie{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_li .left_category_duijie_red{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_li .left_category_peishi{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_li .left_category_peishi_red{
+	width:34px;
+	height:15px;
+	color: #000;
+	font-size: 12px;
+	font-family: "宋体";
+	position:absolute;
+	left:33px;
+	top:11px;
+	cursor:pointer;
+}
+.left_category_add{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-top:11px;
+	margin-left:11px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/left_category_add.jpg') no-repeat left top;
+}
+.left_category_low{
+	width:13px;
+	height:13px;
+	float:left;
+	margin-top:11px;
+	margin-left:11px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/left_category_low.jpg') no-repeat left top;
+}
+.left_category_border{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	clear:both;
+	float:left;
+	margin-top:7px;
+	padding-bottom:7px;
+}
+.left_category_border a:hover{
+	color: #f6827a;
+}
+.left_category_border .left_category_border_1{
+	width:90px;
+	height:26px;
+	float:left;
+	margin-left:32px;
+	padding-left:1px;
+	padding-right:10px;
+	line-height:26px;
+	clear:both;
+	color:#8d8d8d;
+}
+.left_category_close{
+	height:auto;
+	overflow:hidden;
+	cursor:pointer;	
+}
+.left_category_no_close{
+	height:auto;
+	overflow:hidden;
+	cursor:pointer;	
+}
+.left_category_open{
+	height:40px;
+	overflow:hidden;
+	cursor:pointer;	
+}
+.left_category_detail{
+	height:auto;
+	overflow:hidden;
+}
+.left_category_title{
+	height:auto;
+	overflow:hidden;	
+}
+.left_ring_text_1{
+	width:171px;
+	height:20px;
+	color:#666;
+	line-height:20px;
+	position:absolute;
+	padding:0 5px;
+	left:0;
+	top:155px;
+	text-align:center;
+	z-index:2;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	/*font-family:Arial, Helvetica, sans-serif;*/
+}
+.left_ring_text_1 span{
+	/*font-family: Arial, Helvetica, sans-serif;*/	
+}
+.left_ring_text_6{
+	height:20px;
+	line-height:20px;
+	color:#666;
+	overflow: hidden;
+	text-align:center;
+	display: inline-block;
+}
+.left_ring_text_6 span{
+}
+.left_ring_text_2{
+	display: inline-block;
+	height:20px;
+	color:#f6827a;
+	font-size:15px;
+	line-height:20px;
+	font-weight:bold;
+	margin-right: 10px;
+}
+.left_list1{
+	font-family: "微软雅黑";
+	font-weight:normal;
+	font-size:13px;
+}
+.left_list2{
+	font-size:14px;
+	font-family: Arial, "宋体";
+	line-height:20px;
+}
+.left_ring_text_2 span{
+	
+}
+.left_ring_text_2 span:nth-child(2){
+	
+}
+.left_ring_number_1{
+	width:28px;
+	height:31px;
+	position:absolute;
+	z-index:2;
+	left:0px;
+	top:159px;
+	background: url('../../ww3/weddings/left_ring_number_1.png') no-repeat left top;
+}
+.left_ring_number_2{
+	width:28px;
+	height:31px;
+	position:absolute;
+	z-index:2;
+	left:0px;
+	top:159px;
+	background: url('../../ww3/weddings/left_ring_number_2.png') no-repeat left top;
+}
+.left_ring_number_3{
+	width:28px;
+	height:31px;
+	position:absolute;
+	z-index:2;
+	left:0px;
+	top:159px;
+	background: url('../../ww3/weddings/left_ring_number_3.png') no-repeat left top;
+}
+.left_ring_price{
+	height:22px;
+	color:#999999;
+	font-size:12px;
+	font-family:Arial, "宋体";
+	display: inline-block;
+}
+.left_ring_price span{
+	color:#333333; 
+	font-family:Arial,"宋体"; 
+	font-weight:normal;
+	padding-left:4px;
+}
+.left_ring_link{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#666;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:5;
+}
+.left_ring_text_all{
+	width:185px;
+	height:225px;
+	position:relative;
+	overflow:hidden;	
+}
+.left_ring_text_title_left{
+	width:91px;
+	height:55px;
+	float:left;
+	cursor:pointer;
+	background: url('../../ww3/weddings/left_ring/left_ring_text_title_left.jpg') no-repeat left top;
+}
+.left_ring_text_title_right{
+	width:92px;
+	height:55px;
+	float:left;
+	cursor:pointer;
+	background: url('../../ww3/weddings/left_ring/left_ring_text_title_right.jpg') no-repeat left top;
+}
+.left_ring_text_title_line{
+	width:91px;
+	height:9px;
+	position:absolute;
+	left:0px;
+	top:46px;
+	background: url('../../ww3/weddings/left_ring/left_ring_text_title_line.png') no-repeat left top;
+	z-index:5;
+}
+.left_ring_text_div{
+	width:183px;
+	height:auto;
+	float:left;
+	clear:both;
+	margin-top:15px;
+}
+.left_ring_text_div_t{
+	width:auto;
+	height:20px;
+	line-height:20px;
+	float:left;
+	color:#666666;	
+}
+.left_ring_text_ul{
+	width:183px;
+	height:auto;
+	float:left;
+	clear:both;
+	margin-top:15px;
+}
+.left_ring_text_li{
+	width:183px;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	float:left;
+	padding-left:15px;
+	background: url('../../ww3/weddings/left_ring/left_ring_text_disc.png') no-repeat left center;
+}
+.left_ring_text_li02{
+	width:183px;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+	float:left;
+}
+.left_ring_text_li02_a{
+	width:auto;
+	height:25px;
+	line-height:25px;
+	text-align:left;
+	float:left;
+	margin-left:13px;
+	display:block;
+}
+.left_ring_bold{
+	color:#ff8a81;
+	font-weight:bold;	
+}
+.left_ring_text_hot{
+	width:110px;
+	height:27px;
+	float:left;
+	color:#666;
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.left_ring_text_new{
+	width:120px;
+	height:27px;
+	float:left;
+	color:#666;
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.left_ring_text_normal{
+	width:160px;
+	height:27px;
+	float:left;
+	color:#666;
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+}
+.left_ring_text_hot_pic{
+	margin-left:3px;
+	float:left;
+	margin-top:8px;
+}
+	
+
+/***search***/
+.style_list .search{
+	position:relative;
+	padding:0px;
+}
+.style_list .search li{
+	position:relative;
+	padding-left:39px;
+	height:39px;
+	line-height:39px;
+	border-top-width: 1px;
+	
+	border-top-style: solid;
+	
+	border-top-color: #f3f3f4;
+	
+}
+.style_list .search li span{
+	padding-left:39px;
+	padding-right:0px;
+	font-size:12px;
+	float:left;
+	font-family:Arial,"宋体";
+	color:#333333;
+}
+.style_list .search li span.on {
+	font-weight:normal;
+	overflow:hidden;
+	cursor: default;
+	color: #f87d74;
+	font-size:12px;
+	
+}
+.style_list .search li span a{
+	font-size:12px;
+	color:#666666;
+	font-family:Arial,"宋体";
+}
+.style_list .search li .tit{
+	font-family: Arial,"宋体";
+	padding-right:43px;
+	font-size:12px;
+	padding-left:0px;
+	color:#333333;
+	background: url('../../ww3/weddings/style_list_line.png') no-repeat right center;
+}
+.style_list .search li .on{
+	color:##F3776E;
+}
+
+.style_list .search li span.on a{
+	font-family:Arial, "宋体";
+	font-weight:normal;
+	color:#ff8a81;	
+}
+.style_list .search a{
+	color:#666666;
+}
+.style_list .search .button_C{
+	clear:both;
+	text-align:center;
+	padding:0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #e2e1e1;
+	line-height:20px;
+}
+.style_list .search .button_border{
+	width:128px;
+	height:26px;
+	margin:-1px auto 0 auto;
+	cursor:pointer;
+	color:#666;
+	font-family:"宋体";
+	border-right:1px solid #e2e1e1;
+	border-left:1px solid #e2e1e1;
+	border-bottom:1px solid #e2e1e1;
+	border-top:1px solid #fff;line-height: 26px;
+}
+.style_list .search .button_border:hover{
+	width:128px;
+	height:26px;
+	margin:-1px auto 0 auto;
+	cursor:pointer;
+	color:#ff8a81; 
+}
+.style_list .search .button_border_2{
+	width:128px;
+	height:26px;
+	margin:-1px auto 0 auto;
+	cursor:pointer;
+	
+	color:#666;
+	font-family:"宋体";
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;line-height: 26px;
+}
+.style_list .search .button_border_2:hover{
+	width:128px;
+	height:26px;
+	margin:-1px auto 0 auto;
+	cursor:pointer;
+	color:#ff8a81;
+	
+}
+.style_list .search .button_C a{
+	font-size:12px;
+	font-family:"黑体";
+	color:#666666;
+}
+.style_list .search a:hover{
+	color:#ff8a81;
+	text-decoration:none;
+}
+.style_list_close{
+	background: url('../../ww3/weddings/style_list_close.jpg') repeat-x center center;
+}
+
+.all_cancel a{
+	color:#999;
+}
+.all_cancel a:hover{
+	color:#ff8a81;
+	text-decoration:none;
+}
+.order_border{
+	width:944px;
+	height:36px;
+	overflow:hidden;
+	clear:both;
+}
+.order_border .order{
+	width:auto;
+	height:30px;
+	overflow:hidden;
+	float:left;
+	
+	border:1px solid #e2e1e1;
+}
+.order_default{
+	
+	height:30px;
+	background:#f7f7f7;
+	float:left;
+	line-height:30px;
+	+width:59px;
+}
+
+.order_pink{
+	width:53px;
+	height:29px;
+	background:#ffffff;
+	float:left;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #cccccc;
+	border-bottom-color: #cccccc;
+	border-left-color: #cccccc;
+	overflow:hidden;
+	line-height:29px;
+}
+.order_default a{}
+
+/*默认情况 下的状态*/
+.index_arrow_gray_down{background:#efefef;}
+.index_arrow_gray_down a{
+	padding:0 10px 0 11px;
+	height:30px;
+	line-height:30px;
+	color:#666;	
+	margin-left:-1px;
+	font-size:13px;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	float:left;display:block;
+	width:36px;text-align:center;
+	
+}
+.index_arrow_gray_down a i{
+	height:30px;width:7px;
+	line-height:30px;
+	display:block;+display:inline-block;+vertical-align:middle;+float:none!important;
+	float:right;
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_gray_up.png') right center no-repeat ;
+}
+.index_arrow_gray_down a .last_spn{display:none;}
+
+/*默认情况 下的状态*/
+.index_arrow_gray_up{background:#efefef;}
+.index_arrow_gray_up a{
+	padding:0 10px 0 11px;
+	height:30px;
+	line-height:30px;
+	color:#666;	
+	margin-left:-1px;
+	font-size:13px;
+	border-right: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	float:left;display:block;
+	width:36px;text-align:center;
+	
+}
+.index_arrow_gray_up a i{
+	height:30px;width:7px;
+	line-height:30px;
+	display:block;+display:inline-block;+vertical-align:middle;+float:none!important;
+	float:right;
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_gray_up.png') right center no-repeat ;
+}
+
+/*有箭头的选中*/
+.index_arrow_white_up{
+	height:30px;
+	background:#fff;
+	color:#ff8a81;
+
+}
+.index_arrow_white_up a{
+	position:relative;
+	z-index:1;
+	background-color:#fff;
+	margin-left: -1px;
+	color:#ff8a81;
+	padding:0 20px 0 11px;
+	line-height:30px;
+	display:block;
+	border-right:1px solid #e2e1e1;
+	border-left:1px solid #e2e1e1;
+	width:26px;text-align:center;
+}
+.index_arrow_white_up a i{
+	height:5px;width:7px;
+	top: 13px;
+	right:10px;
+	position: absolute;
+	line-height:30px;
+	display:block;
+	
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_white_up.png') right center no-repeat ;
+}
+/*有箭头的选中*/
+.index_arrow_white_up_hover{
+background:#fff;
+	
+}
+.index_arrow_white_up_hover a{
+	position:relative;
+	z-index:1;
+	background-color:#fff;
+	margin-left: -1px;
+	color:#ff8a81;
+	padding:0 20px 0 11px;
+	line-height:30px;
+	display:block;
+	border-right:1px solid #e2e1e1;
+	border-left:1px solid #e2e1e1;
+	width:26px;text-align:center;
+	
+}
+.index_arrow_white_up_hover a i{
+	height:5px;width:7px;
+	top: 12px;
+	right: 10px;
+	position: absolute;
+	line-height:30px;
+	display:block;+display:inline-block;+vertical-align:middle;+float:none!important;
+	
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_gray_up.png') right center no-repeat ;
+}
+
+.order li.index_arrow_white_down:last-child a,.order li.index_arrow_white_up:last-child a{border-right:none;}
+.order li.index_arrow_white_down_hover:last-child a{border-right: 1px solid #fff;}
+/*选中状态下*/
+
+
+.index_arrow_white_down {
+	height:34px;
+	background:#fff;
+	color:#ff8a81;
+}
+.index_arrow_white_down a{
+	position:relative;
+	z-index:1;
+	background-color:#fff;
+	margin-left: -1px;
+	color:#ff8a81;
+	padding:0 20px 0 11px;
+	line-height:30px;
+	display:inline-block;
+	border-right:1px solid #e2e1e1;
+	border-left:1px solid #e2e1e1;
+	width:26px;text-align:center;
+}
+.index_arrow_white_down a i{
+	height:5px;width:7px;
+	top: 14px;
+	right: 10px;
+	position: absolute;
+	line-height:30px;
+	display:block;
+	
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_white_down2.png') right center no-repeat ;
+}
+.index_arrow_white_down a .last_spn{
+    position: absolute;
+    border-right: 1px solid #fff;
+    right: -1px;
+    display: block;
+    height: 30px;
+    width:0;
+    top:0;
+    
+}
+.index_arrow_white_down_hover{background-color:#fff;}
+.index_arrow_white_down_hover a{
+	position:relative;
+	z-index:1;
+	background-color:#fff;
+	margin-left: -1px;
+	
+	color:#ff8a81;
+	padding:0 20px 0 11px;
+	line-height:30px;
+	height:30px;
+	display:inline-block;+display: block;
+	border-right:1px solid #e2e1e1;
+	border-left:1px solid #e2e1e1;
+	width:26px;text-align:center;
+}
+.index_arrow_white_down_hover a i{
+	height:5px;width:7px;
+	top: 12px;
+	right:10px;
+	position: absolute;
+	line-height:30px;
+	display:block;
+	
+	margin-left: 3px;
+	background: url('../../ww3/weddings/index_arrow_gray_up.png') right center no-repeat ;
+}
+.index_arrow_white_down_hover a .last_spn{
+    position: absolute;
+    border-right: 1px solid #fff;
+    right: -1px;
+    display: block;
+    height: 30px;
+    width:0;
+    top:0;
+    
+}
+.page_boder{
+	width:auto;
+	height:35px;
+	overflow:hidden;
+	float:right;
+}
+.page_boder .current{
+	font-weight:bold;
+	color:#FF8A81;
+}
+.page_boder_text{
+	float:left;
+	width:123px;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	color:#666666;
+	margin-right: 23px;
+}
+.page_boder_search_text{
+	float:right;
+	width:auto;
+	height:33px;
+	line-height:33px;
+}
+.page_boder_search_banner{
+	width:1180px;
+	height:71px;
+	clear:both;
+	margin:0px auto 10px auto;
+	clear:both;
+}
+.page_boder_text_2{
+	font-family:Arial,"宋体";
+	float:left;
+	color: #666;
+	font-size:14px;
+	width:auto;
+	display:inline-block;
+	vertical-align: middle;
+	height:33px;
+	line-height:33px;
+	text-align:center;
+	}
+.page_line{
+	background: url('../../ww3/weddings/page_line.png') no-repeat right center;
+}
+
+
+.page_boder_a_left{
+	display:block;
+	float:left;
+	width:33px;
+	height:33px;
+	margin-right:10px;
+	background: url('../../ww3/weddings/page_boder_a_left.jpg') no-repeat left top;
+}
+.page_boder_a_left:hover{
+	background: url('../../ww3/weddings/page_boder_a_left.jpg') no-repeat -33px top;
+}
+.page_boder_a_right{
+	display:block;
+	float:left;
+	width:33px;
+	height:33px;
+	margin-left:10px;
+	background: url('../../ww3/weddings/page_boder_a_right.jpg') no-repeat left top;
+}
+.page_boder_a_right:hover{
+	background: url('../../ww3/weddings/page_boder_a_right.jpg') no-repeat -33px top;
+}
+.page_boder_a_number{
+	display:block;
+	float:left;
+	width:31px;
+	height:31px;
+	text-align:center;
+	line-height:31px;
+	font-size:14px;
+	margin-right:8px;
+	font-family:Arial,"宋体";
+	border:1px solid #dedfe0;
+}
+.page_boder_a_last_number{
+	display:block;
+	float:left;
+	width:31px;
+	height:31px;
+	text-align:center;
+	line-height:31px;
+	font-size:14px;
+	font-family:Arial,"宋体";
+	border:1px solid #dedfe0;
+}
+.page_boder_a_ellipsis{
+	display:block;
+	float:left;
+	width:15px;
+	height:15px;
+	text-align:center;
+	line-height:32px;
+	font-size:13px;
+	margin-right:8px;
+	font-family:Arial,"宋体";
+}
+.page_boder_a_2{
+	display:block;
+	float:left;
+	/*font-size:12px;
+	text-align: center;
+	line-height: 31px;
+	border:1px solid #ccc;
+	width: 66px;
+	height: 31px;
+	color:#333;
+	background:#fff;*/
+	height:32px;
+	width:25px;
+	background:url('../../ww3/weddings/nextpage_30x15.jpg') no-repeat left center;
+}
+.page_boder_a_2:hover{
+	/*border-color:#f3c8bf;background:#fdeae6;
+	color:#333!important;*/
+	background:url('../../ww3/weddings/nextpage_30x15.jpg') no-repeat right center;
+}
+.page_boder_a{
+	display:block;
+	float:left;
+	
+	
+	height:32px;
+	width:25px;
+	background:url('../../ww3/weddings/prevpage_30x15.jpg') no-repeat left center;
+}
+.page_boder_a:hover{
+	background:url('../../ww3/weddings/prevpage_30x15.jpg') no-repeat right center;
+}
+.page_boder a:hover{
+	color:#ff8a81;	
+}
+.page_border_span{
+	color:#f6827a; 
+	font-weight:bold; 
+	padding-left:2px; 
+	padding-right:2px;
+	
+	font-size: 14px;
+	margin-right: 3px;
+	font-family:Arial,"宋体";
+}
+.page_list{
+	width:975px;
+	height:auto;
+	overflow:hidden;
+
+	
+}
+.page_img_bg{
+	width:304px;
+	height:250px;
+	position: absolute;
+	cursor: pointer;
+	left: 0px;
+	top: 0px;
+	z-index: 599;
+	display:block;
+}
+.page_img_bg_p{
+	width:300px;
+	height:367px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 399;
+	display:block;
+	
+}
+.page_bg:hover{border-bottom:6px solid #feb8ae;height:362px;}
+.page_bg{
+	width:300px;
+	height:367px;
+	float:left;
+	text-align:center;
+	margin-right:24px;
+	margin-top:23px;
+	position:relative;
+	overflow:hidden;
+	z-index:0;
+	border-bottom: 1px solid #d6d6d6;
+}
+.page_text_1{
+	width: 100%;
+	height: 20px;
+	color: #8d8c8c;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 268px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	text-align: center;
+	z-index: 501;
+	font-family:Arial, "宋体";
+}
+.page_text_1_span{
+	
+	color:#666;
+}
+.page_text_1 span{
+	font-family: Arial, "宋体";
+}
+.page_text_1:hover span{color:#ff8a81;}
+.page_text_2{
+	font-family: Arial,"宋体";
+	width: 100%;
+	height: 20px;
+	color: #f6827a;
+	font-weight:bold;
+	line-height: 20px;
+	position: absolute;
+	left: 0px;
+	top: 291px;
+	text-align: center;
+	z-index: 500;
+}
+.page_text_2 span{
+	text-align:left;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+.page_text_3{
+	width: 80px;
+	height: 31px;
+	color: #999999;
+	font-size: 12px;
+	font-family:Arial, "宋体";
+	position: absolute;
+	left: 88px;
+	top: 321px;
+	z-index: 502;
+}
+.page_text_3 span{
+	color: #333333;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	
+	padding-left: 4px;
+}
+.page_img_1{
+	width:240px;
+	height:238px;
+	position:absolute;
+	text-align:center;
+	padding:22px 30px 0;
+	left:0;
+	top:0;
+	z-index:2;	
+}
+.page_img_2{
+	width:240px;
+	height:238px;
+	position:absolute;
+	text-align:center;
+	padding:22px 30px 0;
+	left:0;
+	top:0;
+	z-index:2;	
+}
+.page_img_opacity{
+	width:100%;
+	height:auto;
+	overflow:hidden;	
+}
+.page_bg_jiaobiao{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/page_bg_jiaobiao.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_dujia{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_dujia.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_jinggong{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_jinggong.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_renqi{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_renqi.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_xianliang{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_xianliang.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_xiaobian{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_xiaobian.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_zuixin{
+	width:86px;
+	height:92px;
+	position:absolute;
+	right:0px;
+	top:10px;
+	background: url('../../ww3/weddings/jiaobiao/page_bg_zuixin.png') no-repeat left top;
+	z-index:30;
+}
+.page_bg_jiaobiao_zhedang{
+	width:300px;
+	height:10px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	background:#FFF;
+	z-index:30;
+}
+.detailnow_subtitle {
+	
+	padding:0;
+	height:29px;
+	line-height:29px;
+	float:left;
+	font-family:Arial, "宋体";
+	color:#999;
+}
+/***bottom_like**/
+.Nbottom_like_border{
+	width:1180px;
+	height:auto;
+	margin:0 auto;
+	clear:both;
+	position:relative;
+	overflow:hidden;
+	border-bottom:1px solid #cdcbcb;
+}
+.Nyou_like_pic_bg{
+	width:209px;
+	height:225px;
+	position:absolute;
+	display:block;
+	cursor:pointer;
+	left:0px;
+	top:0px;
+	z-index:2;
+	
+}
+.Nyou_like_top{
+	width:1180px;
+	height:70px;
+	margin:0 auto;
+	clear:both;
+	background: url('../../ww3/diy/detail/bottom_like_content.png') repeat-x left 68px;	
+}
+.Nyou_like_ul{
+	width:1120px;
+	height:283px;
+	margin:20px auto 0 auto;
+	clear:both;
+	position:relative;
+	overflow:hidden;
+}
+.Nyou_like_li{
+	width:209px;
+	height:248px;
+	float:left;
+	margin-left:18px;
+	position:relative;
+	background-color:white;
+}
+.Nring_text_1{
+	width:100%;
+	height:20px;
+	color:#666666;
+	line-height:20px;
+	position:absolute;
+	left:0px;
+	top:130px;
+	text-align:center;
+	z-index:1;
+	font-family:Arial, "宋体";
+}
+.Nyou_like_li:hover span{color:#ff8a81}
+
+.Nring_text_1 span{
+	font-size:12px;
+	font-family:Arial, "宋体";
+}
+.Nring_text_2{
+	/*font-family: Arial, Helvetica, sans-serif;*/	
+	width:100%;
+	height:20px;
+	color:#ff8a81;
+	font-size:15px;
+	line-height:20px;
+	position:absolute;
+	left:0px;
+	top:152px;
+	text-align:center;
+	z-index:1;
+}
+em, b, i {
+  font-style: normal;
+}
+.Nring_text_2 span{
+	font-size:14px;
+	font-weight: normal;
+	color: #f55549;
+	font-family: "微软雅黑";	
+}
+.Nring_text_2 b {
+  color: #f45549;
+  font-size: 15px;
+  font-family: Arial,"微软雅黑";
+  padding-right: 10px;
+}
+.Nring_text_2 b i {
+  font-size: 12px;
+  font-weight: normal;
+}
+.Nring_text_2 s {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+  font-family: Arial,"微软雅黑";
+}
+.bottom_bg{
+	height:40px;
+	width:100%;
+	clear:both;
+	/*background: url('http://img.zbird.cn/ww3/weddings/bottom_bg.png') repeat-x left bottom;*/
+}
+.bottom_like{
+	height:auto;
+	width:100%;
+	clear:both;
+	overflow:hidden;
+	background:#f2f1f1;
+}
+.bottom_like_border{
+	width:1180px;
+	height:auto;
+	margin:0 auto;
+	clear:both;
+	overflow:hidden;
+}
+.bottom_like_content{
+	width:1180px;
+	height:310px;
+	float:left;
+	position:relative;
+}
+.bottom_like_arrow_div ul {
+	width:3105px;
+	height:182px;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.bottom_like_arrow_div ul li{
+	width:183px;
+	height:182px;
+	float:left;
+	position:relative;
+	margin-left:16px;
+}
+.bottom_like_arrow_div{
+	width:1035px;
+	height:182px;
+	float:left;
+	position:relative;
+	margin-left:48px;
+	margin-right:48px;
+	overflow:hidden;
+	margin-top:80px;
+}
+
+.bottom_like_arrow_div_2 ul {
+	width:3105px;
+	height:182px;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.bottom_like_arrow_div_2 ul li{
+	width:183px;
+	height:182px;
+	float:left;
+	position:relative;
+	margin-left:30px;
+}
+.bottom_like_arrow_div_2{
+	width:1035px;
+	height:182px;
+	float:left;
+	position:relative;
+	margin-left:48px;
+	margin-right:48px;
+	overflow:hidden;
+	margin-top:80px;
+}
+.bottom_like_arrow_left{
+	width:24px;
+	height:39px;
+	float:left;
+	margin-top:150px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/bottom_like_arrow_left.png') no-repeat -24px top;
+}
+.bottom_like_arrow_left_2{
+	width:24px;
+	height:39px;
+	float:left;
+	margin-top:150px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/bottom_like_arrow_left.png') no-repeat -24px top;
+}
+.bottom_like_arrow_left:hover{
+	background: url('../../ww3/weddings/bottom_like_arrow_left.png') no-repeat -48px top;
+}
+.bottom_like_arrow_left_gray{
+	background: url('../../ww3/weddings/bottom_like_arrow_left.png') no-repeat left top;
+}
+.bottom_like_arrow_left_2:hover{
+	background: url('../../ww3/weddings/bottom_like_arrow_left.png') no-repeat -48px top;
+}
+.bottom_like_arrow_right{
+	width:24px;
+	height:39px;
+	float:left;
+	margin-top:150px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/bottom_like_arrow_right.png') no-repeat -24px top;
+}
+.bottom_like_arrow_right_2{
+	width:24px;
+	height:39px;
+	float:left;
+	margin-top:150px;
+	cursor:pointer;
+	background: url('../../ww3/weddings/bottom_like_arrow_right.png') no-repeat -24px top;
+}
+.bottom_like_arrow_right:hover{
+	background: url('../../ww3/weddings/bottom_like_arrow_right.png') no-repeat -48px top;
+}
+.bottom_like_arrow_right_2:hover{
+	background: url('../../ww3/weddings/bottom_like_arrow_right.png') no-repeat -48px top;
+}
+.bottom_like_arrow_right_gray{
+	background: url('../../ww3/weddings/bottom_like_arrow_right.png') no-repeat left top;
+}
+.bottom_like_pic{
+	width:74px;
+	height:16px;
+	position:absolute;
+	left:64px;
+	top:40px;
+	background: url('../../ww3/weddings/bottom_like_pic.jpg') no-repeat left top;
+}
+.bottom_like_pic_2{
+	width:125px;
+	height:16px;
+	position:absolute;
+	left:64px;
+	top:40px;
+	background: url('../../ww3/weddings/bottom_like_pic_2.png') no-repeat left top;
+}
+.bottom_like_content_ol { width:auto; height:11px; position:absolute; right:76px; top:45px;}
+.bottom_like_content_ol li { height:11px; margin-left:6px; float:left; text-algin:center; color:#987976; position:relative; }
+.bottom_like_content_ol label { width:0; height:11px; font-size:0; border-left:1px solid #FFF; float:left; }
+.bottom_like_content_ol span { width:11px; height:11px; line-height:28px; background-color:#ffffff; cursor:pointer; float:left; overflow:hidden; }
+.bottom_like_content_ol span.on { background-color:#ff8a81; color:#666;  }
+
+.bottom_like_content_ol_2 { width:auto; height:11px; position:absolute; right:76px; top:45px;}
+.bottom_like_content_ol_2 li { height:11px; margin-left:6px; float:left; text-algin:center; color:#987976; position:relative; }
+.bottom_like_content_ol_2 label { width:0; height:11px; font-size:0; border-left:1px solid #FFF; float:left; }
+.bottom_like_content_ol_2 span { width:11px; height:11px; line-height:28px; background-color:#ffffff; cursor:pointer; float:left; overflow:hidden; }
+.bottom_like_content_ol_2 span.on { background-color:#ff8a81; color:#666;  }
+/***detail***/
+#detailnow_tab_navi{
+	background:url('../../ww3/weddings/tab_repeat.png') repeat-x left bottom;
+}
+.detailnow_border{
+	width:100%;
+	height:auto;
+
+	clear:both;
+
+}
+.detailnow_border_subprice{padding: 11px 0 0;}
+.detailnow_border_subprice .detailnow_subtitle{padding-top: 11px;}
+.detailnow_border_subprice .detailnow_subtitle_col2{padding-top: 11px;line-height: 29px;height: 29px;margin:0 0 0 10px;}
+.detailnow_subtitle_col2{line-height: 29px;height: 29px;margin:0; padding: 0;}
+.detailnow_border_hand{
+	width:100%;
+	height:102px;
+	padding-bottom:1px;
+	overflow:hidden;
+	clear:both;
+}
+.detailnow_border_fixed{
+	width:1180px;
+	height:50px;
+	overflow:hidden;
+	position:fixed;
+	clear:both;
+	left:0px;
+	top:0px;
+	z-index:999;
+}
+.detail_header{
+	width:1180px;
+	height:574px;
+	overflow:hidden;
+	margin:0 auto;
+	background-color:#FFF;
+	border-top:2px solid #8e8482;
+	margin-top:15px;
+}
+.style_detail .picture{
+	width:542px;
+	height:574px;
+	margin-top:0px;
+	overflow:hidden;
+	padding:0px;	
+}
+.style_detail .line{
+	width:1px;
+	height:511px;
+	margin-top:31px;
+	border-left:none;
+	background: url('../../ww3/weddings/style_detail_line.jpg') repeat-y left top;
+}
+.style_detail .picture .stylePic{
+	width:520px;
+	padding-right:0px;
+	float:none;
+	margin:0 auto;
+	background-image:none;	
+}
+.style_detail .picture .stylePic .big{
+	width:480px;	
+}
+.jqzoom{
+	width: 420px;
+	height: 430px;
+	display: block;
+}
+.style_detail .picture .stylePic .smallImg {
+	margin: 6px 0 0;
+	height: 75px;
+	padding: 0 0;
+	float: left;
+	z-index: 500;
+	position: absolute;
+	overflow: hidden;
+	width: 480px;
+}
+.style_detail .picture .list_small_pic li {
+	display:inline-block;
+	padding: 0 22px 0 0;
+}
+.style_detail .picture .stylePic .moveright_on {
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 8px;
+	width: 13px;
+	height: 70px;
+	overflow: hidden;
+	background: url("../../ww3/weddings/btn_prev26x23.jpg") no-repeat left center;
+}
+.style_detail .picture .stylePic .moveright_off {
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 8px;
+	width: 13px;
+	height: 70px;
+	overflow: hidden;
+	background: none;
+}
+.style_detail .picture .stylePic .moveleft_on {
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 8px;
+	margin-right: 15px;
+	width: 13px;
+	height: 70px;
+	overflow: hidden;
+	background: url("../../ww3/weddings/btn_next26x23.jpg") no-repeat left center;
+}
+.style_detail .picture .stylePic .moveleft_off {
+	cursor: pointer;
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 8px;
+	width: 13px;
+	height: 70px;
+	overflow: hidden;
+	background: none;
+}
+.style_detail .picture .stylePic .moveright_on:hover {
+	background: url("../../ww3/weddings/btn_prev26x23.jpg") no-repeat right center;
+}
+.style_detail .picture .stylePic .moveleft_on:hover {
+	background: url("../../ww3/weddings/btn_next26x23.jpg") no-repeat right center;
+}
+.detailnow_param {
+	width: 550px;
+	height:530px;
+	margin: 32px 0 0 65px;
+	text-align: left;
+	padding: 0;
+	color: #666;
+	float: left;
+	overflow: hidden;
+	font-family:Arial, "宋体";
+}
+#detailnow_name {
+	font-family: Arial,"宋体";
+	font-size: 22px;
+	color: #000;
+	margin: 2px 0 3px 2px;
+	padding: 0;
+	height: 30px;
+	line-height: 30px;
+}
+.title_split_content {
+	width: 514px;
+	height: 1px;
+	float:left;
+	padding: 0;
+	margin:12px 0px 18px;
+	background: #ededed;
+}
+#detail_saleprice{
+	
+	float:left;
+}
+.detailnow_price {
+	font-family: Arial;
+	font-size: 36px;
+	color: #f45549;
+	vertical-align: top;
+	height: 39px;
+	line-height: 39px;
+	overflow: hidden;
+}
+#detail_marketprice {
+	font-family: Arial, "Microsoft YaHei";
+	font-size:13px;
+	margin: 4px 0;
+	text-decoration:none;
+	color:#999;
+	padding-left: 10px;
+
+}
+.detailnow_subtitle{
+	
+	
+}
+
+.param_line_head{
+	margin-left:34px;
+}
+#same_style_list {
+	font-size: 12px;
+	font-family: Arial, "宋体";
+	color: #666;
+	width: 550px;
+	height: auto;
+	padding:0px;
+	text-align: left;
+	float: left;
+}
+.same_styles {
+	width: 160px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	margin:12px 13px 0 0;
+	background: url("../../ww3/weddings/btn_samestyle.jpg") no-repeat left top;
+}
+.now_style {
+	width: 160px;
+	height: 34px;
+	line-height: 34px;
+	border: 0;
+	text-align: center;
+	float: left;
+	color:#ff8a81;
+	cursor: default;
+	margin:12px 13px 0 0;
+	background: url("../../ww3/weddings/btn_samestyle.jpg") no-repeat right top;
+}
+.other_size {
+	width: 160px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	margin:12px 13px 0 0;
+	background: url("../../ww3/weddings/other_size.jpg") no-repeat left top;
+}
+.other_size:hover, .other_size:active {
+	background-position: right top;
+}
+.same_styles:hover, .same_styles:active {
+	background-position: right top;
+	color:#ff8a81;
+}
+.detailnow_but_btn {
+	margin: 28px 9px 16px 0;
+	float:left;
+	text-align: center;
+	background: url('../../ww3/weddings/btn_buynow.jpg') left top no-repeat;
+	width: 173px;
+	height: 49px;
+	border: 0;
+	cursor: pointer;
+}
+.detailnow_but_btn_end{
+	margin: 28px 9px 16px 0;
+	float:left;
+	text-align: center;
+	background: url('../../ww3/weddings/detailnow_but_btn_end.jpg') left top no-repeat;
+	width: 148px;
+	height: 41px;
+	border: 0;
+	cursor: pointer;
+}
+.detailnow_but_btn:hover, .detailnow_but_btn:active {
+	background-position: right top;
+}
+.shop_car_btn{
+	margin: 31px 0px 0 0;
+	float:left;
+	text-align: center;
+	background: url('../../ww3/weddings/shop_car_btn.jpg') left top no-repeat;
+	width: 148px;
+	height: 41px;
+	border: 0;
+	cursor: pointer;
+}
+.shop_car_btn:hover, .shop_car_btn:active {
+	background-position: right top;
+}
+.fenqimianxi{
+	margin: 31px 9px 16px 10px;
+	float:left;
+	text-align: center;
+	background:url("../../ww3/fenqi/fenqimianxi.jpg") no-repeat left top;
+	width: 148px;
+	height: 41px;
+	border: 0;
+	cursor: pointer;
+}
+.fenqimianxi:hover {
+	background-position: right top;
+}
+.shop_car_btn_end{
+	margin: 28px 9px 16px 0;
+	float:left;
+	text-align: center;
+	background: url('../../ww3/weddings/shop_car_btn_end.jpg') left top no-repeat;
+	width: 148px;
+	height: 41px;
+	border: 0;
+	cursor: pointer;
+}
+.shop_car_btn_end:hover{
+	background: url('../../ww3/weddings/shop_car_btn_end.jpg') right top no-repeat;
+}
+.keep_img{
+	width:13px;
+	height:12px;
+	float:left;
+	margin-top:60px;
+	margin-left:20px;
+	background: url('../../ww3/weddings/keep_img.jpg') left top no-repeat;
+}
+.share_img{
+	width:13px;
+	height:12px;
+	float:left;
+	margin-top:60px;
+	margin-left:12px;
+	background: url('../../ww3/weddings/share_img.jpg') left top no-repeat;
+}
+.keep_baby{
+	height:12px;
+	line-height:12px;
+	/*padding:1px 0 1px 0;*/
+	float:left;
+	font-size:12px;
+	color:#666666;
+	font-family:Arial, "宋体";
+	display:block;
+	cursor:pointer;
+	margin-top:60px;
+	margin-left:5px;
+}
+.keep_baby_number{
+	height:12px;
+	line-height:12px;
+	font-family: Arial;
+	font-size: 13px;
+	color: #ff8a81;
+	margin-top:61px;
+	margin-left:8px;
+	float:left;
+	font-weight: bold;
+}
+
+/***导航栏***/
+.style_detail .tab_on_1 {
+	width: 153px;
+	height: 38px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #ff8a81!important;
+	cursor: default;
+	text-align: center;
+	float: left;
+	display:block;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#ff8a81; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_1 {
+	width: 153px;
+	height: 37px;
+	line-height: 37px;
+	text-decoration: none;
+	color: #666!important;
+	text-align: center;
+	float: left;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_1:hover {
+	color:#ff8a81!important;border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_on_2 {
+	width: 153px;
+	height: 38px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #ff8a81!important;
+	cursor: default;
+	text-align: center;
+	float: left;
+	display:block;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#ff8a81; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_2 {
+	width: 153px;
+	height: 37px;
+	line-height: 37px;
+	text-decoration: none;
+	color: #666!important;
+	text-align: center;
+	float: left;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_2:hover {
+	color:#ff8a81!important;border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_on_3 {
+	width: 153px;
+	height: 38px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #ff8a81!important;
+	cursor: default;
+	text-align: center;
+	float: left;
+	display:block;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#ff8a81; border-width: 1px 1px 0 1px;background:#fff;
+}
+
+
+.style_detail .tab_off_3 {
+	width: 153px;
+	height: 37px;
+	line-height: 37px;
+	text-decoration: none;
+	color: #666!important;
+	text-align: center;
+	float: left;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+
+.style_detail .tab_off_3 .tab_review{color:#666!important;}
+ .tab_off_3:hover .tab_review , .tab_on_3 .tab_review  {color:#ff8a81!important;}
+.style_detail .tab_on_4 {
+	width: 153px;
+	height: 38px;
+	line-height: 38px;
+	text-decoration: none;
+	color: #ff8a81!important;
+	cursor: default;
+	text-align: center;
+	float: left;
+	display:block;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#ff8a81; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_4 {
+	width: 153px;
+	height: 37px;
+	line-height: 37px;
+	text-decoration: none;
+	color: #666!important;
+	text-align: center;
+	float: left;
+	font-family:Arial,"宋体";
+	font-size: 13px;
+	border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.style_detail .tab_off_4:hover {
+	color:#ff8a81!important;border-style:solid;border-color:#cdcbcb; border-width: 1px 1px 0 1px;background:#fff;
+}
+.tab_consult{
+	width:107px;
+	height:33px;
+	display:block;
+	float: right;
+	margin:5px 19px 0 0;
+	background: url("../../ww3/weddings/tab_consult.png") no-repeat left top;
+}
+.tab_consult:hover {
+	background: url("../../ww3/weddings/tab_consult.png") no-repeat right top;
+}
+.style_detail .proinfo .tab a {
+	cursor:pointer;
+	margin-right: 8px;
+}
+.style_detail .proinfo .tab {
+	width: 1180px;
+	height: auto;
+	overflow:hidden;
+	border-bottom:none;
+	padding-left:0px;
+	
+}
+.style_detail .tab_bg {
+	width: 100%;
+	height: 100px;
+	background: url("../../ww3/weddings/tab_bg.jpg") #f2f1f1 repeat-x left 38px;
+	
+}
+.style_detail .tab_bg_2 {
+	width: 100%;
+	height: 100px;
+	background: url("../../ww3/weddings/tab_bg1.png") #f2f1f1 repeat-x left -6px;
+	
+}
+.style_detail .tab_bg_border{
+	width:1180px;
+	height:auto;
+	margin:0 auto;
+}
+.style_detail .proinfo {
+	margin-top:25px;
+	padding: 0px;
+	text-align: left;
+	background-color:#ffffff;
+}
+
+
+.commentTabHover{
+	background: url("../../ww3/weddings/tab_review.png")  no-repeat right top;
+}
+.commentTabBlur{
+	background: url("../../ww3/weddings/tab_review.png")  no-repeat left top;
+}
+.tab_text{font-family:Arial, "宋体";color:#f45142;font-size:14px;font-weight:bold;margin-left:5px;}
+/***详细页面**/
+.product_detail_dd_1{
+	width:900px;
+	height:119px;
+	margin:0 auto;
+	background: url("../../ww3/weddings/product_detail_dd_1.jpg")  no-repeat left top;
+}
+.product_detail_dd_text{
+	width:900px;
+	height:22px;
+	color:#666666;
+	vertical-align:top;
+	overflow:hidden;
+	text-align:center;
+	margin-top:25px;
+}
+.product_detail_dd_text_2{
+	width:800px;
+	height:auto; 
+	color:#666666;
+	margin:0 auto;
+	vertical-align:top;
+	overflow:hidden;
+	text-align:center;
+	line-height:20px; 
+}
+.product_detail_img{
+	width:1180px;
+	height:22px;
+	position:absolute;
+	left:0px;
+	top:-11px;
+	background: url("../../ww3/weddings/product_detail_img.png")  no-repeat center top;
+	z-index: 998;
+}
+.style_detail .comments_ls {
+	padding: 0px;
+}
+.style_detail .comments_ls .dv {
+	border-top: none;
+	padding-top: 25px;
+	border-bottom:1px solid #cdcbcb;
+}
+.detail_1_header{
+	clear:both;
+	width:1180px;
+	height:61px;
+	margin:0 auto;
+	background: url("../../ww3/weddings/detail_header.jpg")  no-repeat left top;
+}
+.detail_1_header_2{
+	width:1180px;
+	height:61px;
+	margin:0 auto;
+	background: url("../../ww3/weddings/detail_header_2.jpg")  no-repeat left top;
+}
+.style_detail .proinfo .proDetail dd {
+	padding: 0;
+}
+#product_detail{
+	padding: 0 140px;
+}
+.style_detail .proinfo #product_proexstyle .detail_1_content {
+	margin:0 auto;
+	clear:both;
+	width:1154px;
+	height:41px;
+	overflow:hidden;
+	background: url("../../ww3/weddings/detail_1_content.jpg") no-repeat left top;
+	color: #F09089;
+	font-size: 16px;
+	padding-left:26px;
+	position:relative;
+	text-align: left;
+}
+
+.detail_1_content_text{
+	width:60px;
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+	font-size:14px;
+	font-family:Arial, "宋体";
+	color:#505151;
+	float:left;
+	margin-top:10px;
+	margin-left:65px;
+}
+.detail_1_content_textH{
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+	font-size:12px;
+	font-family:Arial, "宋体";
+	color:#999999;
+	float:left;
+	margin-top:10px;
+	margin-left:45px;
+	width:145px;
+}
+.detail_1_content_textC{
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+	font-size:12px;
+	font-family:Arial, "宋体";
+	color:#999999;
+	float:left;
+	margin-top:10px;
+	margin-left:85px;
+}
+.detail_1_content_textD{
+	height:20px;
+	line-height:20px;
+	vertical-align:top;
+	font-size:12px;
+	font-family:Arial, "宋体";
+	color:#999999;
+	float:left;
+	margin-top:10px;
+	margin-left:65px;
+}
+.detail_1_footer{
+	margin:0 auto;
+	clear:both;
+	width:1180px;
+	height:41px;
+	background: url("../../ww3/weddings/detail_1_footer.jpg")  no-repeat left top;
+}
+
+/***12门店***/
+.map_shop{
+	width:1180px;
+	height:275px;
+	overflow:hidden;
+	position:relative;
+}
+.baidu_map{
+	width:47px;
+	height:47px;
+	position:absolute;
+	right:45px;
+	top:195px;
+	display:block;
+	background: url("../../ww3/weddings/baidu_map.png")  no-repeat left top;
+}
+.baidu_map:hover{
+	background: url("../../ww3/weddings/baidu_map.png")  no-repeat -47px top;
+}
+.into_shop{
+	width:191px;
+	height:44px;
+	position:absolute;
+	left:90px;
+	top:200px;
+	display:block;
+	background: url("../../ww3/weddings/into_shop.png")  no-repeat left top;
+}
+.into_shop:hover{
+	background: url("../../ww3/weddings/into_shop.png")  no-repeat -191px top;
+}
+.send_phone{
+	width:130px;
+	height:13px;
+	position:absolute;
+	display:block;
+	background: url("../../ww3/weddings/send_phone.png")  no-repeat left top;
+}
+.send_phone:hover{
+	background: url("../../ww3/weddings/send_phone.png")  no-repeat -130px top;
+}
+.map_beijing{ background: url("../../ww3/weddings/map_beijing.jpg") no-repeat left top; }
+.map_chengdu{ background: url("http://img.zbird.cn/ww3/weddings/map_chengdu.jpg") no-repeat left top; }
+.map_chongqing{ background: url("../../ww3/weddings/map_chongqing.jpg") no-repeat left top; }
+.map_default{ background: url("../../ww3/weddings/map_default.jpg") no-repeat left top; }
+.map_guangzhou{ background: url("../../ww3/weddings/map_guangzhou.jpg") no-repeat left top; }
+.map_hangzhou{ background: url("../../ww3/weddings/map_hangzhou.jpg") no-repeat left top; }
+.map_nanjing{ background: url("../../ww3/weddings/map_nanjing.jpg") no-repeat left top; }
+.map_ningbo{ background: url("../../ww3/weddings/map_ningbo.jpg") no-repeat left top; }
+.map_qingdao{ background: url("../../ww3/weddings/map_qingdao.jpg") no-repeat left top; }
+.map_shanghai{ background: url("../../ww3/weddings/map_shanghai.jpg") no-repeat left top; }
+.map_tianjin{ background: url("../../ww3/weddings/map_tianjin.jpg") no-repeat left top; }
+.map_wuhan{ background: url("../../ww3/weddings/map_wuhan.jpg") no-repeat left top; }
+.map_xian{ background: url("../../ww3/weddings/map_xian.jpg") no-repeat left top; }
+.map_beijing .send_phone{ left:414px; top:155px; }
+.map_chengdu .send_phone{ left:341px; top:155px; }
+.map_chongqing .send_phone{ left:380px; top:159px; }
+.map_guangzhou .send_phone{ left:376px; top:155px; }
+.map_hangzhou .send_phone{ left:260px; top:157px; }
+.map_nanjing .send_phone{ left:389px; top:155px; }
+.map_ningbo .send_phone{ left:382px; top:155px; }
+.map_qingdao .send_phone{ left:288px; top:155px; }
+.map_shanghai .send_phone{ left:478px; top:156px; }/*478,156*/
+.map_tianjin .send_phone{ left:459px; top:155px; }
+.map_wuhan .send_phone{ left:89px; top:160px; }
+.map_xian .send_phone{ left:342px; top:158px; }
+.map_default .send_phone{ left:470px; top:156px; }
+.map_default .into_shop{ 
+	left:157px; 
+	top:198px;
+	background:url("../../ww3/weddings/into_allshop.png") no-repeat left top; 
+}
+.map_default .into_shop:hover{ 
+	background:url("../../ww3/weddings/into_allshop.png") no-repeat -191px top; 
+}
+
+
+/*短信弹出框*/
+#sendSmsDiv{
+	width:243px;
+	height:124px;
+	background:url("../../ww3/weddings/sms_div_bg.png") no-repeat left top; 
+}
+#sendSmsDiv .btn_send{
+	width:63px;
+	height:26px;
+	margin:0 0 0 52px;
+	border:0;
+	float:left;
+	display:block;
+	background: url("../../ww3/weddings/sms_send.jpg") no-repeat left top;
+}
+#sendSmsDiv .btn_send:hover{
+	background: url("../../ww3/weddings/sms_send.jpg") no-repeat -63px top;
+}
+#sendSmsDiv .btn_cancel{
+	width:63px;
+	height:26px;
+	margin:0 0 0 12px;
+	border:0;
+	float:left;
+	display:block;
+	background: url("../../ww3/weddings/sms_cancel.jpg") no-repeat left top;
+}
+#sendSmsDiv .btn_cancel:hover{
+	background: url("../../ww3/weddings/sms_cancel.jpg") no-repeat -63px top;
+}
+.input_mobile{
+	color:#999;
+	width: 172px;
+	height: 38px;
+	margin: 20px 0px 0px 17px;
+	padding-left: 36px;
+	background-color: transparent;
+	font-family: Arial, "宋体";
+}
+.input_mobile_focus{
+	color:#333;
+	font-size:15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.input_mobile_blur{
+	color:#999;
+	font-size:12px;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+#sms_err_msg{
+	display: block;
+	float: left;
+	width: 100%;
+	height: 14px;
+	text-align: center;
+	color: #FF8A81;
+}
+/***FAQ***/
+.FAQ_btn{
+	width:117px;
+	height:33px;
+	float:right;
+	display:block;
+	background: url("../../ww3/weddings/FAQ_btn.jpg") no-repeat left top;
+}
+.FAQ_btn:hover{
+	background: url("../../ww3/weddings/FAQ_btn.jpg") no-repeat right top;
+}
+.FAQ_btn_Q{
+	width:1100px;
+	margin-top:10px;
+	padding-top:15px;
+	line-height:25px;
+	float:left;
+	padding-left:32px;
+	background: url("../../ww3/weddings/FAQ_btn_Q.jpg") no-repeat left 15px;
+}
+.FAQ_btn_A{
+	width:1100px;
+	padding-top:15px;
+	padding-bottom:20px;
+	line-height:25px;
+	float:left;
+	color:#828181;
+	padding-left:32px;
+	background: url("../../ww3/weddings/FAQ_btn_A.jpg") no-repeat left 15px;
+}
+.plun_content .spans span{
+	font-family:"宋体";	
+}
+/***service***/
+.productService_border{
+	width:1030px;
+	height:auto;
+	overflow:hidden;
+	margin:0 auto;	
+}
+.service_title_1{
+	padding-left: 25px;
+	font-size: 14px;
+	color:#333;
+	font-family:Arial,"宋体";	
+	float:left;
+	background: url("../../ww3/weddings/icon_15x15.jpg") no-repeat left top;
+}
+.service_title_2{
+	width:384px;
+	height:18px;
+	float:left;
+	background: url("../../ww3/weddings/service_title_2.png") no-repeat left top;
+}
+.service_content{
+	width:1030px;
+	height:auto;
+	overflow:hidden;
+	float:left;
+	
+}
+.service_content p{
+	padding-left:3px;
+	font-size:12px;
+	font-family:Arial, "宋体";
+	color:#666666;
+	line-height:30px;
+}
+.service_content p span{
+	display: inline-block;
+	float: left;
+	width: 18px;
+}
+.service_content p span.sale_service{
+	width: 1000px;
+}
+
+
+/***动心***/
+.dongxin{
+	width:543px;
+	height:423px;
+	margin-top:10px;
+	float:left;
+}
+.dongxin_border{
+	width:543px;
+	height:535px;
+	overflow:hidden;
+	float:left;
+	clear:both;
+}
+.dongxin_1{
+	background: url("../../ww3/weddings/dongxin/dongxin_1.jpg") no-repeat center top;
+}
+.dongxin_2{
+	background: url("../../ww3/weddings/dongxin/dongxin_2.jpg") no-repeat center top;
+}
+.dongxin_3{
+	background: url("../../ww3/weddings/dongxin/dongxin_3.jpg") no-repeat center top;
+}
+.dongxin_4{
+	background: url("../../ww3/weddings/dongxin/dongxin_4.jpg") no-repeat center top;
+}
+.dongxin_s{
+	margin-top:10px;	
+}
+.dongxin_s1{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:76px;
+	cursor:pointer;
+	clear:both;
+	background: url("../../ww3/weddings/dongxin/dongxin_s1.jpg") no-repeat center top;
+}
+.dongxin_s2{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/dongxin/dongxin_s2.jpg") no-repeat center top;
+}
+.dongxin_s3{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/dongxin/dongxin_s3.jpg") no-repeat center top;
+}
+.dongxin_s4{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/dongxin/dongxin_s4.jpg") no-repeat center top;
+}
+
+/***守护***/
+.shouhu{
+	width:543px;
+	height:423px;
+	margin-top:10px;
+	float:left;
+}
+.shouhu_border{
+	width:543px;
+	height:535px;
+	overflow:hidden;
+	float:left;
+	clear:both;
+}
+.shouhu_1{
+	background: url("../../ww3/weddings/shouhu/shouhu_1.jpg") no-repeat center top;
+}
+.shouhu_2{
+	background: url("../../ww3/weddings/shouhu/shouhu_2.jpg") no-repeat center top;
+}
+.shouhu_3{
+	background: url("../../ww3/weddings/shouhu/shouhu_3.jpg") no-repeat center top;
+}
+.shouhu_4{
+	background: url("../../ww3/weddings/shouhu/shouhu_4.jpg") no-repeat center top;
+}
+.shouhu_s{
+	margin-top:10px;	
+}
+.shouhu_s1{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:76px;
+	cursor:pointer;
+	clear:both;
+	background: url("../../ww3/weddings/shouhu/shouhu_s1.jpg") no-repeat center top;
+}
+.shouhu_s2{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/shouhu/shouhu_s2.jpg") no-repeat center top;
+}
+.shouhu_s3{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/shouhu/shouhu_s3.jpg") no-repeat center top;
+}
+.shouhu_s4{
+	width:82px;
+	height:82px;
+	float:left;
+	margin-left:20px;
+	cursor:pointer;
+	background: url("../../ww3/weddings/shouhu/shouhu_s4.jpg") no-repeat center top;
+}
+/*注释15-08-25*/
+/*材质图片*/
+/*.quality_rng{
+	margin-right:10px;
+    width: 66px;
+    height: 32px;
+    display:inline-block;border:1px solid #dfddde;
+    background:#fff; text-align:center;
+    line-height:32px;
+    font-family:Arial,"宋体";
+    font-size:12px;
+}
+.quality_rng:hover,.quality_rng_hver{
+	
+	border: 2px solid #ff8a81;
+	height: 30px;
+	width:64px;
+	line-height:30px;
+	background:#fef4f2;
+	text-align:center;
+	font-family:Arial,"宋体";
+    font-size:12px;
+    margin-right:10px;
+	display:inline-block;
+	color:#ff8a81;
+}
+
+.quality_a,.quality_b,.quality_c,.quality_d,.quality_e,.quality_f,.quality_a_hover,.quality_b_hover,.quality_c_hover,.quality_d_hover,.quality_e_hover,.quality_f_hover{
+	float:left;
+	margin-right:10px;
+    width: 68px;
+    height: 34px;
+}
+.quality_a{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_a.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_a_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_a.jpg') right 34px;
+    cursor:default;
+}
+.quality_a:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_a.jpg') right 34px;
+}
+.quality_b{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_b.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_b_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_b.jpg') right 34px;
+    cursor:default;
+}
+.quality_b:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_b.jpg') right 34px;
+}
+.quality_c{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_c.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_c_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_c.jpg') right 34px;
+    cursor:default;
+}
+.quality_c:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_c.jpg') right 34px;
+}
+.quality_d{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_d.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_d_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_d.jpg') right 34px;
+    cursor:default;
+}
+.quality_d:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_d.jpg') right 34px;
+}
+.quality_e{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_e.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_e_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_e.jpg') right 34px;
+    cursor:default;
+}
+.quality_e:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_e.jpg') right 34px;
+}
+.quality_f{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_f.jpg') no-repeat left top;
+    cursor: pointer;
+}
+.quality_f_hover{
+    background: url('http://img.zbird.cn/ww3/pairring/quality_f.jpg') right 34px;
+    cursor:default;
+}
+.quality_f:hover{
+	background: url('http://img.zbird.cn/ww3/pairring/quality_f.jpg') right 34px;
+}*/
+
+/*手寸选择*/
+/*.qualitySizeM,.qualitySizeF{
+	float: left;
+	width: 117px;
+	height: 34px;
+	margin-right: 11px;
+	position: relative;
+	overflow: hidden;
+}
+.qualitySizeMBg{
+	margin:0;
+	border:0;
+	padding:0 20px 0 57px;
+	font:13px arial;
+	color:#333;
+	width:40px;
+	height:34px;
+	line-height:34px;
+	background: url('http://img.zbird.cn/ww3/pairring/qualitySizeM.jpg') 0px 0px no-repeat;
+}
+.qualitySizeFBg{
+	margin:0;
+	border:0;
+	padding:0 20px 0 57px;
+	font:13px arial;
+	color:#333;
+	width:40px;
+	height:34px;
+	line-height:34px;
+	background: url('http://img.zbird.cn/ww3/pairring/qualitySizeF.jpg') 0px 0px no-repeat;
+}
+.qualitySizeMHover,.qualitySizeFHover{
+	float: left;
+	width: 117px;
+	height: auto;
+	margin-right: 11px;
+	position: relative;
+}
+.qualitySizeMList,.qualitySizeFList{
+	width: 117px;
+	height:auto;
+	max-height:79px;
+	position: absolute;
+	z-index:2;
+	font:13px arial;
+	color:#666;
+	padding:6px 14px;
+	width:88px;
+	border:1px solid #ededed;
+	background-color:white;
+	overflow:auto;
+}
+.qualitySizeOpt{
+	float:left;
+	width:72px;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	clear:both;
+}
+.qualitySizeOpt:hover{
+	color:#000;
+}*/
+/*注释15-08-25*/
+/*男、女款详细信息*/
+#pairringMDetail,#pairringFDetail{
+	padding:10px 0 10px 65px;
+	margin:0;
+}
+#pairringMDetail{
+	background:url('../../ww3/pairring/product_m.png') 0px 0px no-repeat;
+	background-position:left center;
+}
+#pairringFDetail{
+	background:url('../../ww3/pairring/product_f.png') 0px 0px no-repeat;
+	background-position:left center;
+}
+
+/*其他尺寸*/
+.qualityOtherDiy{
+	float:left;
+	width:117px;
+	height:34px;
+	margin-right: 11px;
+	background:url('../../ww3/pairring/other_diy.jpg') 0px 0px no-repeat;
+	background-position:left center;
+}
+.qualityOtherDiy:hover{
+	background:url('../../ww3/pairring/other_diy.jpg') -117px 0px no-repeat;
+}
+
+/*如何测量*/
+.howToMeasure{
+	float:left;
+	width:69px;
+	height:14px;
+	margin:10px 0;
+	background:url('../../ww3/pairring/how_to_measure.jpg') 0px 0px no-repeat;
+}
+.howToMeasure:hover{
+	background:url('../../ww3/pairring/how_to_measure.jpg') right 0px no-repeat;
+}
+.howToMeasure_txt{
+	float:left;
+	width:69px;
+	height:14px;
+	margin:10px 0;
+	color:#666;
+}
+.howToMeasure_txt:hover{
+	color:#ff8a81;
+}
+.bespokenadd{
+	float:right;
+	width:103px;
+	height:29px;
+	margin:435px 25px 0 0;
+	background:url('../../ww3/pairring/bespokenadd.jpg') 0px 0px no-repeat;
+}
+.bespokenadd:hover{
+	background:url('../../ww3/pairring/bespokenadd.jpg') -103px 0px no-repeat;
+}
+.downloadToPrint{
+	float:right;
+	width:158px;
+	height:16px;
+	margin:555px -95px 0 0;
+	background:url('../../ww3/pairring/download_to_print.jpg') 0px 0px no-repeat;
+}
+.downloadToPrint:hover{
+	background:url('../../ww3/pairring/download_to_print.jpg') -158px 0px no-repeat;
+}
+
+
+
+.pingpaibeishu{
+	width:1180px;
+	height:auto;
+	overflow:hidden;
+	padding-top:15px;
+	background:#f2f1f1;
+	clear:both;
+}
+.pingpaibeishu_title_border{
+	width:1170px;
+	
+	padding-left: 10px;
+	padding-top:25px;
+	overflow:hidden;
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_bg.jpg') #ffffff left top no-repeat;
+}
+.pingpaibeishu_title{
+	width:290px;
+	height:47px;
+	float:left;
+	cursor:pointer;margin-top: 12px;
+}
+.pingpaibeishu_title_1{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_1.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_1:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_1.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_1_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_1.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_2{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_2.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_2:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_2.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_2_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_2.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_3{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_3.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_3:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_3.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_3_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_3.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_4{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_4.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_4:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_4.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_4_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_4.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_5{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_5.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_5:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_5.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_5_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_5.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_6{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_6.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_6:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_6.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_6_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_6.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_7{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_7.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_7:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_7.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_7_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_7.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_8{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_8.jpg') left top no-repeat;
+}
+.pingpaibeishu_title_8:hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_8.jpg') right top no-repeat;
+}
+.pingpaibeishu_title_8_hover{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_title_8.jpg') right top no-repeat;
+}
+.pingpaibeishu_content{
+	width:1180px;
+	height:660px;
+	float:left;
+	overflow:hidden;
+}
+.pingpaibeishu_content_1{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_1.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_2{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_2.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_3{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_3.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_4{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_4.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_5{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_5.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_6{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_7{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_7.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_8{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_8.jpg') left top no-repeat;
+}
+.pingpaibeishu_content_6_p,.pingpaibeishu_content_6_p02{
+	
+	height:169px;
+	margin-top:1px;
+	float:left;
+}
+.pingpaibeishu_content_6_p{width:235px;margin-left:1px;}
+.pingpaibeishu_content_6_p02{width:236px;}
+.waiting_pic{margin-left:1px;margin-top:1px;float:left; width: 235px;background:url('../../ww3/weddings/pingpaibeishu/waiting235.jpg') left center no-repeat; height: 169px;}
+.pingpaibeishu_content_6_p1{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p1.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p1:hover,.pingpaibeishu_content_6_p2:hover,.pingpaibeishu_content_6_p3:hover,.pingpaibeishu_content_6_p4:hover,.pingpaibeishu_content_6_p5:hover,
+.pingpaibeishu_content_6_p6:hover,.pingpaibeishu_content_6_p7:hover,.pingpaibeishu_content_6_p8:hover,.pingpaibeishu_content_6_p9:hover,.pingpaibeishu_content_6_p10:hover,
+.pingpaibeishu_content_6_p11:hover,.pingpaibeishu_content_6_p12:hover,.pingpaibeishu_content_6_p13:hover,.pingpaibeishu_content_6_p14:hover{
+	background-position: right center; 
+}
+.pingpaibeishu_content_6_p2{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p2.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p3{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p3.jpg') left center no-repeat;
+}
+
+.pingpaibeishu_content_6_p4{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p4.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p5{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p5.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p6{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p6.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p7{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p7.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p8{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p8.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p9{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p9.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p10{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p10.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p11{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p11.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p12{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p12.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p13{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p13.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_6_p14{
+	background:url('../../ww3/weddings/pingpaibeishu/pingpaibeishu_content_6_p14.jpg') left center no-repeat;
+}
+.pingpaibeishu_content_4_link{
+	width:170px;
+	height:26px;
+	display:block;
+	margin-top:552px;
+	margin-left:404px;
+	float:left;
+}
+/************************************0搜索结果**********************************************/
+.search_list_zero_border{
+	width:945px;
+	height:210px;
+	overflow:hidden;
+	clear:both;
+	background:#fbfbfb;
+}
+.search_list_zero_border01_bg{
+	width:945px;
+	overflow:hidden;
+	clear:both;
+	border-bottom:1px solid #eeeeee;
+	font-family:Arial,"宋体";
+	font-size:12px;
+}
+.search_list_zero_border01_text i{font-style: normal;color:#f6827a;}
+.search_list_zero_border01_text{
+	width:700px;
+	height:56px;
+	line-height:56px;
+	float:left;
+	font-family:Arial,"宋体";
+	font-size:12px;
+	overflow:hidden;
+	color:#666666;
+	margin-left:25px; 
+	
+}
+.floatL {
+	text-align:left;
+}
+
+.titcolor2{
+	max-width:800px;
+	height:17px;
+	vertical-align:top;
+	display:inline-block;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.search_list_zero_border01_text span{
+	max-width:500px;
+	overflow:hidden;
+	white-space:nowrap;
+	float:left;
+	text-overflow:ellipsis;
+	color:#f87d74;
+	font-weight:bold;	
+}
+.search_list_zero_border02_bg{
+	width:490px;
+	height:163px;
+	overflow:hidden;
+	margin:0 auto;
+	clear:both;
+}
+.search_list_zero_input {
+	width: 271px;
+	height: 32px;
+	margin:43px auto 0 auto;
+	overflow: hidden;
+	
+}
+.search_list_zero_input_text {
+	width: 200px;
+	height: 30px;
+	line-height:30px;
+	border: none;
+	color: #999999;
+	font-size: 12px;
+	padding:0 10px;
+	float: left;
+	
+	margin:0;
+	border-left:1px solid #f8a89d;
+	border-bottom:1px solid #f8a89d;
+	border-top:1px solid #f8a89d;
+}
+.search_list_zero_input a {
+	width: 50px;
+	height: 32px;
+	line-height:30px;
+	float: right;
+	display: block;
+	overflow: hidden;
+	color:#fff;
+	background:#f8a89d;
+	text-align: center;
+
+}
+.search_list_zero_input a:hover{background:#f6827a;}
+.search_list_zero_border02_pic{
+	float:left;
+	margin-top:6px;
+	margin-left:15px;
+	margin-right:5px;	
+}
+.search_list_zero_border02_text{
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	
+	color:#666666;	
+	margin:0 8px;
+}
+.search_list_zero_border03_bg{
+	width:945px;
+	height:510px;
+	overflow:hidden;
+	margin:0 auto;
+	clear:both;
+}
+.search_list_zero_border03_title{
+	color:#000;
+	font-size:12px; font-family: "宋体";
+	padding:32px 0 16px;
+}
+.search_list_zero_border03_p_border{
+	width:460px;
+	height:225px;
+	float:left;
+	
+	
+	position:relative;
+}
+.search_list_zero_border03_p_border_wp{
+	overflow: hidden;
+	width:1000px;
+}
+.search_list_zero_border03_p_border_wp .search_list_zero_border03_p_border{margin-right: 22px;}
+.search_list_zero_opacity{
+	width:460px;
+	height:225px;
+	display:block; 
+	position:absolute;
+	left:0px;
+	top:0px;
+	background:#FFF;
+	opacity:0;
+	filter:alpha(opacity=0);
+	z-index:5;
+}
+.search_list_zero_border03_p{
+	float:left;
+	clear:both;
+}
+.search_list_zero_border03_p_bg{
+	float:left;
+}
+.diamondInfo_bg {
+	width: 1180px;
+	height: 14px;
+	clear: both;
+	background: url("../../ww3/diamond/detail/diamondInfo_bg.png") no-repeat center top;
+}
+.interval_div{
+	display:none	
+}
+.share_div{
+	width:100%;
+	height:1px;
+	position:relative;
+	z-index:0;
+}
+.share_border{
+	width:105px;
+	height:25px;
+	position:absolute;
+	left:36px;
+	top:75px;
+	display:none;
+	z-index:5;
+}
+
+.tuan_line_2 {
+  width: 8px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  color: #f55448;
+  font-family: "微软雅黑";
+  float: left;
+  margin-top: 7px;
+}
+.tuan_line_3 {
+  width: auto;
+  height: 30px;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 6px;
+  font-size: 20px;
+  color: #f45549;
+  float: left;
+  margin-top: 5px;
+}
+/*add 2014-09-24*/
+.detailnow_subtitle .coupon_tips{ vertical-align: text-bottom; margin-right:19px; margin-top:5px;}
+.coupon_tips{display:inline-block; height:16px;line-height: 16px;padding: 0 3px; background:#f7837a;font-family: "宋体"!important;
+font-size: 12px!important;color: #fff!important;margin-right: 3px;font-weight:normal!important;}
+.cou_bg_qg{ }
+.cou_bg_th{}
+.page_text_1:hover .coupon_tips,.page_text_1:hover .cou_bg_qg{color:#fff;}
+.sys_price_txt{ display:none; padding-right:20px;}
+/*end*/
+/*评论增加图片选择*/
+.dianping_title_pic{
+	width:auto;
+	height:25px;
+	line-height:22px;
+	color:#666;
+	
+}
+.dianping_title_pic .select_pic{
+	width: 16px;
+	height: 23px;
+    margin-top: 4px;
+    margin-right: 6px;
+	display: inline-block;
+	vertical-align:middle;
+	background: url("http://img.zbird.cn/ww3/weddings/select_pic.png") no-repeat left top;
+}
+.dianping_title_pic .select_pic_hover{
+	background: url("http://img.zbird.cn/ww3/weddings/select_pic.png") no-repeat right top;
+}
+.dianping_title_pic em{
+	vertical-align:middle;
+	font-style: normal;
+	height:25px;
+	display:inline-block;
+	line-height:22px;
+}
+.dianping_title_pic span{
+	width:auto;
+	height:25px;
+	display:inline-block;
+	line-height:22px;
+	font-size:14px;
+	margin-left:6px!important;
+	margin-right:6px!important;
+	font-weight:bold;
+	color:#f35041;	vertical-align:middle;
+}
+
+
+/*11-12 增加 全屏图片*/
+.wide_pic_acc,.wide_pic_jiezhi,.wide_pic_pair{width:100%;height:356px;}
+.wide_pic_acc{background:url("../../ww3/weddings/list_pic_acc.jpg") center no-repeat;}
+.wide_pic_jiezhi{background:url("../../ww3/weddings/list_pic_wed.jpg") center no-repeat;}
+.wide_pic_pair{background:url("../../ww3/weddings/list_pic_par.jpg") center no-repeat;}
+/*列表页左侧修改*/
+.hr_line_side{background:#fff;height:0px;border-top: 1px solid #000000;margin-bottom: 10px;}
+.hr_line_txt{color:#000;font-size:12px; font-family: Arial,"宋体";padding-left: 15px;line-height: 25px;}
+/*end*/
+
+
+/***成品定制分页分页***/
+.page_boder_turn{width:276px;height:35px;overflow:hidden;float:right;clear:both;margin-bottom:18px;margin-top:25px; font-weight: bold;}
+.page_boder_turn li a.active,.page_boder_turn li a:hover{color:#ff8a81}
+.page_boder_turn li{
+  float: left;
+  width: 33px;
+  height: 33px;
+  padding-left: 5px;
+}
+.page_boder_turn li a.prev{
+  display: block;
+  float: left;
+  width: 33px;
+  height: 33px;
+  border: none;
+  cursor:pointer;
+  background: url('../../ww3/diy1180/page_boder_a_left_b.jpg') no-repeat left top;
+}
+.page_boder_turn li a.prev:hover{background: url('../../ww3/diy1180/page_boder_a_left_b.jpg') no-repeat right top;}
+.page_boder_turn li a.next{
+  display: block;
+  float: left;
+  width: 33px;
+  height: 33px;
+  border: none;
+  cursor:pointer;
+  background: url('../../ww3/diy1180/page_boder_a_right_b.jpg') no-repeat left top;
+}
+.page_boder_turn li a.next:hover{background: url('../../ww3/diy1180/page_boder_a_right_b.jpg') no-repeat right top;}
+.page_boder_turn li a{background: #fff; color:#666; display:block;float:left;width:31px;height:31px;text-align:center;line-height:31px;font-size:13px;margin-right:8px;font-family:Arial;border:1px solid #e2e1e1}

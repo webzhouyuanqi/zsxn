@@ -1,0 +1,87 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.s_crumb{
+	width: 1180px;
+	height: 45px;
+	line-height: 45px;
+}
+.s_main{
+	width: 1180px;
+	margin: 0 auto;
+}
+.s_body{
+	width: 100%;
+	float: left;
+	display: block;
+	border-top: 1px solid #000;
+}
+.l_header{
+	font: bold 24px arial,"宋体";
+	border: 2px solid black;
+	padding: 2px 20px;
+	width: 140px;
+	margin: 10px auto;
+	background-color: rgb(231, 238, 248);
+}
+.l_sub_header{
+	margin: 0px auto;
+}
+.sub_header{
+	margin: 10px 2px;
+}
+.l_sub{
+	width: 980px;
+	height: auto;
+	margin: 0 auto;
+}
+.l_sub_content{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.l_content{
+	width: 100%;
+	border: 2px solid black;
+	display: block;
+	float: left;
+	position: relative;
+}
+.l_footer{
+	float: right;
+	right: 0;
+	bottom: 0;
+	font: bold 18px arial,"宋体";
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	padding: 2px 0px;
+	width: 140px;
+	margin: 12px 0 0 0;
+	background-color: rgb(231, 238, 248);
+}
+.list_tab{
+	display: block;
+	float: left;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	/*padding: 5px 60px 5px 5px;*/
+	margin: 10px 5px 10px 5px;
+}
+.list_block{
+	display: block;
+	float: left;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	/*padding: 5px 60px 5px 5px;*/
+	margin: 10px 0; 
+}
+.ol_list{ width:1180px; margin:0 auto; overflow:hidden;padding-bottom: 20px;}
+.ol_list_title{ height: 80px; font-size:18px; text-align:center; line-height:95px;color: #000; font-weight: normal;}
+.ol_list h2{ text-align:left;  color:#000; line-height:30px; font-size:12px; padding-left:5px; font-weight: normal; }
+.ol_list_cont{padding:5px 0; text-align:left; line-height:30px; margin-bottom:15px; overflow:hidden;}
+.ol_list_cont span{ display:inline-block; padding:0 5px;}
+.ol_list_cont  a{ white-space:nowrap;}
+.ol_list_cont em{ font-style:normal; display:inline-block; padding-left: 5px; }

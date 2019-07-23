@@ -1,0 +1,143 @@
+﻿
+
+em,b,i{ font-style:normal;}
+.clearfix{ display:inline-block;}
+.clearfix{ display:block;}
+* html .clearfix{ display:block;}
+html[xmlns] .clearfix{ display:block;}
+.clearfix:after{ clear:both; visibility:hidden; display:block; height:0; font-size:0;}
+
+.bx-controls{display: none;}
+#bg1{ background:url(../../ww3/mono/pc/2019/aurorachasinglight/1.jpg) top center no-repeat;width: 100%; height:578px;position: relative;overflow: hidden; z-index: 0;}
+#bg2{ background:url(../../ww3/mono/pc/2019/aurorachasinglight/2.jpg) top center no-repeat;width: 100%; height:301px;position: relative;z-index: 0;}
+#bg3,#bg3_1,#bg3_2,#bg3_3,#bg3_4{ background:#fafafa;width: 100%; height:293px;position: relative;z-index: 0;}
+#bg4{ background:url(../../ww3/mono/pc/2019/aurorachasinglight/4.jpg) top center no-repeat;width: 100%; height:170px;position: relative;z-index: 0;}
+#bg5{ background:url(../../ww3/mono/pc/2019/aurorachasinglight/5.jpg) top center no-repeat;width: 100%; height:435px;position: relative;z-index: 0;}
+
+#bg4 a,#bg5 a{width: 100%;height: 100%;display: block;}
+.g_main{width:1180px; margin:0 auto;position:relative;z-index:0;height:100%;overflow: hidden;}
+
+#bg3 .bx-wrapper,#bg3_2 .bx-wrapper{width: 588px!important;height:293px;float: left;overflow:hidden;background: #fff;}
+
+
+.focus_1 a,.focus_2 a{width: 100%;height: 100%;display: block;}
+.focus_1,.focus_2{width: 588px!important;height:293px;float: left;overflow:hidden;background: #fff;}
+.focus_1{margin-right: 2px;}
+.focus_2{}
+.focus_1 .focus_01,.focus_1 .focus_02,.focus_2 .focus_01,.focus_2 .focus_02{width: 588px;height:293px;float: left;}
+.focus_1 .focus_01{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f1.jpg) left top no-repeat;}
+.focus_1 .focus_02{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f1.jpg) right top no-repeat;}
+.focus_2 .focus_01{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f2.jpg) left top no-repeat;}
+.focus_2 .focus_02{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f2.jpg) right top no-repeat;}
+
+
+
+.focus_3 a,.focus_4 a{width: 100%;height: 100%;display: block;}
+.focus_3,.focus_4{width: 588px!important;height:293px;float: left;overflow:hidden;margin-top: 9px;}
+.focus_3{margin-right: 2px;}
+.focus_4{}
+.focus_3 .focus_01,.focus_3 .focus_02,.focus_4 .focus_01,.focus_4 .focus_02{width: 588px;height:293px;float: left;}
+.focus_3 .focus_01{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f4.jpg) left top no-repeat;}
+.focus_3 .focus_02{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f4.jpg) right top no-repeat;}
+.focus_4 .focus_01{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f3.jpg) left top no-repeat;}
+.focus_4 .focus_02{background:url(../../ww3/mono/pc/2019/aurorachasinglight/f3.jpg) right top no-repeat;}
+
+
+
+.pro_lst{width: 293px;height: 293px;float: left;overflow:hidden;margin-top: 2px;margin-right: 2px;position: relative;z-index: 1;}
+.pro_lst a{width: 100%;height: 100%;display: block;}
+.pro_lst span,.pro_lst em{display: block;width: 293px;height: 293px;position:absolute;top:0;left: 0;z-index: 1;-webkit-transition:all .8s ease-in-out;transition: all .8s ease-in-out;}
+.pro_lst span{z-index: 2;opacity:1 ;filter: alpha(opacity=1);}
+.pro_lst em{opacity:0 ;filter: alpha(opacity=0);}
+.pro_4,.pro_8,.pro_12{margin-right: 0;}
+
+
+.pro_1 span,.pro_1 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/01.jpg) left top no-repeat;}
+.pro_2 span,.pro_2 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/02.jpg) left top no-repeat;}
+.pro_3 span,.pro_3 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/03.jpg) left top no-repeat;}
+.pro_4 span,.pro_4 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/04.jpg) left top no-repeat;}
+
+.pro_5 span,.pro_5 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/05.jpg) left top no-repeat;}
+.pro_6 span,.pro_6 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/06.jpg) left top no-repeat;}
+.pro_7 span,.pro_7 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/07.jpg) left top no-repeat;}
+.pro_8 span,.pro_8 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/08.jpg) left top no-repeat;}
+
+.pro_9 span,.pro_9 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/09.jpg) left top no-repeat;}
+.pro_10 span,.pro_10 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/10.jpg) left top no-repeat;}
+.pro_11 span,.pro_11 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/11.jpg) left top no-repeat;}
+.pro_12 span,.pro_12 em{background:url(../../ww3/mono/pc/2019/aurorachasinglight/12.jpg) left top no-repeat;}
+
+.pro_1  em,.pro_2  em,.pro_3  em,.pro_4  em,.pro_5  em,.pro_6  em,
+.pro_7 em,.pro_8  em,.pro_9  em,.pro_10  em,.pro_11  em,.pro_12  em
+{background-position: right top;}
+
+.pro_1:hover span,.pro_2:hover span,.pro_3:hover span,.pro_4:hover span,.pro_5:hover span,.pro_6:hover span,
+.pro_7:hover span,.pro_8:hover span,.pro_9:hover span,.pro_10:hover span,.pro_11:hover span,.pro_12:hover span{opacity:0 ;filter: alpha(opacity=0);}
+.pro_1:hover em,.pro_2:hover em,.pro_3:hover em,.pro_4:hover em,.pro_5:hover em,.pro_6:hover em,
+.pro_7:hover em,.pro_8:hover em,.pro_9:hover em,.pro_10:hover em,.pro_11:hover em,.pro_12:hover em{opacity:1 ;filter: alpha(opacity=1);}
+
+
+
+.footer_title,.m_ft_ad_wp,.indexw_footer_banner,.indexw_foot_service,.indexw_foot_other{
+    display: none;
+}
+.f_icon_top{
+    display: none!important;
+}
+.lft_pic{
+    width: 100%!important;
+    height: 787px!important;
+    background:url(../../ww3/mono/pc/2019/aurorachasinglight/6.jpg) center center no-repeat!important;
+}
+.g_hder_wp{
+    width: 100%!important;
+    height: 724px!important;
+    margin: 0 auto!important;
+}
+.g_rig_wp {
+    width: 534px!important;
+    height: 352px!important;
+    float: none!important;
+    padding-top: 0px!important;
+    position: absolute!important;
+    left: 50%!important;
+    margin-left: 30px!important;
+    top: 410px!important;
+    z-index: 0;
+}
+.g_reg_txt{
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+.ipt_adds{
+    color: #fff!important;
+}
+.f_exp dd{
+    width: 327px!important;
+    height: 160px;
+    overflow: auto;
+}
+.btn_enter{
+    width: 200px!important;
+    background: #fce7d2!important;
+    color: #333!important;
+}
+.ipt_tel{
+    width: 300px!important;
+}
+.f_exp{
+    width: 340px!important;
+    margin-top: 12px!important;
+}
+.f_exp dt{
+    width: 300px!important;
+}
+.ipt_adds {
+    line-height: 20px!important;
+    height: 55px!important;
+    width: 342px!important;
+    text-align: left!important;
+    margin: 0 auto!important;
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}

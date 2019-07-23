@@ -1,0 +1,135 @@
+﻿.sjz_layout{
+	width:100%;
+	height:489px;
+	overflow:hidden;
+	background:url('../../ww3/shoujizhan/sjz_layout.jpg') #ffdfd4 no-repeat center top; 
+	clear:both;
+}
+.sjz_border{
+	width:1180px;
+	height:615px;
+	overflow:hidden;
+	margin:0 auto;
+	clear:both;
+	position:relative;
+}
+.sjz_border_phone{
+	width:344px;
+	height:610px;
+	overflow:hidden;
+	position:absolute;
+	left:0px;
+	top:5px;
+	opacity:1;
+	opacity:1\0;
+	+opacity:1;
+	background:url('../../ww3/shoujizhan/sjz_border_phone.png') no-repeat left top;
+	z-index:5;
+}
+.sjz_border_fangdajing{
+	width:175px;
+	height:177px;
+	overflow:hidden;
+	position:absolute;
+	display:block;
+	left:450px;
+	top:202px;
+	opacity:1;
+	opacity:1\0;
+	+opacity:1;
+	background:url('../../ww3/shoujizhan/sjz_border_fangdajing.png') no-repeat left top;
+	z-index:6;
+}
+.sjz_niao01{
+	width:24px;
+	height:18px;
+	position:absolute;
+	left:11px;
+	top:181px;
+	display:none;
+	background:url('../../ww3/shoujizhan/sjz_niao01.png') no-repeat left top;
+	background:none\9; 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../ww3/shoujizhan/sjz_niao01.png',opacity=100)\9;
+	z-index:11;
+}
+.sjz_niao02{
+	width:37px;
+	height:31px;
+	position:absolute;
+	left:-34px;
+	top:136px;
+	display:none;
+	background:url('../../ww3/shoujizhan/sjz_niao02.png') no-repeat left top;
+	background:none\9; 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../ww3/shoujizhan/sjz_niao02.png',opacity=100)\9;
+	z-index:11;
+}
+.sjz_niao03{
+	width:59px;
+	height:61px;
+	position:absolute;
+	left:-66px;
+	top:90px;
+	display:none;
+	background:url('../../ww3/shoujizhan/sjz_niao03.png') no-repeat left top;
+	background:none\9; 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../ww3/shoujizhan/sjz_niao03.png',opacity=100)\9;
+	z-index:11;
+}
+.sjz_niao04{
+	width:73px;
+	height:86px;
+	position:absolute;
+	left:6px;
+	top:0px;
+	display:none;
+	background:url('../../ww3/shoujizhan/sjz_niao04.png') no-repeat left top;
+	background:none\9; 
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../ww3/shoujizhan/sjz_niao04.png',opacity=100)\9;
+	z-index:11;
+}
+.sjz_border_sao{
+	width:193px;
+	height:12px;
+	position:absolute;
+	left:815px;
+	top:232px;
+	display:none;
+	background:url('../../ww3/shoujizhan/sjz_border_sao.png') no-repeat left top;
+	z-index:11;
+}
+.sjz_phone_border{
+	width:310px;
+	height:54px;
+	position:absolute;
+	left:507px;
+	top:220px;
+	overflow:hidden;
+	z-index:20;	
+	display:none;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.sjz_phone_input{
+	width:200px;
+	height:54px;
+	letter-spacing:1px;
+	font-family:"微软雅黑";
+	font-size:12px;
+	line-height:54px;
+	border:none;
+	padding-left:20px;
+	padding-right:5px;
+	margin:0 0 0 5px;
+	float:left;
+}
+.sjz_phone_send{
+	width:79px;
+	height:54px;
+	display:block;
+	float:left;
+	background:url('../../ww3/shoujizhan/sjz_phone_send.jpg') no-repeat left top;
+}
+.sjz_phone_send:hover{
+	background:url('../../ww3/shoujizhan/sjz_phone_send.jpg') no-repeat right top;
+}

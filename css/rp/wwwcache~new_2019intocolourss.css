@@ -1,0 +1,179 @@
+﻿#bg_01{ width: 100%; height:578px;position: relative;overflow: hidden; z-index: 0;}
+#bg_02{ background:url(../../ww3/mono/pc/2019/intocolourss/bg_02.jpg) top center no-repeat;width: 100%; height:465px;position: relative;z-index: 0;}
+#bg_03{ background:url(../../ww3/mono/pc/2019/intocolourss/bg_03.jpg) top center no-repeat;width: 100%; height:1185px;position: relative;z-index: 0;}
+.clearHeight{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+}
+.border{
+    display: block;
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+#bg_01 .slider1 .slide {
+    width: 1920px;
+    height: 578px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    z-index: 0;
+}
+#bg_01 .slider1 .slide .an{
+    display: block;
+    width: 1920px;
+    height: 578px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    top: 0px;
+    z-index: 5;
+}
+#bg_01 .bx-wrapper .bx-pager{
+    width: 150px;
+    height: 20px;
+    text-align: right;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    z-index: 5;
+}
+.slide div a{
+    visibility: hidden;
+}
+.bx-controls-direction a{
+    display: none;
+}
+.bg3a{
+    display: inline-block;
+    width: 293px;
+    height: 293px;
+    float: left;
+    margin-right: 2px;
+    margin-top: 2px;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+
+}
+.page_img_1{
+    display: inline-block;
+    width: 293px;
+    height: 293px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.page_img_2{
+    display: inline-block;
+    width: 293px;
+    height: 293px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.width588{
+    width: 588px;
+}
+
+#bg_03 .slider2 .slide {
+    width: 588px;
+    height: 293px;
+    position: relative;
+    z-index: 0;
+}
+#bg_03 .slider2 .slide .an{
+    display: block;
+    width: 588px;
+    height: 293px;
+}
+#bg_03 .slider3 .slide {
+    width: 588px;
+    height: 293px;
+    position: relative;
+    z-index: 0;
+}
+#bg_03 .slider3 .slide .an{
+    display: block;
+    width: 588px;
+    height: 293px;
+}
+.anbor{
+    margin-top: 2px;
+    margin-right: 2px;
+    width: 588px;
+    height: 293px;
+    float: left;
+    overflow: hidden;
+}
+.footer_title,.m_ft_ad_wp,.indexw_footer_banner,.indexw_foot_service,.indexw_foot_other{
+    display: none;
+}
+.f_icon_top{
+    display: none!important;
+}
+.lft_pic{
+    width: 100%!important;
+    height: 787px!important;
+    background:url(../../ww3/mono/pc/2019/intocolourss/bg_04.jpg) center center no-repeat!important;
+}
+.g_hder_wp{
+    width: 100%!important;
+    height: 724px!important;
+    margin: 0 auto!important;
+}
+.g_rig_wp {
+    width: 534px!important;
+    height: 352px!important;
+    float: none!important;
+    padding-top: 0px!important;
+    position: absolute!important;
+    left: 50%!important;
+    margin-left: 30px!important;
+    top: 410px!important;
+    z-index: 0;
+}
+.g_reg_txt{
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+.ipt_adds{
+    color: #fff!important;
+}
+.f_exp dd{
+    width: 327px!important;
+    height: 160px;
+    overflow: auto;
+}
+.btn_enter{
+    width: 200px!important;
+    background: #fce7d2!important;
+    color: #333!important;
+}
+.ipt_tel{
+    width: 300px!important;
+}
+.f_exp{
+    width: 340px!important;
+    margin-top: 12px!important;
+}
+.f_exp dt{
+    width: 300px!important;
+}
+.ipt_adds {
+    line-height: 20px!important;
+    height: 55px!important;
+    width: 342px!important;
+    text-align: left!important;
+    margin: 0 auto!important;
+    margin-top: 5px!important;
+    margin-bottom: 5px!important;
+}
