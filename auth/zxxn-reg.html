@@ -1,18 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
     <title>钻石小鸟</title>
     <link rel="stylesheet" href="../css/wwwcache/auth.css" type="text/css" media="screen" />
-
+    <link rel="stylesheet" href="css/header.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
-        
         .auth_main_login .main ul li {
             list-style-position: outside;
             padding: 0px;
@@ -25,80 +19,14 @@
             overflow: hidden;
         }
         
-        .header_top {
-            width: 100%;
-            height: 34px;
-            margin: 0 auto;
-            background: #ffdcda;
-        }
-        
-        .header_top_border {
-            list-style: none;
-            margin-right: 50px;
-        }
-        
-        .header_top_border_left {
-            float: left;
-            margin-left: 30px;
-        }
-        
-        .header_top_border_left li {
-            list-style: none;
-            text-decoration: none;
-            color: #666;
-        }
-        
-        .header_top_border_left li a {
-            text-decoration: none;
-        }
-        
-        .header_top_border_right {
-            float: right;
-        }
-        
-        .header_top_border ul li {
-            float: left;
-            margin-right: 30px;
-            font: 15px 宋体;
-            line-height: 34px;
-        }
-        
-        .indexw_header_middle {
-            width: 100%;
-            height: 95px;
-            margin: 0 auto;
-            clear: both;
-        }
-        
-        .indexw_header_middleL {
-            width: auto;
-            height: 95px;
-            float: left;
-        }
-        
-        .indexl_logo {
-            float: left;
-            margin-left: 290px;
-            margin-top: 35px;
-        }
-        
-        .index_slogan {
-            width: 166px;
-            height: 30px;
-            float: left;
-            margin-left: 48px;
-            margin-top: 41px;
-            background: url(img/login/pcslogan.png) no-repeat;
-        }
-        
         .main .text111 {
             width: auto;
             height: 20px;
             position: absolute;
             top: 95px;
-            left: 38px;
+            left: 5px;
             color: #000;
-            font: 20px 宋体;
+            font: 25px 宋体;
             text-align: center;
         }
         
@@ -128,75 +56,19 @@
         }
         
         .login_border {
-            width: 1180px;
-            height: auto;
-            margin: 0 auto;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .login_border:after {
-            clear: both;
-            display: block;
-            height: 0;
-            font-size: 0;
-            visibility: hidden;
-        }
-        
-        .auth_bg {
-            width: 100%;
-            height: 601px;
-            overflow: hidden;
-            clear: both;
-            background: #f7e4db;
+            margin: 0;
         }
         
         .auth_bg_new {
             background: url(img/login/auth_bg_new.jpg) no-repeat center top;
         }
         
-        .login_left {
-            width: 728px;
-            height: 688px;
-            float: left;
-            overflow: hidden;
-            position: relative;
-        }
-        
-        .login_right {
-            width: 452px;
-            height: 688px;
-            float: left;
-            overflow: hidden;
-            position: relative;
-        }
-        
         .add_left {
-            width: 728px;
-            height: 460px;
-            position: absolute;
-            top: 112px;
-            left: 0;
-            z-index: 4;
-        }
-        
-        .fly_img {
-            width: 728px;
-            height: 688px;
-            z-index: 2;
-            position: absolute;
-            top: 0px;
-            left: 0px;
+            top: 24px;
+            left: -260px;
         }
         
         .auth_main_login .main {
-            float: left;
-            /* width:100%; */
-            height: 510px;
-            position: relative;
-            overflow: hidden;
-            right: -80px;
-            top: 20px;
             background: url(img/login/auth_main_login.jpg) no-repeat 38px 180px;
         }
         
@@ -207,20 +79,6 @@
             padding-left: 16px;
             width: 267px;
             margin-left: -30px;
-            text-align: left;
-            overflow: hidden;
-            font-family: Arial, '宋体';
-        }
-        
-        .auth_main_login .main .inputStyle01 {
-            font-size: 12px;
-            color: #333333;
-            height: 34px;
-            line-height: normal;
-            line-height: 34px\9;
-            padding-left: 16px;
-            width: 267px;
-            margin: 0;
             text-align: left;
             overflow: hidden;
             font-family: Arial, '宋体';
@@ -298,9 +156,9 @@
             width: 298px;
             height: 37px;
             float: left;
-            /* cursor: pointer; */
+            cursor: pointer;
             border: none;
-            /* background: url(http://img.zbird.cn/ww3/auth/btn_login_2.jpg) no-repeat left top; */
+            background: url(http://img.zbird.cn/ww3/auth/btn_login_2.jpg) no-repeat left top;
         }
         
         .btn_login_6 {
@@ -355,7 +213,9 @@
         <div class="index_slogan">
             <a href="index.html" target="_blank"><img src="img/login/pcslogan.png"></a>
         </div>
+
     </div>
+    <!-- 中间部分 -->
     <div class="auth_bg auth_bg_new">
         <div class="login_border">
             <div class="login_left">
@@ -368,30 +228,40 @@
             <div class="login_right">
                 <div class="auth_main_login">
                     <div class="main">
-                        <div class="text111">会员登录</div>
+                        <div class="text111">欢迎注册</div>
                         <div class="jihuozhuce">
-                            <a href="zxxn-reg.html" style="text-decoration: none" target="_blank">快速注册</a>
+                            <span style="font-size: 14px">已有账号</span>
+                            <a href="zxxn-reg.html" style="text-decoration: none;color: #ff8a81" target="_blank">请登录</a>
                         </div>
                         <form action="" class="frmLogin" method="post">
                             <input type="hidden" name="dopost" value="1">
                             <ul>
                                 <li class="tips"></li>
                                 <li>
-                                    <input type="text" style="color: #999" id="user" tabindex="1" class="inputStyleTips" value="用户名">
+                                    <input type="text" id="phone" class="inputStyleTips" placeholder="请输入手机号">
                                 </li>
                                 <li class="tips"></li>
                                 <li>
-                                    <label class="mimalab">密码</label>
-                                    <input type="password" style="display: none" id="pass" name="pass" value tabindex="2" class="inputStyle01">
+                                    <input type="password" style="width: 40%;float:left;margin-right: 5%" id="phone" class="inputStyleTips" placeholder="6位验证码">
+                                    <input type="button" class="btn_login_2" value="免费获取手机验证码" style="font-size: 12px;width: 40%;color: #fff">
                                 </li>
-                                <li id="responsebar" class="tips" style="margin-left: 0px;line-height: 26px;color: #ff8a81;font-family: '宋体';"></li>
+                                <li class="tips"></li>
                                 <li>
-                                    <input type="checkbox" id="zddl"><label for="zddl">自动登录</label>
-                                    <a href="/auth/findpass">忘记密码？</a>
+                                    <input type="text" id="phone" class="inputStyleTips" placeholder="6-20位大小写字母，数字及'-'、'_'组合">
+                                </li>
+                                <li class="tips"></li>
+                                <li>
+                                    <input type="text" id="phone" class="inputStyleTips" placeholder="请再次输入密码">
+                                </li>
+
+                                <li id="responsebar" class="tips loginMsg" style="margin-left: 0px;line-height: 26px;color: #ff8a81;font-family: '宋体';"></li>
+                                <li class="autologin" style="padding: 0px;margin-left:47px">
+                                    <input type="checkbox" id="zddl" style="margin-left: 0px;"><label for="zddl">已阅读并同意<a href="" target="_blank">《钻石小鸟用户服务协议》</a></label>
+
                                 </li>
                                 <div class="clearHeight" style="height: 15px;"></div>
-                                <li class="submit">
-                                    <input type="button" class="btn_login_2 btn_login_6" value="登陆" style="font-size: 12px">
+                                <li class="submit" style="margin-top: 10px;padding-bottom:20px">
+                                    <input type="button" class="btn_login_2 btn_login_6" value="注册" style="font-size: 12px">
                                 </li>
                             </ul>
                         </form>
