@@ -72,13 +72,13 @@ textarea {
 }
 
 .auth_main_login .main {
-    float: left;
-    /* width:100%; */
-    height: 510px;
-    position: relative;
-    overflow: hidden;
-    right: -80px;
-    top: 20px;
+        float: left;
+        /* width:100%; */
+        height: 510px;
+        position: relative;
+        overflow: hidden;
+        right: -80px;
+        top: 20px;
     background: url('../../ww3/auth/auth_main_login.jpg') no-repeat 38px 130px;
 }
 
@@ -126,7 +126,8 @@ textarea {
 }
 
 .auth_main_login .main ul .tips02 {
-    background: url('../../ww3/auth/icon_tips1.jpg') no-repeat scroll 4px 1px #ffe79d;
+    background: url('../../ww3/auth/icon_tips1.jpg') no-repeat sc
+    roll 4px 1px #ffe79d;
 }
 
 .auth_main_login .main ul .tips01 {
