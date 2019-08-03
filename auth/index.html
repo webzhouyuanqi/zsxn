@@ -304,7 +304,85 @@
         padding: 50px 0;
         margin: 0px;
     }
-    .f_ad_wp {}
+    .f_ad_wp span {
+        display: block;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    .f_ad_wp span:after {
+        content: "";
+        clear: both;
+        height: 0;
+        font-size: 0;
+        visibility: hidden;
+        overflow: hidden;
+        display: block;
+    }
+    .f_ad_wp_a {
+        margin-right: 25px;
+    }
+    .stores_wp {
+        width: 1180px;
+        margin: 36px auto 0;
+    }
+    .stores_alist {
+        width: 1180px;
+        background: #fff;
+        border-top: 1px solid #000;
+        font-family: Arial, "宋体";
+        text-align: center;
+        margin: 0 auto;
+    }
+    .stores_alist_11,
+    .stores_alist_12 {
+        text-align: left;
+        line-height: 24px;
+    }
+    .stores_alist_11,
+    .stores_alist_12 {
+        border-bottom: 1px solid #ececec;
+        padding: 17px 0;
+    }
+    .stores_alist_12 {
+        padding: 15px 0;
+    }
+    .stores_alist_11 strong,
+    .stores_alist_12 strong {
+        font-size: 12px;
+        color: #bababa;
+        display: inline-block;
+        padding-right: 80px;
+        font-weight: normal;
+        vertical-align: middle;
+    }
+    .alist_11_li {
+        list-style: none;
+        display: inline;
+    }
+    .alist_11_li li {
+        display: inline-block;
+        text-align: left;
+        height: 13.6px;
+        line-height: 13.6px;
+        ;
+    }
+    .alist_11_li b {
+        font-weight: normal;
+        white-space: nowrap;
+        padding: 0 20px;
+    }
+    .stores_alist_11 em,
+    .stores_alist_12 em {
+        display: inline-block;
+        width: 1065px;
+        vertical-align: middle;
+    }
+    .stores_alist_11 em {
+        text-align: left;
+    }
+    .stores_alist_12 em {
+        padding: 15px 0px;
+    }
     </style>
 </head>
 <header>
@@ -406,7 +484,7 @@
                         <img src="../auth/img/floorpic/floor3/516de52c6405d2b765f7f7f96dc9d91e.jpg" style="margin-top:15px;"></a>
             </span>
                 <a href="" target="_blank">
-                    <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 468px"></a>
+                    <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 473px;height: 702px;"></a>
                 <span>
                 <a href="" target="_blank">
                <img src="../auth/img/floorpic/floor3/06aa074c777e9f69b2f1203d6faf81af.jpg" alt="" hidden></a>
@@ -520,10 +598,47 @@
         <div class="floor_main">
             <div class="f_ad_wp">
                 <span>
-                <a href="" target="_blank"><img src=""></a>
-                <a href="" target="_blank"><img src=""></a>
+                <a href="" target="_blank" class="f_ad_wp_a"><img src="../auth/img/floorpic/floor5/pinpaistory.jpg"></a>
+                <a href="" target="_blank"><img src="../auth/img/floorpic/floor5/knowledge.gif" style="width: 449px;height:644px;"></a>
             </span>
+                <a href="" target="_blank"><img src="../auth/img/floorpic/floor5/birdandhe.jpg" width="100%"></a>
             </div>
+        </div>
+    </div>
+    <div class="stores_wp">
+        <div class="stores_alist">
+            <div class="stores_alist_11">
+                <strong>省份</strong>
+
+                <ul class="alist_11_li">
+                    <em>   
+                    <li class=""><b>上海</b></li>
+                    <li class=""><b>广东</b></li>
+                    <li class=""><b>浙江</b></li>
+                    <li class=""><b>江苏</b></li>
+                    <li class=""><b>四川</b></li>
+                    <li class=""><b>山西</b></li>
+                    <li class=""><b>天津</b></li>
+                    <li class=""><b>河南</b></li>
+                    <li class=""><b>北京</b></li>
+                    <li class=""><b>湖北</b></li>
+                    <li class=""><b>山东</b></li>
+                    <li class=""><b>安徽</b></li>
+                    <li class=""><b>河北</b></li>
+                    <li class=""><b>山西</b></li>
+                    <li class=""><b>甘肃</b></li>
+                    <li class=""><b>福建</b></li>
+                    <li class=""><b>云南</b></li>
+                    <li class=""><b>重庆</b></li>
+                    <li class=""><b>内蒙古自治区</b></li>
+                    <li class=""><b>新疆维吾尔自治区</b></li>
+                </em>
+                </ul>
+            </div>
+            <div class="stores_alist_12"></div>
+        </div>
+        <div class="city_pic">
+
         </div>
     </div>
     </div>
