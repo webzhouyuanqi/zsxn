@@ -12,8 +12,9 @@
 }
 
 .header_top_border {
-    list-style: none;
-    margin-right: 50px;
+    width: 1180px;
+    height: 34px;
+    margin: 0 auto;
 }
 
 .header_top_border_right {

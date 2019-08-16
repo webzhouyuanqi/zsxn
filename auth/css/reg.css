@@ -1,0 +1,183 @@
+.auth_main_login .main ul li {
+  list-style-position: outside;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-size: 14px;
+  color: #999999;
+  height: 34px;
+  line-height: 34px;
+  overflow: hidden;
+}
+
+.main .text111 {
+  width: auto;
+  height: 20px;
+  position: absolute;
+  top: 95px;
+  left: 5px;
+  color: #000;
+  font: 25px 宋体;
+  text-align: center;
+}
+
+.frmLogin {
+  margin-top: 152px;
+  background: #FCEDEA;
+}
+
+.inputstylelogin {
+  width: 250px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+.inputstylecheckbox {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.stylea {
+  display: block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.login_border {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth_bg_new {
+  background: url(../img/login/auth_bg_new.jpg) no-repeat center top;
+}
+
+.add_left {
+  top: 24px;
+  left: -260px;
+}
+
+.auth_main_login .main {
+  background: url(../img/login/auth_main_login.jpg) no-repeat 38px 180px;
+}
+
+.auth_main_login .main .inputStyleTips {
+  font-size: 12px;
+  height: 34px;
+  line-height: normal;
+  padding-left: 16px;
+  width: 267px;
+  margin-left: -30px;
+  text-align: left;
+  overflow: hidden;
+  font-family: Arial, '宋体';
+}
+
+.mimalab {
+  font-size: 12px;
+  color: #999;
+  height: 34px;
+  cursor: text;
+  line-height: 34px;
+  padding-left: 16px;
+  width: 267px;
+  display: block;
+  margin-left: -30px;
+  text-align: left;
+  overflow: hidden;
+  font-family: Arial, '宋体';
+  background-color: #fff;
+  list-style-position: outside;
+  list-style: none;
+}
+
+.auth_main_login .main ul li {
+  list-style-position: outside;
+  padding-left: 78px;
+  text-align: left;
+  font-size: 14px;
+  color: #999999;
+  height: 34px;
+  line-height: 34px;
+  overflow: hidden;
+}
+
+.auth_main_login .main ul .tips {
+  height: 22px;
+  width: 310px;
+  font-size: 12px;
+  color: #666666;
+  line-height: 22px;
+  overflow: hidden;
+}
+
+.auth_main_login .main ul .aotologin {
+  height: 20px;
+  width: 360px;
+  padding: 0;
+  /* padding-top: 2px; */
+  font-size: 12px;
+  font-family: "宋体";
+  color: #666666;
+  line-height: 16px;
+  overflow: hidden;
+}
+
+.clearHeight {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  clear: both;
+}
+
+.auth_main_login .main ul .submit {
+  height: 40px;
+  width: 285px;
+  padding: 0;
+  font-size: 12px;
+  margin-left: 50px;
+  color: #666666;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+.btn_login_2 {
+  width: 298px;
+  height: 37px;
+  float: left;
+  cursor: pointer;
+  border: none;
+  background: url(http://img.zbird.cn/ww3/auth/btn_login_2.jpg) no-repeat left top;
+}
+
+.btn_login_6 {
+  width: 283px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  display: block;
+  padding: 0;
+  color: #fff;
+  margin: 0 auto;
+  background: #ff8a81;
+}
+
+.auth_main_login>.main ul>.aotologin a {
+  float: right;
+  text-decoration: none;
+}
+.login_right{
+  width: 452px;
+  height: 636px;
+  float: left;
+  
+  position: relative;
+  top: 0px;
+  right: -15%;
+}
