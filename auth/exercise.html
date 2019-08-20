@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    *{margin: 0;padding: 0;box-sizing: border-box}
+    .banner{
+      overflow: hidden;
+      position: relative;
+    }
+    ul{
+      list-style: none;
+    }
+    ul>li{
+      float: left;
+    }
+  </style>
+</head>
+<body>
+    <div id="banner">
+        <!-- left-btn -->
+        <div id="btn-left"></div>
+        <!-- 轮播图 -->
+        <ul id="ul-imgs" class="transition" style="width: 9600px;margin-left: 0px;">
+            <li>
+                <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo1.jpg"></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo2.jpg" ></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo3.jpg" ></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo4.jpg" ></a>
+            </li>
+            <li>
+                <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo1.jpg"></a>
+            </li>
+        </ul>
+        <ul id="ul-idxs">
+            <!-- 虽然li个数笔实际图片张数多1,但小圈点的个数不必多1 -->
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!-- right-btn -->
+        <div id="btn-right"></div>
+    </div>
+</body>
+<script>
+var i=0;
+var LIWIDTH=1920; 
+var DURATION=500; 
+var LICOUNT=4; 
+var ulImgs=document.getElementById("ul-imgs"); 
+var ulIdxs=document.getElementById("ul-idxs")
+var lis=ulIdxs.children;  
+
+
+function moveTo(to){
+
+    if(to==undefined){
+        to=i+1;
+      }
+      if(i==0){
+        ulImgs.className="transition";
+      }
+      i=to;  
+      ulImgs.style.marginLeft=-i*LIWIDTH+"px";
+
+      for(var li of lis){
+        li.className=""
+      }
+      console.log(i);
+      if(i==LICOUNT){
+        i=0;
+    
+        setTimeout(function () { 
+            ulImgs.className=""; 
+            ulImgs.style.marginLeft=0;
+        },DURATION)
+    }
+
+  lis[i].className="active";
+}
+</script>
+</html>

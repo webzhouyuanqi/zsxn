@@ -106,6 +106,13 @@ a:visited {
   text-decoration: none;
   line-height: 34px;
 }
+.banner{
+  overflow: hidden;
+  position: relative;
+}
+.banner ul li{
+  float: left;
+}
 .floor_middle {
   background: #fff;
   width: 100%;
@@ -225,7 +232,7 @@ a:visited {
   width: 700px;
   float: left;
   display: inline-block;
-  margin-right: 27px;
+  margin-right: 20px;
 }
 .th_pic_fucus {
   position: relative;

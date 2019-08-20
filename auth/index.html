@@ -10,6 +10,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <link rel="stylesheet" href="css/index.css">
+<script src="JS/banner.js"></script>
+
 </head>
 <body>
 <!--   header -->
@@ -62,12 +64,41 @@
     <li><a href="" style="font-size: 14px">鸟巢论坛</a></li>
 </ul>
 </div>
-<div>
-<img src="../auth/img/lunbopic/lunbo1.jpg" alt="" style="width: 100%;">
-<img src="../auth/img/lunbopic/lunbo2.jpg" alt="" hidden>
-<img src="../auth/img/lunbopic/lunbo3.jpg" alt="" hidden>
-<img src="../auth/img/lunbopic/lunbo4.jpg" alt="" hidden>
+<!-- banner 部分 -->
+<div class="banner">
+    <!-- left-btn -->
+    <div id="btn-left"></div>
+    <!-- 轮播图 -->
+    <ul id="ul-imgs" class="transition" style="width: 9600px;margin-left: 0px;">
+        <li>
+            <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo1.jpg"></a>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo2.jpg" ></a>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo3.jpg" ></a>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo4.jpg" ></a>
+        </li>
+        <li>
+            <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo1.jpg"></a>
+        </li>
+    </ul>
+<!-- 小圆点 -->
+    <ul id="ul-idxs">
+        <!-- 虽然li个数比实际图片张数多1,但小圈点的个数不必多1 -->
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+<!-- right-btn -->
+<div id="btn-right"></div>
 </div>
+
+
 <!-- 1floor -->
 <div class="floor_middle">
 <div class="floor_main">
@@ -110,7 +141,7 @@
                 <img src="../auth/img/floorpic/floor3/516de52c6405d2b765f7f7f96dc9d91e.jpg" style="margin-top:15px;"></a>
     </span>
         <a href="" target="_blank">
-            <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 473px;height: 702px;"></a>
+            <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 460px;height: 702px;"></a>
         <span>
         <a href="" target="_blank">
         <img src="../auth/img/floorpic/floor3/06aa074c777e9f69b2f1203d6faf81af.jpg" alt="" hidden></a>
@@ -225,7 +256,7 @@
     <div class="f_ad_wp">
         <span>
         <a href="" target="_blank" class="f_ad_wp_a"><img src="../auth/img/floorpic/floor5/pinpaistory.jpg"></a>
-        <a href="" target="_blank"><img src="../auth/img/floorpic/floor5/knowledge.gif" style="width: 449px;height:644px;"></a>
+        <a href="" target="_blank"><img src="../auth/img/floorpic/floor5/knowledge.gif" style="width: 429px;height:644px;"></a>
     </span>
         <a href="" target="_blank"><img src="../auth/img/floorpic/floor5/birdandhe.jpg" width="100%"></a>
     </div>
