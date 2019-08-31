@@ -10,7 +10,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <link rel="stylesheet" href="css/index.css">
-<script src="JS/banner.js"></script>
+<!-- <script src="JS/jquery-1.11.3.js"></script>
+<script src="JS/banner.js"></script> -->
 
 </head>
 <body>
@@ -31,7 +32,15 @@
             <img src="img/login/header_box.png" width="12px" /> 购物车0
         </li>
         <li>我的订单</li>
-        <li>我的鸟巢</li>
+        <li class="arrow_hover">
+            <a href="member/Index.html" class="indexw_header_1">我的鸟巢</a> 
+            <span class="indexw_header_arrow"></span>
+            <div class="indexw_header_div_1">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </li>
         <li>钻石课堂</li>
         <li>手机官网</li>
     </ul>
@@ -52,24 +61,444 @@
 <!-- body_nav -->
 <div class="nav">
 <ul class="nav_top">
-    <li><a href="">首页</a></li>
-    <li><a href="">钻石</a></li>
-    <li><a href="">婚戒</a></li>
-    <li><a href="">对戒</a></li>
-    <li><a href="">配饰</a></li>
-    <li><a href="">定制</a></li>
-    <li><a href="">体验中心</a></li>
-    <li style="margin-left: 350px"><a href="" style="font-size: 14px">商务加盟</a></li>
-    <li><a href="" style="font-size: 14px">品牌故事</a></li>
-    <li><a href="" style="font-size: 14px">鸟巢论坛</a></li>
+    <li><a href="javascript:;" class="nav_top_a">首页</a></li>
+    <li><a href="javascript:;" class="nav_top_a">钻石</a> 
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp">
+                <div class="snav_title">
+                    <a href="diamond/Index.html" class="snav_title_txtimg">钻石</a>
+                    <a href="diamond/Index.html" class="snav_title_txt color">探索全部钻石</a>
+                    <div class="snav_lst">
+                        <a href="diamond/zmax0.39zmin0.3/Index.html">30分裸钻</a>
+                        <a href="diamond/zmax0.59zmin0.5/Index.html">50分裸钻</a>
+                        <a href="diamond/zmax0.79zmin0.7/Index.html">70分裸钻</a>
+                        <a href="diamond/zmax1zmin1g2/Index.html">克拉钻</a>
+                        <a href="diamond/g2/Index.html">海淘钻石 立省15%</a>
+                        <a href="diamond/g1c2/Index.html">北极光钻石</a>                        <a href="diamond/g1x9/Index.html">FireCushion钻石</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="http://www.zbird.com/diamond/g1x1/">圆形</a>
+                    <a href="http://www.zbird.com/diamond/g1x2/">公主方</a>
+                    <a href="http://www.zbird.com/diamond/g1x7/">祖母绿</a>
+                    <a href="http://www.zbird.com/diamond/g1x5/">橄榄形</a>
+                    <a href="http://www.zbird.com/diamond/g1x6/">椭圆形</a>
+                    <a href="http://www.zbird.com/diamond/g1x4/">梨形</a>
+                    <a href="http://www.zbird.com/diamond/g1x3/">心形</a>
+                    <a href="http://www.zbird.com/diamond/g1x1/"></a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款钻戒</a>
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款吊坠</a>
+                    <a href="zhishi/zuanshi4c.html">钻石4C知识</a>
+                    <a href="zhishi/information.html">钻石其他参数如何查看</a>
+                    <a href="dingzhi/zhishi/diamondcert.html">钻石证书知识</a>
+                    <a href="diamond/tehui/">甄选特惠裸钻专区</a>
+                    <a href="e-education/w16440.html">钻戒品牌排行</a>
+                </div>
+                <div class="snav_ads">
+                    <a href="act/2016globediamonds.html?from=zsxl">
+                        <img src="img/snav/43130_1_.jpg" alt width="611" height="262">
+                    </a>
+                </div>
+            </div>
+        </div> 
+    </li>
+    <li><a href="javascript:;" class="nav_top_a">婚戒</a>
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp"> 
+                <div class="snav_title">
+                    <a href="weddings/Index.html" class="snav_title_txtimg">婚戒</a>
+                    <a href="weddings/Index.html" class="snav_title_txt">探索全部婚戒</a>
+                    <div class="snav_lst">
+                    <a href="weddings/r-d-0-0-0-0-1768-0-0-2-1.html">简约独钻</a>
+                    <a href="weddings/r-d-0-0-0-0-1769-0-0-2-1.html">奢华群镶</a>
+                    <a href="weddings/r-d-0-0-6-0-0-0-0-2-1.html">克拉钻戒</a>
+                    <a href="weddings/r-c-0-0-0-0-0-0-0-2-1.html">大气男戒</a>
+                    <a href="weddings/r-d-1820-0-0-0-0-0-0-2-1.html">纪念戒/花戒</a>
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-2-1.html">戒托款式</a>
+                    <a href="weddings/r-d-0-0-0-0-0-0-0-4-1.html">人气热销</a>
+                </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="mono/2019aurorachasinglight.html">北极光追光系列</a>
+                    <a href="mono/2017ladynewyork.html">LADY NEW YORK系列</a>
+                    <a href="mono/2018gongzhuguiguan.html">公主桂冠系列</a>
+                    <a href="mono/2017heartinheart.html">心心相印系列</a>
+                    <a href="mono/2015sweetlove.html">宠爱系列</a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="zhishi/ringsize.html">如何测量手寸</a>
+                    <a href="zhishi/ringtypes.html">如何挑选适合的戒指款式</a>
+                    <a href="zhishi/metals.html">如何选购戒托材质</a>
+                    <a href="zhishi/sourcing.html">匠心工艺</a>
+                    <a href="e-education/w26863.html">送男人什么礼物最难忘</a>
+                    <a href="e-education/w12175.html">一克拉钻戒多少钱</a>
+                    <a href="e-education/w16331.html">项链品牌</a>
+                </div>    
+                <div class="snav_ads">
+                    <a href="mono/2019aurorachasinglight-hjxl.html"><img src="img/snav/60881_1.jpg" alt="" width="611" height="262"></a>       
+                </div>                                       
+            </div>
+        </div>
+    </li>
+    <li><a href="javascript:;" class="nav_top_a">对戒</a>
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp"> 
+                <div class="snav_title">
+                    <a href="zuanshi-duijie/Index.html" class="snav_title_txtimg">对戒</a>
+                    <a href="zuanshi-duijie/Index.html" class="snav_title_txt">探索全部对戒</a>
+                    <div class="snav_lst">
+                    <a href="zuanshi-duijie/r-p-0-1-2-1.html">18K金对戒</a>
+                    <a href="zuanshi-duijie/r-p-0-2-2-1.html">铂金对戒</a>
+                    <a href="zuanshi-duijie/r-m-0-0-2-1.html">男款对戒</a>
+                    <a href="zuanshi-duijie/r-f-0-0-2-1.html">女款对戒</a>
+                    <a href="zuanshi-duijie/r-p-0-0-4-1.html">热销款式</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="mono/2019aurorachasinglight.html">北极光追光系列</a>
+                    <a href="mono/2018intocolour.html">INTO COLOUR悦色系列</a>
+                    <a href="mono/2016tobetogether.html">两人一世戒系列</a>
+                    <a href="mono/2018youandme.html">YOU&ME系列</a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="e-education/w13084.html">订婚男方要准备什么</a>
+                    <a href="e-education/w16903.html">户外婚礼</a>
+                    <a href="e-education/w16433.html">1克拉钻戒</a>
+                    <a href="e-education/w17090.html">gia证书</a>
+                    <a href="e-education/w13323.html">首饰品牌</a>
+                    <a href="e-education/w21530.html">送女性朋友礼物排行榜</a>
+                    <a href="e-education/w12105.html">1克拉结婚钻戒多少钱</a>
+                                
+                </div>
+                <div class="snav_ads">
+                    <a href="mono/2018youandme-djxl.html">
+                        <img src="img/snav/54806_1.jpg" width="611" height="262"></a>       
+                </div>   
+            </div>
+        </div>
+    </li>
+    <li><a href="javascript:;" class="nav_top_a">配饰</a>
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp"> 
+                <div class="snav_title">
+                    <a href="accessory/Index.html" class="snav_title_txtimg">配饰</a>
+                    <a href="accessory/Index.html" class="snav_title_txt">探索全部配饰</a>
+                    <div class="snav_lst">
+                        <a href="accessory/c-g-0-0-0-0-0-2-1.html">挂坠</a>
+                        <a href="accessory/c-h-0-0-0-0-0-2-1.html">项链坠</a>
+                        <a href="accessory/c-e-0-0-0-0-0-2-1.html">耳钉</a>
+                        <a href="accessory/c-m-0-0-0-0-0-2-1.html">手链</a>
+                        <a href="accessory/c-n-0-0-0-0-0-2-1.html">手镯</a>
+                        <a href="accessory/c-i-0-0-0-0-0-2-1.html">项链</a>
+                        <a href="accessory/c-c-0-0-0-0-0-4-1.html">人气TOP</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="mono/2019aurorachasinglight.html">北极光追光系列</a>
+                    <a href="mono/2018sebtxzxl.html">生而不同星座系列</a>
+                    <a href="mono/2016blinkcollection.html">BLINK系列</a>
+                    <a href="mono/2019intocolourss.html">INTO COLOUR悦色系列-秘密花园</a>
+                    <a href="mono/2019xzxl.html">HOROSCOPE STAR星座系列</a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="e-education/w18597.html">闺蜜结婚送什么礼物好</a>
+                    <a href="e-education/w12088.html">戒指品牌</a>
+                    <a href="e-education/w25670.html">一克拉钻戒大概多钱</a>
+                    <a href="e-education/w18648.html">老婆生日送什么礼物</a>
+                    <a href="e-education/w26869.html">送成熟男士礼物排行榜</a>
+                    <a href="e-education/w16512.html">生日礼物送什么好</a>
+                    <a href="e-education/w12520.html">结婚戒指戴哪个手指</a>
+                                
+                </div>
+                <div class="snav_ads">
+                    <a href="mono/2019xzxl-psxl.html">
+                        <img src="img/snav/61114_1.jpg" width="611" height="262">
+                    </a>       
+                </div>   
+                </div>
+        </div>
+    </li>
+    <li><a href="javascript:;" class="nav_top_a">定制</a>
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp"> 
+                <div class="snav_title">
+                    <a href="dingzhi/index.html/Index.html" class="snav_title_txtimg">定制</a>
+                    <a href="dingzhi/index.html/Index.html" class="snav_title_txt">探索全部定制</a>
+                    <div class="snav_lst">
+                        <a href="dingzhi-zuanshi/style-0-0.html">从裸钻开始定制</a>
+                        <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">从戒托开始定制</a>
+                        <a href="dingzhi/n-g-0-0-0-0-0-0-0-0-1-0.html">从吊坠托开始定制</a>
+                        <a href="dingzhi/gaojidingzhi.html">私人定制服务</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="dingzhi/r-d-2-0-0-0-0-0-0-0-1-0.html">经典直臂款戒托</a>
+                    <a href="dingzhi/r-d-3-0-0-0-0-0-0-0-1-0.html">简约扭臂款戒托</a>
+                    <a href="dingzhi/r-d-7-0-0-0-0-0-0-0-1-0.html">异型钻款戒托</a>
+                    <a href="dingzhi/r-d-9-0-0-0-0-0-0-0-1-0.html">北极光款戒托</a>
+                    <a href="dingzhi/r-d-10-0-0-0-0-0-0-0-1-0.html">火玫瑰款戒托</a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="zhishi/zuanshi4c.html">钻石4C</a>
+                    <a href="zhishi/ringtypes.html">戒托款式</a>
+                    <a href="zhishi/metals.html">戒托材质</a>
+                    <a href="zhishi/ringsize.html">手寸测量</a>
+                    <a href="e-education/w15725.html">结婚纪念日礼物</a>
+                    <a href="e-education/w16592.html">送闺蜜什么礼物好</a>
+                    <a href="e-education/w17063.html">给老人买什么礼物好</a>
+                                                        
+                </div>
+                <div class="snav_ads">
+                    <a href="act/2017installment-dzxl.html">
+                        <img src="img/snav/60882_1.jpg" width="611" height="262"></a>       
+                </div>   
+                </div>
+        </div>
+    </li>
+    <li><a href="javascript:;" class="nav_top_a">体验中心</a>
+        <div class="m_idx_snav_hide">
+            <div class="m_idx_snav_wp"> 
+                <div class="snav_title">
+                    <a href="comment/bespokenadd/Index.html" class="snav_title_txtimg">体验中心</a>
+                    <a href="comment/bespokenadd/Index.html" class="snav_title_txt">探索全部体验中心</a>
+                    <div class="snav_lst">
+                        <a href="javascript:;">上海体验中心</a>
+                        <a href="javascript:;">北京体验中心</a>
+                        <a href="javascript:;">广州体验中心</a>
+                        <a href="javascript:;">杭州体验中心</a>
+                        <a href="javascript:;">成都体验中心</a>
+                        <a href="comment/bespokenadd/Index.html">宿迁体验中心</a>
+                        <a href="comment/bespokenadd/Index.html">苏州体验中心</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="javascript:;">南京体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">合肥包河万达体验中心</a>
+                    <a href="javascript:;">天津体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">盐城体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">常州体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">烟台体验中心</a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="javascript:;">武汉体验中心</a>
+                    <a href="javascript:;">西安体验中心</a>
+                    <a href="javascript:;">郑州体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">济宁体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">丽水体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">盐城金鹰体验中心</a>
+                    <a href="comment/bespokenadd/Index.html">重庆大都会体验中心</a>
+                    <a href="comment/bespokenadd/Index.html" target="_blank" style="color:#fdb2a4">查看全部</a>
+                    
+                </div>
+                <div class="snav_ads">
+                    <a href="mono/2017collections-tyzxxl.html">
+                        <img src="img/snav/41602_1.jpg" width="611" height="262"></a>       
+                </div>   
+                    </div>
+        </div>
+    </li>
+    <li style="margin-left: 350px"><a href="javascript:;" class="nav_top_a" style="font-size: 16px">商务加盟</a></li>
+    <li><a href="javascript:;" class="nav_top_a" style="font-size: 16px">品牌故事</a></li>
+    <li><a href="javascript:;" class="nav_top_a" style="font-size: 16px">鸟巢论坛</a></li>
 </ul>
 </div>
+<!--  -->
+<!-- <div class="m_idx_snav_hide"> -->
+        <!-- 下拉菜单 -->
+        <!-- 1 -->
+            <!-- <div class="m_idx_snav_wp">
+                <div class="snav_title">
+                    <a href="diamond/Index.html" class="snav_title_txtimg">钻石</a>
+                    <a href="diamond/Index.html" class="snav_title_txt">探索全部钻石</a>
+                    <div class="snav_lst">
+                        <a href="diamond/zmax0.39zmin0.3/Index.html">30分裸钻</a>
+                        <a href="diamond/zmax0.59zmin0.5/Index.html">50分裸钻</a>
+                        <a href="diamond/zmax0.79zmin0.7/Index.html">70分裸钻</a>
+                        <a href="diamond/zmax1zmin1g2/Index.html">克拉钻</a>
+                        <a href="diamond/g2/Index.html">海淘钻石 立省15%</a>
+                        <a href="diamond/g1c2/Index.html">北极光钻石</a>                        <a href="diamond/g1x9/Index.html">FireCushion钻石</a>
+                    </div>
+                </div>
+                <div class="snav_lst">
+                    <a href="http://www.zbird.com/diamond/g1x1/">圆形</a>
+                    <a href="http://www.zbird.com/diamond/g1x2/">公主方</a>
+                    <a href="http://www.zbird.com/diamond/g1x7/">祖母绿</a>
+                    <a href="http://www.zbird.com/diamond/g1x5/">橄榄形</a>
+                    <a href="http://www.zbird.com/diamond/g1x6/">椭圆形</a>
+                    <a href="http://www.zbird.com/diamond/g1x4/">梨形</a>
+                    <a href="http://www.zbird.com/diamond/g1x3/">心形</a>
+                    <a href="http://www.zbird.com/diamond/g1x1/"></a>
+                </div>
+                <div class="navline"></div>
+                <div class="snav_lst lstpoa">
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款钻戒</a>
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款吊坠</a>
+                    <a href="zhishi/zuanshi4c.html">钻石4C知识</a>
+                    <a href="zhishi/information.html">钻石其他参数如何查看</a>
+                    <a href="dingzhi/zhishi/diamondcert.html">钻石证书知识</a>
+                    <a href="diamond/tehui/">甄选特惠裸钻专区</a>
+                    <a href="e-education/w16440.html">钻戒品牌排行</a>
+                </div>
+                <div class="snav_ads">
+                    <a href="act/2016globediamonds.html?from=zsxl">
+                        <img src="img/snav/43130_1_.jpg" alt width="611" height="262">
+                    </a>
+                </div>
+            </div> -->
+            <!-- 2 -->
+            <!-- <div class="m_idx_snav_wp" style="display: block">
+            <div class="snav_title">
+                    <a href="weddings/Index.html" class="snav_title_txtimg">婚戒</a>
+                    <a href="weddings/Index.html" class="snav_title_txt">探索全部婚戒</a>
+                    <div class="snav_lst">
+                    <a href="weddings/r-d-0-0-0-0-1768-0-0-2-1.html">简约独钻</a>
+                    <a href="weddings/r-d-0-0-0-0-1769-0-0-2-1.html">奢华群镶</a>
+                    <a href="weddings/r-d-0-0-6-0-0-0-0-2-1.html">克拉钻戒</a>
+                    <a href="weddings/r-c-0-0-0-0-0-0-0-2-1.html">大气男戒</a>
+                    <a href="weddings/r-d-1820-0-0-0-0-0-0-2-1.html">纪念戒/花戒</a>
+                    <a href="dingzhi/r-d-0-0-0-0-0-0-0-2-1.html">戒托款式</a>
+                    <a href="weddings/r-d-0-0-0-0-0-0-0-4-1.html">人气热销</a>
+                    </div>
+            </div>
+            </div> -->
+            <!-- 3 -->
+            <!-- <div class="snav_lst">
+                    <a href="mono/2019aurorachasinglight.html">北极光追光系列</a>
+                    <a href="mono/2017ladynewyork.html">LADY NEW YORK系列</a>
+                    <a href="mono/2018gongzhuguiguan.html">公主桂冠系列</a>
+                    <a href="mono/2017heartinheart.html">心心相印系列</a>
+                    <a href="mono/2015sweetlove.html">宠爱系列</a>
+            </div> -->
+            <!-- 4 -->
+            <!-- <div class="navline"></div> -->
+            <!-- 5 -->
+            <!-- <div class="snav_lst lstpoa">
+                    <a href="zhishi/ringsize.html">如何测量手寸</a>
+                    <a href="zhishi/ringtypes.html">如何挑选适合的戒指款式</a>
+                    <a href="zhishi/metals.html">如何选购戒托材质</a>
+                    <a href="zhishi/sourcing.html">匠心工艺</a>
+                    <a href="e-education/w26863.html">送男人什么礼物最难忘</a>
+                    <a href="e-education/w12175.html">一克拉钻戒多少钱</a>
+                    <a href="e-education/w16331.html">项链品牌</a>
+            </div> -->
+            <!-- 6 -->
+            <!-- <div class="snav_ads">
+                    <a href="mono/2019aurorachasinglight-hjxl.html">
+                        <img src="608/81/60881_1.jpg" alt="" width="611" height="262">
+                    </a>       
+            </div>  
+        
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div> -->
+
+
+
+
+
+
+
+
+
 <!-- banner 部分 -->
-<div class="banner">
+<div class="banner"> 
+    <!-- <div class="m_idx_snav_hide">
+    下拉菜单 
+        <div class="m_idx_snav_wp">
+            <div class="snav_title">
+                <a href="diamond/Index.html" class="snav_title_txtimg">钻石</a>
+                <a href="diamond/Index.html" class="snav_title_txt">探索全部钻石</a>
+                <div class="snav_lst">
+                    <a href="diamond/zmax0.39zmin0.3/Index.html">30分裸钻</a>
+                    <a href="diamond/zmax0.59zmin0.5/Index.html">50分裸钻</a>
+                    <a href="diamond/zmax0.79zmin0.7/Index.html">70分裸钻</a>
+                    <a href="diamond/zmax1zmin1g2/Index.html">克拉钻</a>
+                    <a href="diamond/g2/Index.html">海淘钻石 立省15%</a>
+                    <a href="diamond/g1c2/Index.html">北极光钻石</a>                        <a href="diamond/g1x9/Index.html">FireCushion钻石</a>
+                </div>
+            </div>
+            <div class="snav_lst">
+                <a href="http://www.zbird.com/diamond/g1x1/">圆形</a>
+                <a href="http://www.zbird.com/diamond/g1x2/">公主方</a>
+                <a href="http://www.zbird.com/diamond/g1x7/">祖母绿</a>
+                <a href="http://www.zbird.com/diamond/g1x5/">橄榄形</a>
+                <a href="http://www.zbird.com/diamond/g1x6/">椭圆形</a>
+                <a href="http://www.zbird.com/diamond/g1x4/">梨形</a>
+                <a href="http://www.zbird.com/diamond/g1x3/">心形</a>
+                <a href="http://www.zbird.com/diamond/g1x1/"></a>
+            </div>
+            <div class="navline"></div>
+            <div class="snav_lst lstpoa">
+                <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款钻戒</a>
+                <a href="dingzhi/r-d-0-0-0-0-0-0-0-0-1-0.html">定制一款吊坠</a>
+                <a href="zhishi/zuanshi4c.html">钻石4C知识</a>
+                <a href="zhishi/information.html">钻石其他参数如何查看</a>
+                <a href="dingzhi/zhishi/diamondcert.html">钻石证书知识</a>
+                <a href="diamond/tehui/">甄选特惠裸钻专区</a>
+                <a href="e-education/w16440.html">钻戒品牌排行</a>
+            </div>
+            <div class="snav_ads">
+                <a href="act/2016globediamonds.html?from=zsxl">
+                    <img src="img/snav/43130_1_.jpg" alt width="611" height="262">
+                </a>
+            </div>
+        </div>
+        <div class="m_idx_snav_wp" style="display: block">
+        <div class="snav_title">
+                <a href="weddings/Index.html" class="snav_title_txtimg">婚戒</a>
+                <a href="weddings/Index.html" class="snav_title_txt">探索全部婚戒</a>
+                <div class="snav_lst">
+                <a href="weddings/r-d-0-0-0-0-1768-0-0-2-1.html">简约独钻</a>
+                <a href="weddings/r-d-0-0-0-0-1769-0-0-2-1.html">奢华群镶</a>
+                <a href="weddings/r-d-0-0-6-0-0-0-0-2-1.html">克拉钻戒</a>
+                <a href="weddings/r-c-0-0-0-0-0-0-0-2-1.html">大气男戒</a>
+                <a href="weddings/r-d-1820-0-0-0-0-0-0-2-1.html">纪念戒/花戒</a>
+                <a href="dingzhi/r-d-0-0-0-0-0-0-0-2-1.html">戒托款式</a>
+                <a href="weddings/r-d-0-0-0-0-0-0-0-4-1.html">人气热销</a>
+                </div>
+        </div>
+        </div>
+        <div class="snav_lst">
+                <a href="mono/2019aurorachasinglight.html">北极光追光系列</a>
+                <a href="mono/2017ladynewyork.html">LADY NEW YORK系列</a>
+                <a href="mono/2018gongzhuguiguan.html">公主桂冠系列</a>
+                <a href="mono/2017heartinheart.html">心心相印系列</a>
+                <a href="mono/2015sweetlove.html">宠爱系列</a>
+        </div>
+        <div class="navline"></div>
+        <div class="snav_lst lstpoa">
+                <a href="zhishi/ringsize.html">如何测量手寸</a>
+                <a href="zhishi/ringtypes.html">如何挑选适合的戒指款式</a>
+                <a href="zhishi/metals.html">如何选购戒托材质</a>
+                <a href="zhishi/sourcing.html">匠心工艺</a>
+                <a href="e-education/w26863.html">送男人什么礼物最难忘</a>
+                <a href="e-education/w12175.html">一克拉钻戒多少钱</a>
+                <a href="e-education/w16331.html">项链品牌</a>
+        </div>
+        <div class="snav_ads">
+                <a href="mono/2019aurorachasinglight-hjxl.html">
+                    <img src="608/81/60881_1.jpg" alt="" width="611" height="262">
+                </a>       
+        </div>    
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
     <!-- left-btn -->
     <div id="btn-left"></div>
     <!-- 轮播图 -->
-    <ul id="ul-imgs" class="transition" style="width: 9600px;margin-left: 0px;">
+    <ul id="ul-imgs" class="transition" style="width:9600px;margin-right: 0px;">
         <li>
             <a href="javascript:;"><img src="../auth/img/lunbopic/lunbo1.jpg"></a>
         </li>
@@ -121,7 +550,7 @@
 </div>
 </div>
 <!-- 2floor -->
-<div class="floor_middile">
+<div class="floor_middle">
 <div class="floor_main">
     <h2 class="u_lef_tit">系列产品</h2>
     <div class="u_tab_nav">
@@ -141,7 +570,7 @@
                 <img src="../auth/img/floorpic/floor3/516de52c6405d2b765f7f7f96dc9d91e.jpg" style="margin-top:15px;"></a>
     </span>
         <a href="" target="_blank">
-            <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 460px;height: 702px;"></a>
+            <img src="../auth/img/floorpic/floor3/3de52665bd65b6825c204edb61db943b.jpg" style="width: 456px;height: 702px;"></a>
         <span>
         <a href="" target="_blank">
         <img src="../auth/img/floorpic/floor3/06aa074c777e9f69b2f1203d6faf81af.jpg" alt="" hidden></a>
@@ -705,5 +1134,7 @@
         </dd>
     </dl>
 
+    <script src="JS/jquery-1.11.3.js"></script>
+<script src="JS/banner.js"></script>
 </body>
 </html>
